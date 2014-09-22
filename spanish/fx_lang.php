@@ -493,11 +493,12 @@ $lang['fixed_rate'] = 'Fixed Rate';
 $lang['fixed_price'] = 'Fixed Price';
 $lang['hourly_rate'] = 'Hourly Rate';
 $lang['project_notes'] = 'Project Notes';
-$lang['project_cost'] = 'Projetos Cost';
+$lang['project_cost'] = 'Project Cost';
 $lang['delete_task'] = 'Delete Task';
 $lang['note_saved_successfully'] = 'Note saved successfully';
 $lang['vat'] = 'VAT';
 $lang['payments_sent'] = 'Payments Sent';
 $lang['extras'] = 'Extras';
 
-?>
+
+/* End of file fx_lang.php */
