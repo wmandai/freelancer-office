@@ -518,4 +518,9 @@ $lang['vat'] = 'IVA';
 $lang['payments_sent'] = 'Pagamentos enviados';
 $lang['extras'] = 'Extras';
 
-?>
+
+
+
+
+
+// End of File fx_lang.php
