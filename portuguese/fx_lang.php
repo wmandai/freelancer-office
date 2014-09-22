@@ -268,7 +268,7 @@ $lang['log_time_manually'] = 'Utilize este formulário para registar o tempo man
 $lang['logged_hours'] = 'Registado Horas';
 $lang['logout'] = 'Sair';
 $lang['low'] = 'Baixa';
-$lang['manage_profile'] = 'Gerenciar Perfil';
+$lang['manage_profile'] = 'Gerir Perfil';
 $lang['make_recurring'] = 'Faça Retornado';
 $lang['mark_as_sent'] = 'Marcar como enviado';
 $lang['mark_as_accepted'] = 'Marcar como Aceite';
@@ -464,7 +464,7 @@ $lang['timesheets'] = 'Quadros de Horários';
 $lang['time_entered_success'] = 'Tempo inserido com sucesso';
 $lang['time_entered_failed'] = 'Falha ao inserir o tempo na base de dados. Por favor, tente novamente';
 $lang['theme'] = 'Tema';
-$lang['testimonials'] = 'Depoimentos';
+$lang['testimonials'] = 'Testemunhos';
 $lang['total'] = 'Total';
 $lang['total_earnings'] = 'Ganhos Totais';
 $lang['total_sales'] = 'Total de vendas';
@@ -500,22 +500,22 @@ $lang['you'] = 'Tu';
 
 
 // Version 1.4 Translations
-$lang['projects_completion'] = 'Projetos Completion';
-$lang['transactions'] = 'Transactions';
+$lang['projects_completion'] = 'Conclusão de Projetos';
+$lang['transactions'] = 'Transações';
 $lang['visible'] = 'Visível';
-$lang['collaborators'] = 'Collaborators';
-$lang['administrators'] = 'Administrators';
-$lang['templates'] = 'Templates';
-$lang['save_as_template'] = 'Save as Template';
-$lang['fixed_rate'] = 'Fixed Rate';
-$lang['fixed_price'] = 'Fixed Price';
-$lang['hourly_rate'] = 'Hourly Rate';
-$lang['project_notes'] = 'Project Notes';
-$lang['project_cost'] = 'Projetos Cost';
-$lang['delete_task'] = 'Delete Task';
-$lang['note_saved_successfully'] = 'Note saved successfully';
-$lang['vat'] = 'VAT';
-$lang['payments_sent'] = 'Payments Sent';
+$lang['collaborators'] = 'Colaboradores';
+$lang['administrators'] = 'Administradores';
+$lang['templates'] = 'Modelos';
+$lang['save_as_template'] = 'Salvar modelo';
+$lang['fixed_rate'] = 'Taxa Fixa';
+$lang['fixed_price'] = 'Preço Fixo';
+$lang['hourly_rate'] = 'Taxa horária';
+$lang['project_notes'] = 'Notas do Projeto';
+$lang['project_cost'] = ' Custo do Projeto';
+$lang['delete_task'] = 'Excluir tarefa';
+$lang['note_saved_successfully'] = 'Nota salva com sucesso';
+$lang['vat'] = 'IVA';
+$lang['payments_sent'] = 'Pagamentos enviados';
 $lang['extras'] = 'Extras';
 
 ?>
