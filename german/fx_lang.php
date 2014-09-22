@@ -493,5 +493,23 @@ $lang['yearly_overview'] = 'Yearly Overview';
 $lang['year'] = 'Year';
 $lang['you'] = 'You';
 
+// Version 1.4 Translations
+$lang['projects_completion'] = 'Projetos Completion';
+$lang['transactions'] = 'Transactions';
+$lang['visible'] = 'Visível';
+$lang['collaborators'] = 'Collaborators';
+$lang['administrators'] = 'Administrators';
+$lang['templates'] = 'Templates';
+$lang['save_as_template'] = 'Save as Template';
+$lang['fixed_rate'] = 'Fixed Rate';
+$lang['fixed_price'] = 'Fixed Price';
+$lang['hourly_rate'] = 'Hourly Rate';
+$lang['project_notes'] = 'Project Notes';
+$lang['project_cost'] = 'Projetos Cost';
+$lang['delete_task'] = 'Delete Task';
+$lang['note_saved_successfully'] = 'Note saved successfully';
+$lang['vat'] = 'VAT';
+$lang['payments_sent'] = 'Payments Sent';
+$lang['extras'] = 'Extras';
 
 ?>

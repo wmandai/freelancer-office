@@ -487,7 +487,7 @@ $lang['you'] = 'You';
 
 
 // Version 1.4 Translations
-$lang['projects_completion'] = 'Project Completion';
+$lang['projects_completion'] = 'Projetos Completion';
 $lang['transactions'] = 'Transactions';
 $lang['visible'] = 'Visível';
 $lang['collaborators'] = 'Collaborators';
