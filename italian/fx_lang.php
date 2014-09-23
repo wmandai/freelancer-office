@@ -10,7 +10,6 @@ $lang['add_invoice'] = 'Add Invoice';
 $lang['add_item'] = 'Add Item';
 $lang['add_payment'] = 'Add Payment';
 $lang['add_task'] = 'Add Task';
-$lang['administrators'] = 'Administrators';
 $lang['all_bugs'] = 'All Bugs';
 $lang['all_estimates'] = 'All Estimates';
 $lang['all_invoices'] = 'All Invoices';
@@ -93,7 +92,6 @@ $lang['company'] = 'Company';
 $lang['confirmed'] = 'Confirmed';
 $lang['confirm_password'] = 'Confirm Password';
 $lang['collected_this_year'] = 'Collected this Year';
-$lang['collaborators'] = 'Collaborators';
 $lang['contact_person'] = 'Contact Person';
 $lang['contact_details'] = 'Contact Details';
 $lang['contacts'] = 'Contacts';
@@ -129,7 +127,6 @@ $lang['delete_invoice'] = 'Delete Invoice';
 $lang['delete_project'] = 'Delete Project';
 $lang['delete_estimate'] = 'Delete Estimate';
 $lang['delete_comment'] = 'Delete Comment';
-$lang['delete_task'] = 'Delete Task';
 $lang['delete_bug_warning'] = 'You are about to delete an Issue from the system.';
 $lang['delete_file_warning'] = 'You are about to delete a file from the system';
 $lang['delete_invoice_warning'] = 'This operation will delete the Invoice and it\'s items. Do yo want to proceed?';
@@ -202,9 +199,6 @@ $lang['file_upload_failed'] = 'Failed to upload file. Please try again';
 $lang['file_uploaded_successfully'] = 'File uploaded successfully';
 $lang['file_deleted'] = 'File deleted successfully';
 $lang['found'] = 'Found';
-$lang['featured'] = 'Featured';
-$lang['featured_item'] = 'Featured on BootstrapStore.Net';
-$lang['featured_themes'] = 'Featured Themes';
 $lang['freelance'] = 'Freelance';
 $lang['frequency'] = 'Frequency';
 $lang['forgot_password'] = 'Forgot Password';
@@ -217,11 +211,10 @@ $lang['homepage_preview'] = 'Homepage Preview';
 $lang['high'] = 'High';
 $lang['hours'] = 'Hours';
 $lang['hours_spent'] = 'Hours Spent';
-$lang['hidden_items'] = 'Hidden Items';
 $lang['items'] = 'Items';
 $lang['item'] = 'Item';
 $lang['item_description'] = 'Item Description';
-$lang['item_added_successfully'] = 'Item Added Successfully';
+$lang['item_added_successfully'] = 'Invoice Item Added Successfully';
 $lang['item_deleted_successfully'] = 'Item Deleted Successfully';
 $lang['invoices'] = 'Invoices';
 $lang['invoice'] = 'Invoice';
@@ -348,9 +341,7 @@ $lang['projects'] = 'Projects';
 $lang['project'] = 'Project';
 $lang['project_code'] = 'Project Code';
 $lang['project_name'] = 'Project Name';
-$lang['project_description'] = 'Project Description';
 $lang['project_comments'] = 'Project Comments';
-$lang['projects_completion'] = 'Projects Completions';
 $lang['project_access_denied'] = 'Project access denied. Please contact Administrator for help';
 $lang['project_added_successfully'] = 'Project created successfully';
 $lang['project_edited_successfully'] = 'Project edited successfully';
@@ -389,6 +380,7 @@ $lang['recent_invoice'] = 'Recent Invoice';
 $lang['received_messages'] = 'Received Messages';
 $lang['received_amount'] = 'Received Amount';
 $lang['received_from'] = 'Received From';
+$lang['recipient'] = 'Recipient';
 $lang['reference_no'] = 'Ref No';
 $lang['registered_clients'] = 'Registered Clients';
 $lang['register_user'] = 'Register User';
@@ -467,7 +459,6 @@ $lang['terms_condition'] = 'Terms and Conditions';
 $lang['type_comment_here'] = 'Type comment here';
 $lang['trans_id'] = 'Trans ID';
 $lang['transaction_id'] = 'Transaction ID';
-$lang['transactions'] = 'Transactions';
 $lang['true'] = 'TRUE';
 $lang['unread'] = 'Unread';
 $lang['unconfirmed'] = 'Unconfirmed';
@@ -493,8 +484,9 @@ $lang['yearly_overview'] = 'Yearly Overview';
 $lang['year'] = 'Year';
 $lang['you'] = 'You';
 
+
 // Version 1.4 Translations
-$lang['projects_completion'] = 'Projetos Completion';
+$lang['projects_completion'] = 'Project Completion';
 $lang['transactions'] = 'Transactions';
 $lang['visible'] = 'Visível';
 $lang['collaborators'] = 'Collaborators';
@@ -512,7 +504,49 @@ $lang['vat'] = 'VAT';
 $lang['payments_sent'] = 'Payments Sent';
 $lang['extras'] = 'Extras';
 
+// Version 1.4 Translations edit Modules templates
+$lang['go'] = 'Go';
+$lang['yes'] = 'Yes';
+$lang['no'] = 'No';
 
+// Version 1.4 Translations edit Modules invoices
+$lang['This_tax_will'] = 'This tax will overwrite the Default Tax';
+
+// Version 1.4 Translations edit Modules settings
+$lang['This_tax_applied'] = 'This tax will be applied on all invoices';
+
+// Version 1.4 Translations edit Modules login
+$lang['Forgot_password'] = 'Forgot password?';
+$lang['Sign_in'] = 'Sign in';
+$lang['Get_another_CAPTCHA'] = 'Get another CAPTCHA';
+$lang['Enter_the_words_above'] = 'Enter the words above';
+$lang['Do_not_have_an_account'] = 'Do not have an account?';
+$lang['Get_Your_Account'] = 'Get Your Account';
+$lang['Enter_the_code_exactly'] = 'Enter the code exactly as it appears:';
+$lang['Enter_the_numbers_you_hear'] = 'Enter the numbers you hear';
+$lang['This_is_my_computer'] = 'This is my computer';
+$lang['email_user'] = 'Email or Username';
+$lang['Get_an_audio_CAPTCHA'] = 'Get an audio CAPTCHA';
+$lang['Get_an_image_CAPTCHA'] = 'Get an image CAPTCHA';
+
+// Missing 1.2 Untranslated words
+$lang['project_shortcuts'] = 'Project Shortcut';
+$lang['invoice_shortcuts'] = 'Invoice Shortcut';
+$lang['average_this_month'] = 'Average this Month';
+$lang['use_current'] = 'Use Current';
+$lang['admin'] = 'Admin';
+$lang['collaborator'] = 'Collaborator';
+$lang['draft'] = 'Draft';
+$lang['cash'] = 'Cash';
+$lang['project_timesheet'] = 'Project Timesheet';
+$lang['tasks_timesheet'] = 'Task Timesheet';
+$lang['type_message'] = 'Type your Message';
+$lang['filter'] = 'Filter';
+$lang['choose_file'] = 'Choose File';
+$lang['company_represantitive'] = 'This could be a company representative';
+$lang['change_if_necessary'] = 'Change if necesssary';
+$lang['system_stats'] = 'System Stats';
+$lang['my_projects'] = 'My Projects';
 
 
 /* End of file fx_lang.php */

@@ -115,7 +115,7 @@ $lang['currency'] = 'Moeda';
 $lang['currency_symbol'] = 'Símbolo da moeda';
 $lang['current_activity'] = 'Atividade atual';
 $lang['currently_logged_time'] = 'Logado a ';
-$lang['dashboard'] = 'Painel';
+$lang['dashboard'] = 'Painel principal';
 $lang['database_properly_configured'] = 'A base de dados está configurada corretamente';
 $lang['database'] = 'Base de dados';
 $lang['database_backup'] = 'Backup da Base de dados';
@@ -213,7 +213,7 @@ $lang['full_name'] = 'Nome completo';
 $lang['get_started'] = 'Começar';
 $lang['general_settings'] = 'Configurações gerais';
 $lang['help'] = 'Ajuda';
-$lang['home'] = 'Português';
+$lang['home'] = 'Início';
 $lang['homepage_preview'] = 'Prévisualizar Homepage';
 $lang['high'] = 'Alta';
 $lang['hours'] = 'Horas';
@@ -324,7 +324,7 @@ $lang['paypal_success_url'] = 'Paypal Sucesso';
 $lang['payment_failed'] = 'O pagamento não foi registado. Por favor, tente novamente';
 $lang['payment_added_successfully'] = 'Seu pagamento foi registado com sucesso';
 $lang['payment_date'] = 'Data de Pagamento';
-$lang['payment_settings'] = 'Payment Settings';
+$lang['payment_settings'] = 'Definições de pagamentos';
 $lang['payment_for_invoice'] = 'O pagamento da fatura';
 $lang['payments_received'] = 'Pagamentos Recebidos';
 $lang['paypal_live'] = 'Paypal Live';
@@ -517,5 +517,55 @@ $lang['note_saved_successfully'] = 'Nota salva com sucesso';
 $lang['vat'] = 'IVA';
 $lang['payments_sent'] = 'Pagamentos enviados';
 $lang['extras'] = 'Extras';
+
+// Version 1.4 Translations edit Modules templates
+$lang['go'] = 'pesquisar';
+$lang['yes'] = 'Sim';
+$lang['no'] = 'Não';
+
+// Version 1.4 Translations edit Modules invoices
+$lang['This_tax_will'] = 'Esse imposto substitui o imposto padrão';
+
+// Version 1.4 Translations edit Modules settings
+$lang['This_tax_applied'] = 'Este imposto será aplicado em todas as faturas';
+
+// Version 1.4 Translations edit Modules login
+$lang['Forgot_password'] = 'Esqueceu a Password?';
+$lang['Sign_in'] = 'Entrar';
+$lang['Get_another_CAPTCHA'] = 'Obter outro CAPTCHA';
+$lang['Enter_the_words_above'] = 'Digite as palavras acima';
+$lang['Do_not_have_an_account'] = 'Não tem uma conta?';
+$lang['Get_Your_Account'] = 'Registar-me';
+$lang['Enter_the_code_exactly'] = 'Digite o código exatamente como ele aparece:';
+$lang['Enter_the_numbers_you_hear'] = 'Digite os números que ouve';
+$lang['This_is_my_computer'] = 'Computador Pessoal';
+$lang['email_user'] = 'Email ou Utilizador';
+$lang['Get_an_audio_CAPTCHA'] = 'Obter um CAPTCHA de áudio';
+$lang['Get_an_image_CAPTCHA'] = 'Obter um CAPTCHA de imagem';
+
+
+// Missing Language files
+$lang['year'] = 'Year';
+$lang['monthly_average'] = 'Monthly Average';
+$lang['per_month'] = 'Per Month';
+
+// Missing 1.2 Untranslated words
+$lang['project_shortcuts'] = 'Project Shortcut';
+$lang['invoice_shortcuts'] = 'Invoice Shortcut';
+$lang['average_this_month'] = 'Average this Month';
+$lang['use_current'] = 'Use Current';
+$lang['admin'] = 'Admin';
+$lang['collaborator'] = 'Collaborator';
+$lang['draft'] = 'Draft';
+$lang['cash'] = 'Cash';
+$lang['project_timesheet'] = 'Project Timesheet';
+$lang['tasks_timesheet'] = 'Task Timesheet';
+$lang['type_message'] = 'Type your Message';
+$lang['filter'] = 'Filter';
+$lang['choose_file'] = 'Choose File';
+$lang['company_represantitive'] = 'This could be a company representative';
+$lang['change_if_necessary'] = 'Change if necesssary';
+$lang['system_stats'] = 'System Stats';
+$lang['my_projects'] = 'My Projects';
 
 // End of File fx_lang.php
