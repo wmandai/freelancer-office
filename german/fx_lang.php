@@ -1,5 +1,5 @@
 <?php
-
+setlocale (LC_TIME, "de_DE");
 $lang['account_details'] = 'Kontodetails';
 $lang['access_denied'] = 'Anfrage abgelehnt. Bitte wenden Sie sich für Unterstützung an den Systemadmin.';
 $lang['activities'] = 'Aktivitäten';
