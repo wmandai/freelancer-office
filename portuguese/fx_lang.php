@@ -545,27 +545,43 @@ $lang['Get_an_image_CAPTCHA'] = 'Obter um CAPTCHA de imagem';
 
 
 // Missing Language files
-$lang['year'] = 'Year';
-$lang['monthly_average'] = 'Monthly Average';
-$lang['per_month'] = 'Per Month';
+$lang['year'] = 'Ano';
+$lang['monthly_average'] = 'Média Mensal';
+$lang['per_month'] = 'Por Mês';
 
 // Missing 1.2 Untranslated words
-$lang['project_shortcuts'] = 'Project Shortcut';
-$lang['invoice_shortcuts'] = 'Invoice Shortcut';
-$lang['average_this_month'] = 'Average this Month';
-$lang['use_current'] = 'Use Current';
+$lang['project_shortcuts'] = 'Atalho Projeto';
+$lang['invoice_shortcuts'] = 'Atalho Faturas';
+$lang['average_this_month'] = 'Média este mês';
+$lang['use_current'] = 'Usar Atual';
 $lang['admin'] = 'Admin';
-$lang['collaborator'] = 'Collaborator';
-$lang['draft'] = 'Draft';
-$lang['cash'] = 'Cash';
-$lang['project_timesheet'] = 'Project Timesheet';
-$lang['tasks_timesheet'] = 'Task Timesheet';
-$lang['type_message'] = 'Type your Message';
-$lang['filter'] = 'Filter';
-$lang['choose_file'] = 'Choose File';
-$lang['company_represantitive'] = 'This could be a company representative';
-$lang['change_if_necessary'] = 'Change if necesssary';
-$lang['system_stats'] = 'System Stats';
-$lang['my_projects'] = 'My Projects';
+$lang['collaborator'] = 'Colaborador';
+$lang['draft'] = 'Rascunho';
+$lang['cash'] = 'Dinheiro';
+$lang['project_timesheet'] = 'Horas no Projeto';
+$lang['tasks_timesheet'] = 'Horas nas Tarefas';
+$lang['type_message'] = 'Insira a sua mensagem';
+$lang['filter'] = 'Filtro';
+$lang['choose_file'] = 'Ecolher ficheiro';
+$lang['company_represantitive'] = 'Este poderia ser um representante da empresa';
+$lang['change_if_necessary'] = 'Alterar se necessário';
+$lang['system_stats'] = 'Estatísticas do Sistema';
+$lang['my_projects'] = 'Meus Projetos';
+
+// New Language files - login - register
+$lang['Sign_up_Form'] = 'Formulário de registo - ';
+$lang['Sign_up'] = 'Registar ';
+$lang['Already_have_an_account'] = 'Já tenho uma conta?';
+
+// New Language files - Modules project
+$lang['Type_your_note_here'] = 'Insira as notas aqui ';
+
+// New Language files - Untranslated words
+$lang['notification'] = 'Notificação';
+$lang['All_rights_reserved'] = 'Todos os direitos reservados';
+$lang['ago'] = 'atrás';
+$lang['invoice_payments_this_month'] = 'pagamentos de faturas este mês ';
+$lang['your'] = 'Tem';
+$lang['Nothing_to_display_here'] = 'Sem Conteúdo para mostrar';
 
 // End of File fx_lang.php

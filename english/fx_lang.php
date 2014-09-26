@@ -552,4 +552,20 @@ $lang['my_projects'] = 'My Projects';
 $lang['from_templates'] = 'From Templates';
 
 
+// New Language files - login - register
+$lang['Sign_up_Form'] = 'Sign up Form';
+$lang['Sign_up'] = 'Sign Up';
+$lang['Already_have_an_account'] = 'Already have an Account?';
+
+// New Language files - Modules project
+$lang['Type_your_note_here'] = 'Type your note here.';
+
+// New Language files - Untranslated words
+$lang['notification'] = 'Notifications';
+$lang['All_rights_reserved'] = 'All rights reserved.';
+$lang['ago'] = 'ago';
+$lang['invoice_payments_this_month'] = 'Invoice Payments this Month ';
+$lang['your'] = 'your';
+$lang['Nothing_to_display_here'] = 'Nothing to display';
+
 /* End of file fx_lang.php */
