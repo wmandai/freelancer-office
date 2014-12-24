@@ -1,29 +1,29 @@
 <?php
 
-$lang['db_invalid_connection_str'] = 'Unable to determine the database settings based on the connection string you submitted.';
-$lang['db_unable_to_connect'] = 'Unable to connect to your database server using the provided settings.';
-$lang['db_unable_to_select'] = 'Unable to select the specified database: %s';
-$lang['db_unable_to_create'] = 'Unable to create the specified database: %s';
-$lang['db_invalid_query'] = 'The query you submitted is not valid.';
-$lang['db_must_set_table'] = 'You must set the database table to be used with your query.';
-$lang['db_must_use_set'] = 'You must use the "set" method to update an entry.';
-$lang['db_must_use_index'] = 'You must specify an index to match on for batch updates.';
-$lang['db_batch_missing_index'] = 'One or more rows submitted for batch updating is missing the specified index.';
-$lang['db_must_use_where'] = 'Updates are not allowed unless they contain a "where" clause.';
-$lang['db_del_must_use_where'] = 'Deletes are not allowed unless they contain a "where" or "like" clause.';
-$lang['db_field_param_missing'] = 'To fetch fields requires the name of the table as a parameter.';
-$lang['db_unsupported_function'] = 'This feature is not available for the database you are using.';
-$lang['db_transaction_failure'] = 'Transaction failure: Rollback performed.';
-$lang['db_unable_to_drop'] = 'Unable to drop the specified database.';
-$lang['db_unsuported_feature'] = 'Unsupported feature of the database platform you are using.';
-$lang['db_unsuported_compression'] = 'The file compression format you chose is not supported by your server.';
-$lang['db_filepath_error'] = 'Unable to write data to the file path you have submitted.';
-$lang['db_invalid_cache_path'] = 'The cache path you submitted is not valid or writable.';
-$lang['db_table_name_required'] = 'A table name is required for that operation.';
-$lang['db_column_name_required'] = 'A column name is required for that operation.';
-$lang['db_column_definition_required'] = 'A column definition is required for that operation.';
-$lang['db_unable_to_set_charset'] = 'Unable to set client connection character set: %s';
-$lang['db_error_heading'] = 'A Database Error Occurred';
+$lang['db_invalid_connection_str'] = 'Nelze se spojit s databází.';
+$lang['db_unable_to_connect'] = 'Nelze se připojit k serveru.';
+$lang['db_unable_to_select'] = 'Nelze provést výběr: %s';
+$lang['db_unable_to_create'] = 'Nelze provést vytvoření: %s';
+$lang['db_invalid_query'] = 'Chybný dotaz.';
+$lang['db_must_set_table'] = 'Je nutné nastavit tabulku databáze pro použití dotazu.';
+$lang['db_must_use_set'] = 'Aktualizovat položku, musíte použít metodu "set".';
+$lang['db_must_use_index'] = 'Musíte zadat index odpovídající dávkové aktualizaci.';
+$lang['db_batch_missing_index'] = 'Jeden nebo více řádků, které jsou napsané pro dávkové aktualizace neobsahuje zadaný index.';
+$lang['db_must_use_where'] = 'Aktualizace nejsou povoleny, pokud obsahují klauzuli "where".';
+$lang['db_del_must_use_where'] = 'Odstranění není povoleno, pokud neobsahují "where" nebo "like" klauzule.';
+$lang['db_field_param_missing'] = 'Chcete-li načíst pole vyžaduje název tabulky jako parametr.';
+$lang['db_unsupported_function'] = 'Tato funkce není k dispozici pro databázi, kterou používáte.';
+$lang['db_transaction_failure'] = 'Selhání transakce: vrácení provedeno.';
+$lang['db_unable_to_drop'] = 'Nepodařilo se odstranit zadanou databázi.';
+$lang['db_unsuported_feature'] = 'Nepodporovaná funkce databázové platformě, kterou používáte.';
+$lang['db_unsuported_compression'] = 'Kompresní formát souboru, který jste si vybrali není podporována serverem.';
+$lang['db_filepath_error'] = 'Nelze zapsat data do cesty souboru, kterou jste odeslali.';
+$lang['db_invalid_cache_path'] = 'Cesta k mezipaměti, kterou jste odeslali není platná nebo do ni nelze zapisovat.';
+$lang['db_table_name_required'] = 'Název tabulky je požadován pro tuto operaci.';
+$lang['db_column_name_required'] = 'Název sloupce je požadován pro tuto operaci.';
+$lang['db_column_definition_required'] = 'Definice sloupce je požadována pro tuto operaci.';
+$lang['db_unable_to_set_charset'] = 'Nepodařilo se nastavit připojení klienta znaková sada: %s';
+$lang['db_error_heading'] = 'Chyba databáze';
 
 /* End of file db_lang.php */
-/* Location: ./system/language/english/db_lang.php */
+/* Location: ./system/language/czech/db_lang.php */

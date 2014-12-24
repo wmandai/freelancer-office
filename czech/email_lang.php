@@ -1,24 +1,24 @@
 <?php
 
-$lang['email_must_be_array'] = "The email validation method must be passed an array.";
-$lang['email_invalid_address'] = "Invalid email address: %s";
-$lang['email_attachment_missing'] = "Unable to locate the following email attachment: %s";
-$lang['email_attachment_unreadable'] = "Unable to open this attachment: %s";
-$lang['email_no_recipients'] = "You must include recipients: To, Cc, or Bcc";
-$lang['email_send_failure_phpmail'] = "Unable to send email using PHP mail().  Your server might not be configured to send mail using this method.";
-$lang['email_send_failure_sendmail'] = "Unable to send email using PHP Sendmail.  Your server might not be configured to send mail using this method.";
-$lang['email_send_failure_smtp'] = "Unable to send email using PHP SMTP.  Your server might not be configured to send mail using this method.";
-$lang['email_sent'] = "Your message has been successfully sent using the following protocol: %s";
-$lang['email_no_socket'] = "Unable to open a socket to Sendmail. Please check settings.";
-$lang['email_no_hostname'] = "You did not specify a SMTP hostname.";
-$lang['email_smtp_error'] = "The following SMTP error was encountered: %s";
-$lang['email_no_smtp_unpw'] = "Error: You must assign a SMTP username and password.";
-$lang['email_failed_smtp_login'] = "Failed to send AUTH LOGIN command. Error: %s";
-$lang['email_smtp_auth_un'] = "Failed to authenticate username. Error: %s";
-$lang['email_smtp_auth_pw'] = "Failed to authenticate password. Error: %s";
-$lang['email_smtp_data_failure'] = "Unable to send data: %s";
-$lang['email_exit_status'] = "Exit status code: %s";
+$lang['email_must_be_array'] = "Metoda ověření e-mailu musí být předána polem.";
+$lang['email_invalid_address'] = "Chybná E-mailová adresa: %s";
+$lang['email_attachment_missing'] = "Nelze najít následující přílohy E-mailu: %s";
+$lang['email_attachment_unreadable'] = "Nelze otevřít následující přílohu: %s";
+$lang['email_no_recipients'] = "Musí obsahovat příjemce: Komu, kopii nebo skrytou kopii.";
+$lang['email_send_failure_phpmail'] = "Nelze odeslat e-mail pomocí PHP mail(). Váš server není nakonfigurován pro odesílání pošty pomocí této metody.";
+$lang['email_send_failure_sendmail'] = "Nelze odeslat e-mail pomocí PHP Sendmail. Váš server není nakonfigurován pro odesílání pošty pomocí této metody.";
+$lang['email_send_failure_smtp'] = "Nelze odeslat e-mail pomocí PHP SMTP. Váš server není nakonfigurován pro odesílání pošty pomocí této metody.";
+$lang['email_sent'] = "Vaše zpráva byla úspěšně odeslána prostřednictvím následujícího protokolu: %s";
+$lang['email_no_socket'] = "Nelze otevřít soket sendmail. Zkontrolujte nastavení.";
+$lang['email_no_hostname'] = "Nebyl zadán název hostitele SMTP.";
+$lang['email_smtp_error'] = "Byla zjištěna následující chyba SMTP: %s";
+$lang['email_no_smtp_unpw'] = "Chyba: Musíte nastavit SMTP.";
+$lang['email_failed_smtp_login'] = "Nelze odeslat příkaz AUTH LOGIN. Chyba: %s";
+$lang['email_smtp_auth_un'] = "Nelze ověřit uživatelské jméno. Chyba: %s";
+$lang['email_smtp_auth_pw'] = "Nelze ověřit heslo. Chyba: %s";
+$lang['email_smtp_data_failure'] = "Nelze odeslat data: %s";
+$lang['email_exit_status'] = "Kód stavu ukončení: %s";
 
 
 /* End of file email_lang.php */
-/* Location: ./system/language/english/email_lang.php */
+/* Location: ./system/language/czech/email_lang.php */

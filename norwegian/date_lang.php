@@ -1,19 +1,19 @@
 <?php
 
-$lang['date_year'] = "Ano";
-$lang['date_years'] = "Anos";
-$lang['date_month'] = "Mês";
-$lang['date_months'] = "Meses";
-$lang['date_week'] = "Semana";
-$lang['date_weeks'] = "Semanas";
-$lang['date_day'] = "Dia";
-$lang['date_days'] = "Dias";
-$lang['date_hour'] = "Hora";
-$lang['date_hours'] = "Horas";
-$lang['date_minute'] = "Minuto";
-$lang['date_minutes'] = "Minutos";
-$lang['date_second'] = "Segundo";
-$lang['date_seconds'] = "Segundos";
+$lang['date_year'] = "År";
+$lang['date_years'] = "År";
+$lang['date_month'] = "Måned";
+$lang['date_months'] = "Måneder";
+$lang['date_week'] = "Uke";
+$lang['date_weeks'] = "Uker";
+$lang['date_day'] = "Daa";
+$lang['date_days'] = "Daaer";
+$lang['date_hour'] = "Time";
+$lang['date_hours'] = "Timer";
+$lang['date_minute'] = "Minutt";
+$lang['date_minutes'] = "Minutter";
+$lang['date_second'] = "Sekund";
+$lang['date_seconds'] = "Sekunder";
 
 $lang['UM12']	= '(UTC -12:00) Baker/Howland Island';
 $lang['UM11']	= '(UTC -11:00) Samoa Time Zone, Niue';
@@ -58,4 +58,3 @@ $lang['UP14']	= '(UTC +14:00) Line Islands';
 
 
 /* End of file date_lang.php */
-/* Location: ./system/language/english/date_lang.php */
