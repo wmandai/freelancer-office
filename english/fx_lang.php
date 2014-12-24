@@ -781,6 +781,11 @@ $lang['custom_field_deleted'] = 'Custom field deleted';
 $lang['custom_field_updated'] = 'Custom field updated';
 $lang['companies'] = 'Companies';
 $lang['user_edit_login'] = 'Login Details';
+<<<<<<< HEAD
 $lang['time_spent'] = 'Time Spent';
 
 /* End of file fx_lang.php */
+=======
+
+/* End of file fx_lang.php */
+>>>>>>> f2c5fdc78a336a769a2954eedc717a018e03c191
