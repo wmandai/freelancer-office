@@ -510,7 +510,7 @@ $lang['yes'] = 'Ano';
 $lang['no'] = 'Ne';
 
 // Version 1.4 Translations edit Modules invoices
-$lang['This_tax_will'] = 'This tax will overwrite the Default Tax';
+$lang['This_tax_will'] = 'Tata daň bude nahrazena výchozí daní';
 
 // Version 1.4 Translations edit Modules settings
 $lang['This_tax_applied'] = 'This tax will be applied on all invoices';
