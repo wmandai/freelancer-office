@@ -479,7 +479,7 @@ $lang['verified'] = 'Verified';
 $lang['visible_to_client'] = 'Visible to Client';
 $lang['welcome_back'] = 'Welcome Back';
 $lang['welcome_to'] = 'Welcome to';
-$lang['write_access_denied'] = 'Cannot write temporary file.';
+$lang['write_access_denied'] = 'Cannot write temporary file reource/tmp.';
 $lang['yearly_overview'] = 'Yearly Overview';
 $lang['year'] = 'Year';
 $lang['you'] = 'You';
@@ -607,7 +607,6 @@ $lang['add_company'] = 'Add Company';
 $lang['delete_company_warning'] = 'All Data including Invoices belonging to this Company will be deleted.';
 $lang['delete_company'] = 'Delete Company';
 $lang['company_deleted_successfully'] = 'Company deleted Successfully';
-$lang['contacts'] = 'CONTACTS';
 $lang['add_contact'] = 'Add Contact';
 $lang['website'] = 'Website';
 $lang['primary_contact_set'] = 'Primary contact set successfully';
@@ -781,11 +780,34 @@ $lang['custom_field_deleted'] = 'Custom field deleted';
 $lang['custom_field_updated'] = 'Custom field updated';
 $lang['companies'] = 'Companies';
 $lang['user_edit_login'] = 'Login Details';
-<<<<<<< HEAD
 $lang['time_spent'] = 'Time Spent';
+$lang['issue_title'] = 'Issue Title';
+$lang['severity'] = 'Severity';
+$lang['minor'] = 'Minor';
+$lang['major'] = 'Major';
+$lang['show_stopper'] = 'Show Stopper';
+$lang['must_be_fixed'] = 'Must be Fixed';
+$lang['reproducibility'] = 'Reproducibility';
+$lang['via_paypal'] = 'Via Paypal';
+$lang['via_stripe'] = 'Via Stripe';
+$lang['your_balance_due'] = 'Your Invoice balance is ';
+$lang['milestone'] = 'Milestone';
+$lang['team_members'] = 'Team Members';
+$lang['milestones'] = 'Milestones';
+$lang['overdue'] = 'Overdue';
+$lang['update_team'] = 'Update Team';
+$lang['activity_edited_team'] = 'Edited Project Team Members';
+$lang['project_team_updated'] = 'Project Team updated successfully';
+$lang['add_milestone'] = 'Add Milestone';
+$lang['delete_milestone'] = 'Delete Milestone';
+$lang['milestone_name'] = 'Milestone Name';
+$lang['activity_added_new_milestone'] = 'added new milestone';
+$lang['milestone_added_successfully'] = 'Milestone added successfully';
+$lang['edit_milestone'] = 'Edit Milestone';
+$lang['milestone_edited_successfully'] = 'Milestone edited successfully';
+$lang['milestone_deleted_successfully'] = 'Milestone deleted successfully';
+$lang['delete_milestone_warning'] = 'You are about to delete a milestone';
+$lang['activity_deleted_milestone'] = 'deleted a milestone';
+$lang['milestone_tasks'] = 'Milestone Tasks';
 
 /* End of file fx_lang.php */
-=======
-
-/* End of file fx_lang.php */
->>>>>>> f2c5fdc78a336a769a2954eedc717a018e03c191
