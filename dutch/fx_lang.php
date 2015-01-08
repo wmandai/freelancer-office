@@ -1,5 +1,5 @@
 <?php
-
+s
 $lang['account_details'] = 'Account gegevens';
 $lang['access_denied'] = 'Aanvraag geweigerd. Neem contact op met het systeembeheer voor hulp';
 $lang['activities'] = 'Activiteiten';
@@ -39,7 +39,7 @@ $lang['average_payments'] = 'Gemiddelde Betalingen';
 $lang['backup_failed'] = 'Database backup mislukt. Probeer nogmaals.';
 $lang['base_url'] = 'Basis URL';
 $lang['balance_due'] = 'Saldo';
-$lang['bill_to'] = 'Rekening aan';
+$lang['bill_to'] = 'Factuur aan';
 $lang['buy'] = 'Koop';
 $lang['bugs'] = 'Bugs';
 $lang['bug_details'] = 'BUG DETAILS';
@@ -379,7 +379,7 @@ $lang['recent_tasks'] = 'Recente Taken';
 $lang['recent_invoice'] = 'Recente Factuur';
 $lang['received_messages'] = 'Ontvangen Berichten';
 $lang['received_amount'] = 'Ontvangen Bedrag';
-$lang['received_from'] = 'Ontvagen Van';
+$lang['received_from'] = 'Ontvangen van';
 $lang['recipient'] = 'Ontvanger';
 $lang['reference_no'] = 'Ref Nr';
 $lang['registered_clients'] = 'Geregistreerde Klanten';
@@ -388,10 +388,10 @@ $lang['registered_on'] = 'Geregistreerd Op';
 $lang['refresh'] = 'Ververs';
 $lang['released'] = 'Uitgebracht';
 $lang['reminder_message'] = 'Herrinerings Bericht';
-$lang['reminder_sent_successfully'] = 'Herrinering succesvol verzonden';
+$lang['reminder_sent_successfully'] = 'Herrinering is verzonden';
 $lang['reporter'] = 'Melder';
 $lang['reply'] = 'Antwoord';
-$lang['report_bug_message'] = 'Hou er rekening mee dat er een bericht verzonden zal worden naar de melder.';
+$lang['report_bug_message'] = 'Houd er rekening mee dat er een bericht verzonden zal worden naar de melder.';
 $lang['report_issue'] = 'Meld Probleem';
 $lang['reported_on'] = 'Gemeld Op';
 $lang['reported'] = 'Gemeld';
@@ -404,7 +404,7 @@ $lang['role'] = 'Rol';
 $lang['save'] = 'Opslaan';
 $lang['save_changes'] = 'Veranderingen Opslaan';
 $lang['search'] = 'Zoek';
-$lang['sales'] = 'Sales';
+$lang['sales'] = 'Administratie';
 $lang['send_reminder'] = 'Verstuur Herrinering';
 $lang['send_message'] = 'Verstuur Bericht';
 $lang['select_country'] = 'Selecteer Land';
