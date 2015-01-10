@@ -1,23 +1,23 @@
 <?php
 
-$lang['email_must_be_array'] = "The email validation method must be passed an array.";
-$lang['email_invalid_address'] = "Invalid email address: %s";
-$lang['email_attachment_missing'] = "Unable to locate the following email attachment: %s";
-$lang['email_attachment_unreadable'] = "Unable to open this attachment: %s";
-$lang['email_no_recipients'] = "You must include recipients: To, Cc, or Bcc";
-$lang['email_send_failure_phpmail'] = "Unable to send email using PHP mail().  Your server might not be configured to send mail using this method.";
-$lang['email_send_failure_sendmail'] = "Unable to send email using PHP Sendmail.  Your server might not be configured to send mail using this method.";
-$lang['email_send_failure_smtp'] = "Unable to send email using PHP SMTP.  Your server might not be configured to send mail using this method.";
-$lang['email_sent'] = "Your message has been successfully sent using the following protocol: %s";
-$lang['email_no_socket'] = "Unable to open a socket to Sendmail. Please check settings.";
-$lang['email_no_hostname'] = "You did not specify a SMTP hostname.";
-$lang['email_smtp_error'] = "The following SMTP error was encountered: %s";
-$lang['email_no_smtp_unpw'] = "Error: You must assign a SMTP username and password.";
-$lang['email_failed_smtp_login'] = "Failed to send AUTH LOGIN command. Error: %s";
-$lang['email_smtp_auth_un'] = "Failed to authenticate username. Error: %s";
-$lang['email_smtp_auth_pw'] = "Failed to authenticate password. Error: %s";
-$lang['email_smtp_data_failure'] = "Unable to send data: %s";
-$lang['email_exit_status'] = "Exit status code: %s";
+$lang['email_must_be_array'] = "Metoda de validare prin e-mail trebuie să fie realizată.";
+$lang['email_invalid_address'] = "Adresă de email incorectă: %s";
+$lang['email_attachment_missing'] = "Nu se poate găsi ataşamentul la email: %s";
+$lang['email_attachment_unreadable'] = "Nu se poate deschide ataşamentul: %s";
+$lang['email_no_recipients'] = "Trebuie să includeți destinatari: Către, Cc, sau Bcc";
+$lang['email_send_failure_phpmail'] = "Imposibil de trimis email prin funcţia PHP mail(). Este posibil ca serverul tău să nu fie configurat pentru această metodă.";
+$lang['email_send_failure_sendmail'] = "Imposibil de trimis email prin funcţia PHP Sendmail. Este posibil ca serverul tău să nu fie configurat pentru această metodă.";
+$lang['email_send_failure_smtp'] = "Imposibil de trimis email prin funcţia PHP SMTP.  Este posibil ca serverul tău să nu fie configurat pentru această metodă.";
+$lang['email_sent'] = "Mesajul tău a fost trimis cu succes prin acest protocol: %s";
+$lang['email_no_socket'] = "Nu se poate deschide o legătură către Sendmail. Verificaţi setările.";
+$lang['email_no_hostname'] = "Nu ai specificat un nume de host pentru SMTP.";
+$lang['email_smtp_error'] = "Următoarea eroare SMTP s-a produs: %s";
+$lang['email_no_smtp_unpw'] = "Eroare: Trebuie să setezi pentru SMTP un nume de utilizator şi o parolă.";
+$lang['email_failed_smtp_login'] = "Imposibil de trimis comanda AUTH LOGIN. Eroare: %s";
+$lang['email_smtp_auth_un'] = "Imposibil de autentificat numele de utilizator. Eroare: %s";
+$lang['email_smtp_auth_pw'] = "Imposibil de autentificat parola. Erare: %s";
+$lang['email_smtp_data_failure'] = "Nu se poate trimite date: %s";
+$lang['email_exit_status'] = "Starea codului de ieşire: %s";
 
 
 /* End of file email_lang.php */
