@@ -1,29 +1,29 @@
 <?php
 
-$lang['db_invalid_connection_str'] = 'Unable to determine the database settings based on the connection string you submitted.';
-$lang['db_unable_to_connect'] = 'Unable to connect to your database server using the provided settings.';
-$lang['db_unable_to_select'] = 'Unable to select the specified database: %s';
-$lang['db_unable_to_create'] = 'Unable to create the specified database: %s';
-$lang['db_invalid_query'] = 'The query you submitted is not valid.';
-$lang['db_must_set_table'] = 'You must set the database table to be used with your query.';
-$lang['db_must_use_set'] = 'You must use the "set" method to update an entry.';
-$lang['db_must_use_index'] = 'You must specify an index to match on for batch updates.';
-$lang['db_batch_missing_index'] = 'One or more rows submitted for batch updating is missing the specified index.';
-$lang['db_must_use_where'] = 'Updates are not allowed unless they contain a "where" clause.';
-$lang['db_del_must_use_where'] = 'Deletes are not allowed unless they contain a "where" or "like" clause.';
-$lang['db_field_param_missing'] = 'To fetch fields requires the name of the table as a parameter.';
-$lang['db_unsupported_function'] = 'This feature is not available for the database you are using.';
-$lang['db_transaction_failure'] = 'Transaction failure: Rollback performed.';
-$lang['db_unable_to_drop'] = 'Unable to drop the specified database.';
-$lang['db_unsuported_feature'] = 'Unsupported feature of the database platform you are using.';
-$lang['db_unsuported_compression'] = 'The file compression format you chose is not supported by your server.';
-$lang['db_filepath_error'] = 'Unable to write data to the file path you have submitted.';
-$lang['db_invalid_cache_path'] = 'The cache path you submitted is not valid or writable.';
-$lang['db_table_name_required'] = 'A table name is required for that operation.';
-$lang['db_column_name_required'] = 'A column name is required for that operation.';
-$lang['db_column_definition_required'] = 'A column definition is required for that operation.';
-$lang['db_unable_to_set_charset'] = 'Unable to set client connection character set: %s';
-$lang['db_error_heading'] = 'A Database Error Occurred';
+$lang['db_invalid_connection_str'] = 'Nu se poate stabili setările la bază de date cu informaţiile de conexiune pe care le-aţi trimis.';
+$lang['db_unable_to_connect'] = 'Nu se poate conecta la serverul de baze de date folosind setările oferite.';
+$lang['db_unable_to_select'] = 'Imposibil de a selecta baza de date specificată: %s';
+$lang['db_unable_to_create'] = 'Imposibil de a crea baza de date specificată: %s';
+$lang['db_invalid_query'] = 'Interogarea trimisă nu este corectă.';
+$lang['db_must_set_table'] = 'Trebuie să setați un tabel în bază de date pentru a fi utilizat împreună cu interogarea.';
+$lang['db_must_use_set'] = 'Trebuie să utilizați metoda "set" pentru a actualiza o intrare.';
+$lang['db_must_use_index'] = 'Trebuie să specificați un index pentru a se potrivi cu pachetul de actualizări';
+$lang['db_batch_missing_index'] = 'Unul sau mai multe rânduri prezentate pentru pachetul de actualizări lipseşte indexul specificat.';
+$lang['db_must_use_where'] = 'Actualizările nu sunt permise, cu excepția cazului în care conțin o cauză "where"';
+$lang['db_del_must_use_where'] = 'Ștergerile nu sunt permise, cu excepția cazului în care conțin o cauză "where" sau "like".';
+$lang['db_field_param_missing'] = 'Pentru a descărca din câmpuri este necesar numele tabelului ca parametru.';
+$lang['db_unsupported_function'] = 'Această caracteristică nu este disponibilă pentru baza de date pe care o utilizați.';
+$lang['db_transaction_failure'] = 'Eșec tranzacție: se anulează modificările.';
+$lang['db_unable_to_drop'] = 'Imposibil să renunț la baza de date specificată.';
+$lang['db_unsuported_feature'] = 'Caracteristică neacceptată de platforma bazei de date pe care o utilizați.';
+$lang['db_unsuported_compression'] = 'Formatul de compresie de fișier pe care l-aţi selectat nu este acceptat de server-ul dvs.';
+$lang['db_filepath_error'] = 'Imposibil de a scrie date către calea de fișier trimis.';
+$lang['db_invalid_cache_path'] = 'Calea catre cache trimis nu este valid sau nu are drepturi de scriere.';
+$lang['db_table_name_required'] = 'Un nume de tabelă este necesar pentru această operațiune.';
+$lang['db_column_name_required'] = 'Un nume de coloană este necesară pentru această operațiune.';
+$lang['db_column_definition_required'] = 'Un nume ca definiție de coloană pentru această operațiune.';
+$lang['db_unable_to_set_charset'] = 'Imposibil de setat pentru client un set de caractere la conexiune: %s';
+$lang['db_error_heading'] = 'S-a produs o eroare la baza de date';
 
 /* End of file db_lang.php */
 /* Location: ./system/language/english/db_lang.php */
