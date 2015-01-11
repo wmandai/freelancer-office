@@ -1,5 +1,5 @@
 <?php
-s
+
 $lang['account_details'] = 'Account gegevens';
 $lang['access_denied'] = 'Aanvraag geweigerd. Neem contact op met het systeembeheer voor hulp';
 $lang['activities'] = 'Activiteiten';
