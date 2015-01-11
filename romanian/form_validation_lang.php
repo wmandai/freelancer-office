@@ -1,28 +1,28 @@
 <?php
 
-$lang['required']			= "The %s field is required.";
-$lang['isset']				= "The %s field must have a value.";
-$lang['valid_email']		= "The %s field must contain a valid email address.";
-$lang['valid_emails']		= "The %s field must contain all valid email addresses.";
-$lang['valid_url']			= "The %s field must contain a valid URL.";
-$lang['valid_ip']			= "The %s field must contain a valid IP.";
-$lang['min_length']			= "The %s field must be at least %s characters in length.";
-$lang['max_length']			= "The %s field can not exceed %s characters in length.";
-$lang['exact_length']		= "The %s field must be exactly %s characters in length.";
-$lang['alpha']				= "The %s field may only contain alphabetical characters.";
-$lang['alpha_numeric']		= "The %s field may only contain alpha-numeric characters.";
-$lang['alpha_dash']			= "The %s field may only contain alpha-numeric characters, underscores, and dashes.";
-$lang['numeric']			= "The %s field must contain only numbers.";
-$lang['is_numeric']			= "The %s field must contain only numeric characters.";
-$lang['integer']			= "The %s field must contain an integer.";
-$lang['regex_match']		= "The %s field is not in the correct format.";
-$lang['matches']			= "The %s field does not match the %s field.";
-$lang['is_unique'] 			= "The %s field must contain a unique value.";
-$lang['is_natural']			= "The %s field must contain only positive numbers.";
-$lang['is_natural_no_zero']	= "The %s field must contain a number greater than zero.";
-$lang['decimal']			= "The %s field must contain a decimal number.";
-$lang['less_than']			= "The %s field must contain a number less than %s.";
-$lang['greater_than']		= "The %s field must contain a number greater than %s.";
+$lang['required']			= "Campul %s este obligatoriu.";
+$lang['isset']				= "Campul %s trebuie să aibe o valoare.";
+$lang['valid_email']		= "Campul %s trebuie să conţină o adresă de email validă.";
+$lang['valid_emails']		= "Campul %s trebuie să conţină numai adrese de email valide.";
+$lang['valid_url']			= "Campul %s trebuie să conţină un URL valid.";
+$lang['valid_ip']			= "Campul %s trebuie să conţină o adresă IP validă.";
+$lang['min_length']			= "Campul %s trebuie să aibe o lungime cel puţin %s caractere.";
+$lang['max_length']			= "Campul %s trebuie să nu depăşească lungimea de %s caractere.";
+$lang['exact_length']		= "Campul %s trebuie să aibe exact un număr de  %s caractere.";
+$lang['alpha']				= "Campul %s poate să conţină numai litere din alfabet";
+$lang['alpha_numeric']		= "Campul %s poate să conţină numai caractere alfanumerice.";
+$lang['alpha_dash']			= "Campul %s poate sa contina numai caractere alfanumerice, subliniate, şi linii.";
+$lang['numeric']			= "Campul %s trebuie să conţină numai cifre.";
+$lang['is_numeric']			= "Campul %s trebuie să conţină numai caractere numerice";
+$lang['integer']			= "Campul %s trebuie să conţină o unitate.";
+$lang['regex_match']		= "Campul %s nu este într-un format corect.";
+$lang['matches']			= "Campul %s nu se potriveste cu campul %s.";
+$lang['is_unique'] 			= "Campul %s trebuie să aibe o valoare unică.";
+$lang['is_natural']			= "Campul %s trebuie să conţină numai numere pozitive.";
+$lang['is_natural_no_zero']	= "Campul %s trebuie să aibe un numar mai mare decât 0.";
+$lang['decimal']			= "Campul %s trebuie să conţină un numar decimal.";
+$lang['less_than']			= "Campul %s trebuie să conţină un numar mai mic decât %s.";
+$lang['greater_than']		= "Campul %strebuie să conţină un numar mai mare decât %s.";
 
 
 /* End of file form_validation_lang.php */
