@@ -1,24 +1,24 @@
 <?php
 
-$lang['ut_test_name']		= 'Test Name';
-$lang['ut_test_datatype']	= 'Test Datatype';
-$lang['ut_res_datatype']	= 'Expected Datatype';
-$lang['ut_result']			= 'Result';
-$lang['ut_undefined']		= 'Undefined Test Name';
-$lang['ut_file']			= 'File Name';
-$lang['ut_line']			= 'Line Number';
-$lang['ut_passed']			= 'Passed';
-$lang['ut_failed']			= 'Failed';
+$lang['ut_test_name']		= 'Nume de test';
+$lang['ut_test_datatype']	= 'Tip de date pentru testare';
+$lang['ut_res_datatype']	= 'Tip de date corespunzător';
+$lang['ut_result']			= 'Rezultat';
+$lang['ut_undefined']		= 'Nume de test nedefinit';
+$lang['ut_file']			= 'Numele fişierului';
+$lang['ut_line']			= 'Numărul de linie';
+$lang['ut_passed']			= 'Trecut';
+$lang['ut_failed']			= 'Eşuat';
 $lang['ut_boolean']			= 'Boolean';
-$lang['ut_integer']			= 'Integer';
+$lang['ut_integer']			= 'Unitate';
 $lang['ut_float']			= 'Float';
 $lang['ut_double']			= 'Float'; // can be the same as float
 $lang['ut_string']			= 'String';
 $lang['ut_array']			= 'Array';
-$lang['ut_object']			= 'Object';
-$lang['ut_resource']		= 'Resource';
+$lang['ut_object']			= 'Obiect';
+$lang['ut_resource']		= 'Resursă';
 $lang['ut_null']			= 'Null';
-$lang['ut_notes']			= 'Notes';
+$lang['ut_notes']			= 'Notiţe';
 
 
 /* End of file unit_test_lang.php */
