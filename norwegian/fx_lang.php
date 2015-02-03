@@ -101,8 +101,6 @@ $lang['create_project'] = 'Nytt prosjekt';
 $lang['create_invoice'] = 'Ny faktura';
 $lang['credentials'] = 'Credentials';
 $lang['create_account'] = 'Opprett ny konto';
-$lang['create_project'] = 'Nytt prosjekt';
-$lang['create_invoice'] = 'Ny faktura';
 $lang['create_estimate'] = 'Nytt tilbud';
 $lang['critical'] = 'Kritisk';
 $lang['currency_code'] = 'Valutakode';
@@ -168,7 +166,6 @@ $lang['email_invoice_message'] = 'Faktura innhold';
 $lang['email_protocol'] = 'E-post metode';
 $lang['email_templates'] = 'E-post maler';
 $lang['email'] = 'E-post';
-$lang['email_estimate'] = 'Send tilbud på mail';
 $lang['email_sending_warning'] = 'En e-post blir sendt for å varsle brukeren!';
 $lang['end_date'] = 'Avslutningsdato';
 $lang['estimates'] = 'Tilbud';
@@ -201,7 +198,7 @@ $lang['file_deleted'] = 'Filen ble slettet!';
 $lang['found'] = 'Funnet';
 $lang['freelance'] = 'Frilans';
 $lang['frequency'] = 'Frekvens';
-$lang['forgot_password'] = 'Mistet passord';
+$lang['forgot_password'] = 'Mistet passord?';
 $lang['full_name'] = 'Fullt navn';
 $lang['get_started'] = 'Start her';
 $lang['general_settings'] = 'Generelle';
@@ -276,7 +273,6 @@ $lang['member_since'] = 'Medlem siden';
 $lang['minutes'] = 'Minutter';
 $lang['my_account'] = 'Min konto';
 $lang['my_profile'] = 'Min profil';
-$lang['my_projects'] = 'Mine prosjekter';
 $lang['month'] = 'Måned';
 $lang['monthly_average'] = 'Månedlig Gjennomsnitt';
 $lang['module'] = 'Modul';
@@ -485,7 +481,6 @@ $lang['yearly_overview'] = 'Årlig oversikt';
 $lang['year'] = 'År';
 $lang['you'] = 'Du';
 
-
 // Version 1.4 Translations
 $lang['projects_completion'] = 'Prosjekter fullført';
 $lang['transactions'] = 'Betalinger';
@@ -511,24 +506,23 @@ $lang['yes'] = 'Ja';
 $lang['no'] = 'Nei';
 
 // Version 1.4 Translations edit Modules invoices
-$lang['This_tax_will'] = 'Denne MVA vil erstatte standard MVA!';
+$lang['this_tax_will'] = 'Denne MVA vil erstatte standard MVA!';
 
 // Version 1.4 Translations edit Modules settings
-$lang['This_tax_applied'] = 'Denne MVA blir lagt til alle fakturaer!';
+$lang['this_tax_applied'] = 'Denne MVA blir lagt til alle fakturaer!';
 
 // Version 1.4 Translations edit Modules login
-$lang['Forgot_password'] = 'Mistet passord?';
-$lang['Sign_in'] = 'Logg inn';
-$lang['Get_another_CAPTCHA'] = 'Oppdater CAPTCHA';
-$lang['Enter_the_words_above'] = 'Skriv inn ordene over';
-$lang['Do_not_have_an_account'] = 'Registrere en konto?';
-$lang['Get_Your_Account'] = 'Registrer deg!';
-$lang['Enter_the_code_exactly'] = 'Skriv inn koden som den vises:';
-$lang['Enter_the_numbers_you_hear'] = 'Skriv inn tallene du hører';
-$lang['This_is_my_computer'] = 'Husk meg!';
+$lang['sign_in'] = 'Logg inn';
+$lang['get_another_captcha'] = 'Oppdater CAPTCHA';
+$lang['enter_the_words_above'] = 'Skriv inn ordene over';
+$lang['do_not_have_an_account'] = 'Registrere en konto?';
+$lang['get_your_account'] = 'Registrer deg!';
+$lang['enter_the_code_exactly'] = 'Skriv inn koden som den vises:';
+$lang['enter_the_numbers_you_hear'] = 'Skriv inn tallene du hører';
+$lang['this_is_my_computer'] = 'Husk meg!';
 $lang['email_user'] = 'E-post eller brukernavn';
-$lang['Get_an_audio_CAPTCHA'] = 'Hør en lyd CAPTCHA';
-$lang['Get_an_image_CAPTCHA'] = 'Få en bilde CAPTCHA';
+$lang['get_an_audio_captcha'] = 'Hør en lyd CAPTCHA';
+$lang['get_an_image_captcha'] = 'Få en bilde CAPTCHA';
 
 // Missing 1.2 Untranslated words
 $lang['project_shortcuts'] = 'Prosjektsnarveier';
@@ -547,27 +541,26 @@ $lang['choose_file'] = 'Velg fil';
 $lang['company_represantitive'] = 'Dette kan være din kontakt i firmaet.';
 $lang['change_if_necessary'] = 'Endre om nødvendig.';
 $lang['system_stats'] = 'Oversikt';
-$lang['my_projects'] = 'Mine Prosjekter';
+$lang['my_projects'] = 'Mine prosjekter';
 
 //1.4 Additions
 $lang['from_templates'] = 'Fra maler';
 
-
 // New Language files - login - register
-$lang['Sign_up_Form'] = 'Registrering - ';
-$lang['Sign_up'] = 'Registrer deg!';
-$lang['Already_have_an_account'] = 'Har du allerede en konto?';
+$lang['sign_up_form'] = 'Registrering - ';
+$lang['sign_up'] = 'Registrer deg!';
+$lang['already_have_an_account'] = 'Har du allerede en konto?';
 
 // New Language files - Modules project
-$lang['Type_your_note_here'] = 'Skriv notat her...';
+$lang['type_your_note_here'] = 'Skriv notat her...';
 
 // New Language files - Untranslated words
 $lang['notification'] = 'Varslinger';
-$lang['All_rights_reserved'] = 'Alle rettigheter reservert.';
+$lang['all_rights_reserved'] = 'Alle rettigheter reservert.';
 $lang['ago'] = 'siden';
 $lang['invoice_payments_this_month'] = 'Betalinger denne måneden ';
 $lang['your'] = 'din';
-$lang['Nothing_to_display_here'] = 'Ingenting å vise...';
+$lang['nothing_to_display_here'] = 'Ingenting å vise...';
 
 //Fixed INVOICE PDF and others
 $lang['payment_information'] = 'Betalingsinformasjon';
@@ -575,11 +568,6 @@ $lang['updates'] = 'Oppdateringer';
 $lang['company_representative'] = 'Firma representant.';
 $lang['invoice_logo'] = 'Faktura logo';
 $lang['upload_logo'] = 'Last opp logo';
-$lang['unconfirmed'] = 'Ubekreftet';
-$lang['confirmed'] = 'Bekreftet';
-$lang['verified'] = 'Verifisert';
-$lang['in_progress'] = 'Pågår';
-$lang['resolved'] = 'Løst';
 $lang['new_username'] = 'Nytt brukernavn';
 $lang['change_username'] = 'Endre brukernavn';
 $lang['username_not_available'] = 'Brukernavnet er ikke tilgjengelig, vennligst prøv et annet.';
@@ -608,7 +596,6 @@ $lang['add_company'] = 'Legg til firma';
 $lang['delete_company_warning'] = 'Alle data inkludert fakturaer som tilhører dette firmaet vil bli slettet.';
 $lang['delete_company'] = 'Slett firma';
 $lang['company_deleted_successfully'] = 'Firmaet ble slettet!';
-$lang['contacts'] = 'KONTAKTER';
 $lang['add_contact'] = 'Legg til kontakt';
 $lang['website'] = 'Webside';
 $lang['primary_contact_set'] = 'Primær kontaktperson ble valgt!';
@@ -617,7 +604,6 @@ $lang['user_added_successfully'] = 'Bruker ble lagt til';
 $lang['view_contacts'] = 'Vis kontakter';
 
 //1.5.7
-$lang['updates'] = 'Oppdateringer';
 $lang['database_schema_updated'] = 'Database ble oppdatert!';
 $lang['company_vat'] = 'Firma VAT';
 $lang['account_username'] = 'Konto brukernavn';
@@ -641,7 +627,6 @@ $lang['with_all_the_love'] = 'Utviklet med all verdens kjærlighet av';
 $lang['remember_password'] = 'Husker du passordet?';
 $lang['get_new_password'] = 'Få nytt passord!';
 $lang['do_not_have_account'] = 'Har du ingen konto?';
-$lang['get_your_account'] = 'Opprett konto!';
 $lang['company_placeholder_name'] = 'Eg. Kunde firma';
 $lang['company_placeholder_email'] = 'dinkunde@epost.no';
 $lang['company_placeholder_city'] = 'Oslo';
@@ -691,7 +676,6 @@ $lang['date_format'] = 'Datoformat';
 $lang['discount'] = 'Rabatt';
 $lang['sort_by'] = 'Sorter fakturaer';
 $lang['send_email'] = 'Send e-post';
-$lang['recurring'] = 'Gjentakende';
 $lang['recur_frequency'] = 'Gjentas hver';
 $lang['view_estimate'] = 'Vis tilbud';
 $lang['view_payment'] = 'Vis betaling';
@@ -707,7 +691,6 @@ $lang['project_dashboard'] = 'Prosjekt skrivebord';
 $lang['project_tasks'] = 'Prosjektoppgaver';
 $lang['project_files'] = 'Prosjektfiler';
 $lang['project_bugs'] = 'Prosjekt feil';
-$lang['project_dashboard'] = 'Prosjekt skrivebord';
 $lang['project_calendar'] = 'Prosjekt kalender';
 $lang['preview'] = 'Forhåndsvisning';
 $lang['action'] = 'Handling';
@@ -733,7 +716,6 @@ $lang['activity_ticket_created'] = 'Opprettet en ticket # ';
 $lang['activity_ticket_replied'] = 'Svarte på ticket # ';
 $lang['ticket_created_successfully'] = 'Ticket ble opprettet!';
 $lang['ticket_replied_successfully'] = 'Ticket ble besvart!';
-$lang['delete_ticket'] = 'Slett Ticket';
 $lang['reply_ticket'] = 'Svar på Ticket';
 $lang['delete_ticket_warning'] = 'Dette vil slette ticketen med svar. Er du sikker på at du vil fortsette?';
 $lang['ticket_deleted_successfully'] = 'Ticket ble slettet!';
@@ -809,12 +791,11 @@ $lang['milestone_deleted_successfully'] = 'Milepælen ble slettet!';
 $lang['delete_milestone_warning'] = 'Du er i ferd med å slette milepælen';
 $lang['activity_deleted_milestone'] = 'slettet en milepæl!';
 $lang['milestone_tasks'] = 'Milepæl oppgaver';
-
 $lang['project_settings'] = 'Project Instillinger';
 $lang['timer_not_allowed'] = 'Tidtakeren ble startet av en annen!';
-$lang['response_status'] = 'OK!';
+$lang['response_status'] = 'Svar Status';
 $lang['recently_paid_invoices'] = 'Nylig betalte fakturaer';
-$lang['recent_tickets'] = 'Nye Tickets';
+$lang['recent_tickets'] = 'Siste Tickets';
 $lang['project_hours'] = 'Prosjekt timer';
 $lang['task_hours'] = 'Oppgavetimer';
 $lang['client_create_project'] = 'Kunder og prosjekter';
@@ -862,5 +843,31 @@ $lang['welcome_email_subject'] = 'Registrering fullført';
 $lang['forgot_password_subject'] = 'Mistet passord';
 $lang['reset_password_subject'] = 'Nytt passord';
 $lang['change_email_subject'] = 'Endre E-post';
+
+// 1.6.1
+$lang['company_not_set'] = 'Your company is not set.';
+$lang['eg'] = 'e.g';
+$lang['show_account_details'] = 'Show Account Details';
+$lang['welcome'] = 'Welcome';
+$lang['detailed_description'] = 'Detailed Description';
+$lang['steps_causing_bug'] = 'Steps taken to produce the bug';
+$lang['switch_to'] = 'Switch to';
+$lang['site_name'] = 'Sitename';
+$lang['logo_or_icon'] = 'Logo or Icon';
+$lang['logo'] = 'Logo';
+$lang['icon'] = 'Icon';
+$lang['site_icon'] = 'Siteicon';
+$lang['site_icon_help'] = 'Please insert the icon class. More information on';
+$lang['default_company'] = 'Default company';
+$lang['other_companies'] = 'Other companies';
+$lang['user_placeholder_name'] = 'John Doe';
+$lang['user_placeholder_username'] = 'johndoe';
+$lang['user_placeholder_email'] = 'johndoe@me.com';
+$lang['user_placeholder_phone'] = '+52 782 983 434';
+$lang['text_field'] = 'Text Field';
+$lang['select_team_help'] = 'Use CTRL + CLICK to select multiple users';
+$lang['staff'] = 'Staff';
+$lang['estimate_email'] = 'Estimate eMail';
+$lang['project_management_system'] = 'Project Management System';
 
 /* End of file fx_lang.php */

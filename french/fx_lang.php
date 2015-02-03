@@ -125,7 +125,6 @@ $lang['delete_invoice'] = 'Supprimer facture';
 $lang['delete_project'] = 'Supprimer projet';
 $lang['delete_estimate'] = 'Supprimer devis';
 $lang['delete_comment'] = 'Effacer un commentaire';
-$lang['delete_task'] = 'Supprimer tâche';
 $lang['delete_bug_warning'] = 'Vous êtes sur le point de supprimer un bug.';
 $lang['delete_file_warning'] = 'Vous êtes sur le point de supprimer un fichier.';
 $lang['delete_invoice_warning'] = 'Cette opération va supprimer la facture et ses articles. Êtes vous sur de vouloir continuer ?';
@@ -199,12 +198,13 @@ $lang['file_deleted'] = 'Fichier supprimé avec succès';
 $lang['found'] = 'Trouvé';
 $lang['freelance'] = 'Freelance';
 $lang['frequency'] = 'Fréquence';
-$lang['forgot_password'] = 'Mot de passe oublié';
+$lang['forgot_password'] = 'Mot de passe oublié?';
 $lang['full_name'] = 'Nom et prénom';
 $lang['get_started'] = 'Commencer';
 $lang['general_settings'] = 'Paramètres généraux';
 $lang['help'] = 'Aide';
 $lang['home'] = 'Accueil';
+$lang['homepage_preview'] = 'Homepage Preview';
 $lang['high'] = 'Haut';
 $lang['hours'] = 'Heures';
 $lang['hours_spent'] = 'Heures consacrées';
@@ -246,6 +246,7 @@ $lang['item_name'] = 'Nom de l\'article';
 $lang['keyword'] = 'Mots-clés';
 $lang['latest_comments'] = 'Derniers commentaires';
 $lang['language'] = 'Langue';
+$lang['layouts'] = 'Layouts';
 $lang['last_login'] = 'Dernière connexion';
 $lang['links'] = 'Liens';
 $lang['login_required'] = 'Vous n\'êtes pas connecté. Identifiez-vous pour continuer.';
@@ -267,11 +268,13 @@ $lang['message'] = 'Message';
 $lang['message_sent'] = 'Message envoyé.';
 $lang['message_not_sent'] = 'Message non envoyé.';
 $lang['message_notification'] = 'Un email sera envoyé pour avertir l\'utilisateur';
+$lang['message_deleted_successfully'] = 'Message deleted successfully';
 $lang['member_since'] = 'Membre depuis';
 $lang['minutes'] = 'Minutes';
 $lang['my_account'] = 'Mon compte';
 $lang['my_profile'] = 'Mon profil';
 $lang['month'] = 'Mois';
+$lang['monthly_average'] = 'Monthly Average';
 $lang['module'] = 'Module';
 $lang['more_actions'] = 'Plus...';
 $lang['new_client'] = 'Nouveau client';
@@ -319,6 +322,7 @@ $lang['paypal_live'] = 'Paypal Live';
 $lang['paypal_redirection_alert'] = 'Votre paiement sera traité via Paypal';
 $lang['pay_invoice'] = 'Paiement des factures';
 $lang['pdf'] = 'PDF';
+$lang['per_month'] = 'Per Month';
 $lang['phone'] = 'Téléphone';
 $lang['preview_invoice'] = 'Aperçu facture';
 $lang['price'] = 'Prix';
@@ -373,6 +377,7 @@ $lang['recent_invoice'] = 'Factures récentes';
 $lang['received_messages'] = 'Messages reçus';
 $lang['received_amount'] = 'Montant reçu';
 $lang['received_from'] = 'Reçu de';
+$lang['recipient'] = 'Recipient';
 $lang['reference_no'] = 'Ref No';
 $lang['registered_clients'] = 'Clients inscrits';
 $lang['register_user'] = 'Inscription utilisateur';
@@ -473,6 +478,7 @@ $lang['welcome_back'] = 'Bienvenue';
 $lang['welcome_to'] = 'Bienvenue à';
 $lang['write_access_denied'] = 'Vous ne pouvez pas écrire dans le fichier temporaire.';
 $lang['yearly_overview'] = 'Bilan annuel';
+$lang['year'] = 'Année';
 $lang['you'] = 'Vous';
 
 // Version 1.4 Translations
@@ -494,35 +500,29 @@ $lang['vat'] = 'TVA';
 $lang['payments_sent'] = 'Paiement envoyé';
 $lang['extras'] = 'Extras';
 
-// Missing Language files
-$lang['year'] = 'Année';
-$lang['monthly_average'] = 'Moyenne mensuelle';
-$lang['per_month'] = 'Par mois';
-
 // Version 1.4 Translations edit Modules templates
 $lang['go'] = 'Go';
 $lang['yes'] = 'Oui';
 $lang['no'] = 'Non';
 
 // Version 1.4 Translations edit Modules invoices
-$lang['This_tax_will'] = 'Cette taxe écrasera la taxe par défaut';
+$lang['this_tax_will'] = 'Cette taxe écrasera la taxe par défaut';
 
 // Version 1.4 Translations edit Modules settings
-$lang['This_tax_applied'] = 'Cette taxe sera appliquée à toutes les factures';
+$lang['this_tax_applied'] = 'Cette taxe sera appliquée à toutes les factures';
 
 // Version 1.4 Translations edit Modules login
-$lang['Forgot_password'] = 'Mot de passe oublié ?';
-$lang['Sign_in'] = 'S\'identifier';
-$lang['Get_another_CAPTCHA'] = 'Nouveau CAPTCHA';
-$lang['Enter_the_words_above'] = 'Ecrire le mot ci-dessus';
-$lang['Do_not_have_an_account'] = 'Pas enregistré ?';
-$lang['Get_Your_Account'] = 'S\'inscrire';
-$lang['Enter_the_code_exactly'] = 'Saisir le code :';
-$lang['Enter_the_numbers_you_hear'] = 'Entrez les nombres entendu';
-$lang['This_is_my_computer'] = 'Enregistrer les informations';
+$lang['sign_in'] = 'S\'identifier';
+$lang['get_another_captcha'] = 'Nouveau CAPTCHA';
+$lang['enter_the_words_above'] = 'Ecrire le mot ci-dessus';
+$lang['do_not_have_an_account'] = 'Pas enregistré ?';
+$lang['get_your_account'] = 'S\'inscrire';
+$lang['enter_the_code_exactly'] = 'Saisir le code :';
+$lang['enter_the_numbers_you_hear'] = 'Entrez les nombres entendu';
+$lang['this_is_my_computer'] = 'Enregistrer les informations';
 $lang['email_user'] = 'Email ou pseudo';
-$lang['Get_an_audio_CAPTCHA'] = 'CAPTCHA Audio';
-$lang['Get_an_image_CAPTCHA'] = 'CAPTCHA Image';
+$lang['get_an_audio_captcha'] = 'CAPTCHA Audio';
+$lang['get_an_image_captcha'] = 'CAPTCHA Image';
 
 // Missing 1.2 Untranslated words
 $lang['project_shortcuts'] = 'Raccourci projets';
@@ -546,22 +546,21 @@ $lang['my_projects'] = 'Mes projets';
 //1.4 Additions
 $lang['from_templates'] = 'Depuis un modèle';
 
-
 // New Language files - login - register
-$lang['Sign_up_Form'] = 'Formulaire d\inscription';
-$lang['Sign_up'] = 'S\'inscrire';
-$lang['Already_have_an_account'] = 'Vous avez déjà un compte ?';
+$lang['sign_up_Form'] = 'Formulaire d\inscription';
+$lang['sign_up'] = 'S\'inscrire';
+$lang['already_have_an_account'] = 'Vous avez déjà un compte ?';
 
 // New Language files - Modules project
-$lang['Type_your_note_here'] = 'Entrez vos notes ici';
+$lang['type_your_note_here'] = 'Entrez vos notes ici';
 
 // New Language files - Untranslated words
 $lang['notification'] = 'Notifications';
-$lang['All_rights_reserved'] = 'Tous droits réservés.';
+$lang['all_rights_reserved'] = 'Tous droits réservés.';
 $lang['ago'] = '';
 $lang['invoice_payments_this_month'] = 'Paiement des factures ce mois-ci';
 $lang['your'] = 'votre';
-$lang['Nothing_to_display_here'] = 'Rien à afficher';
+$lang['nothing_to_display_here'] = 'Rien à afficher';
 
 //Fixed INVOICE PDF and others
 $lang['payment_information'] = 'Informations de paiement';
@@ -569,11 +568,6 @@ $lang['updates'] = 'Mises à jour';
 $lang['company_representative'] = 'Représentant';
 $lang['invoice_logo'] = 'Logo factures';
 $lang['upload_logo'] = 'Upload';
-$lang['unconfirmed'] = 'Non confirmé';
-$lang['confirmed'] = 'Confirmé';
-$lang['verified'] = 'Verifié';
-$lang['in_progress'] = 'En cours';
-$lang['resolved'] = 'Résolu';
 $lang['new_username'] = 'Nouveau pseudo';
 $lang['change_username'] = 'Changer le pseudo';
 $lang['username_not_available'] = 'Pseudo indisponible';
@@ -609,9 +603,7 @@ $lang['client_updated'] = 'Client mis à jour avec succès';
 $lang['user_added_successfully'] = 'Utilisateur ajouté avec succès';
 $lang['view_contacts'] = 'Voir Contacts';
 
-
 //1.5.7
-$lang['updates'] = 'Mises à jours';
 $lang['database_schema_updated'] = 'Schéma de base de données mis à jour avec succès';
 $lang['company_vat'] = 'TVA';
 $lang['account_username'] = 'Pseudo';
@@ -622,13 +614,19 @@ $lang['hosting_company'] = 'Entreprise hôte';
 $lang['hidden_username'] = 'Pseudo caché';
 $lang['hidden_password'] = 'Mot de passe caché';
 $lang['additional_fields'] = 'Champs additionnels';
+$lang['unread_messages'] = 'Unread Messages';
+$lang['years'] = ' Years';
+$lang['days'] = ' Days';
+$lang['weeks'] = ' Weeks';
+$lang['months'] = ' Months';
+$lang['minutes'] = ' Minutes';
+$lang['hours'] = ' Hours';
 
 // Jøran Sørbø's ADDITIONS
 $lang['with_all_the_love'] = 'Developpé avec tous l\amour du monde par';
 $lang['remember_password'] = 'Mot de passe retrouvé ?';
 $lang['get_new_password'] = 'Obtenir un nouveau mot de passe';
 $lang['do_not_have_account'] = 'Pas de compte ?';
-$lang['get_your_account'] = 'S\'inscrire !';
 $lang['company_placeholder_name'] = 'Nom de l\'entreprise';
 $lang['company_placeholder_email'] = 'contact@mail.com';
 $lang['company_placeholder_city'] = 'Paris';
@@ -678,7 +676,6 @@ $lang['date_format'] = 'Format date';
 $lang['discount'] = 'Réduction';
 $lang['sort_by'] = 'Classer factures';
 $lang['send_email'] = 'Envoyer Email';
-$lang['recurring'] = 'Récurent';
 $lang['recur_frequency'] = 'Tous les';
 $lang['view_estimate'] = 'Voir Devis';
 $lang['view_payment'] = 'Voir Paiement';
@@ -694,7 +691,6 @@ $lang['project_dashboard'] = 'Tableau de bord';
 $lang['project_tasks'] = 'Tâches';
 $lang['project_files'] = 'Fichiers';
 $lang['project_bugs'] = 'Bugs';
-$lang['project_dashboard'] = 'Tableau de bord';
 $lang['project_calendar'] = 'Calendrier';
 $lang['preview'] = 'Aperçu';
 $lang['action'] = 'Action';
@@ -720,7 +716,6 @@ $lang['activity_ticket_created'] = 'Création du ticket # ';
 $lang['activity_ticket_replied'] = 'Réponse au ticket # ';
 $lang['ticket_created_successfully'] = 'Ticket Créé avec succès';
 $lang['ticket_replied_successfully'] = 'Réponse au ticket enregistrée avec succès';
-$lang['delete_ticket'] = 'Supprimer Ticket';
 $lang['reply_ticket'] = 'Répondre';
 $lang['delete_ticket_warning'] = 'Cette opération supprimera le ticket et ses réponses.';
 $lang['ticket_deleted_successfully'] = 'Ticket supprimé avec succès';
@@ -796,5 +791,83 @@ $lang['milestone_deleted_successfully'] = 'Milestone deleted successfully';
 $lang['delete_milestone_warning'] = 'You are about to delete a milestone';
 $lang['activity_deleted_milestone'] = 'deleted a milestone';
 $lang['milestone_tasks'] = 'Milestone Tasks';
+$lang['project_settings'] = 'Project Settings';
+$lang['timer_not_allowed'] = 'This timer was started by another staff';
+$lang['response_status'] = 'Response Status';
+$lang['recently_paid_invoices'] = 'Recently paid Invoices';
+$lang['recent_tickets'] = 'Recent Tickets';
+$lang['project_hours'] = 'Project Hours';
+$lang['task_hours'] = 'Tasks hours';
+$lang['client_create_project'] = 'Clients add Projects';
+$lang['automatic_email_on_recur'] = 'Email on Recur';
+$lang['invoices_due_after'] = 'Invoices due after';
+$lang['stop_recurring'] = 'Stop Recurring';
+$lang['activity_recurring_stopped'] = 'Stopped recurring invoice';
+$lang['recurring_invoice_stopped'] = 'Recurring invoice stopped successfully';
+$lang['stop_recur_warning'] = 'This will stop recurring this invoice';
+$lang['choose_template'] = 'Choose Template';
+$lang['account_emails'] = 'Account Emails';
+$lang['bug_emails'] = 'Bug Emails';
+$lang['project_emails'] = 'Project Emails';
+$lang['invoicing_emails'] = 'Invoicing Emails';
+$lang['ticketing_emails'] = 'Ticketing Emails';
+$lang['extra_emails'] = 'Extra Emails';
+$lang['register_email'] = 'Register Email';
+$lang['activate_account'] = 'Activate Account';
+$lang['reset_password'] = 'Reset Password';
+$lang['payment_email'] = 'Payment Email';
+$lang['invoice_message'] = 'Invoice Message';
+$lang['date_sent'] = 'Date Sent';
+$lang['none'] = 'None';
+$lang['week'] = 'Week';
+$lang['quarter'] = 'Quarter';
+$lang['six_months'] = 'Six Months';
+$lang['no_comments_found'] = 'No comments found';
+$lang['preview_file'] = 'Preview File';
+
+// Email templates subjects
+$lang['assigned_bug_subject'] = 'New bug assigned';
+$lang['new_bug_reported_subject'] = 'New bug reported';
+$lang['bug_status_change_subject'] = 'Bug status changed';
+$lang['bug_comment_subject'] = 'New bug comment received';
+$lang['bug_file_uploaded'] = 'New File Uploaded';
+$lang['project_assigned_subject'] = 'Project assigned';
+$lang['project_complete_subject'] = 'Project Completed';
+$lang['project_comment_subject'] = 'New Project comment Received';
+$lang['task_assigned_subject'] = 'New task assigned';
+$lang['task_file_uploaded'] = 'New task file uploaded';
+$lang['project_file_uploaded'] = 'New project file uploaded';
+$lang['payment_received_subject'] = 'Payment Received';
+$lang['new_message_subject'] = 'New message received';
+$lang['welcome_email_subject'] = 'Registration successfull';
+$lang['forgot_password_subject'] = 'Forgot Password';
+$lang['reset_password_subject'] = 'Reset Password';
+$lang['change_email_subject'] = 'Change Email';
+
+// 1.6.1
+$lang['company_not_set'] = 'Your company is not set.';
+$lang['eg'] = 'e.g';
+$lang['show_account_details'] = 'Show Account Details';
+$lang['welcome'] = 'Welcome';
+$lang['detailed_description'] = 'Detailed Description';
+$lang['steps_causing_bug'] = 'Steps taken to produce the bug';
+$lang['switch_to'] = 'Switch to';
+$lang['site_name'] = 'Sitename';
+$lang['logo_or_icon'] = 'Logo or Icon';
+$lang['logo'] = 'Logo';
+$lang['icon'] = 'Icon';
+$lang['site_icon'] = 'Siteicon';
+$lang['site_icon_help'] = 'Please insert the icon class. More information on';
+$lang['default_company'] = 'Default company';
+$lang['other_companies'] = 'Other companies';
+$lang['user_placeholder_name'] = 'John Doe';
+$lang['user_placeholder_username'] = 'johndoe';
+$lang['user_placeholder_email'] = 'johndoe@me.com';
+$lang['user_placeholder_phone'] = '+52 782 983 434';
+$lang['text_field'] = 'Text Field';
+$lang['select_team_help'] = 'Use CTRL + CLICK to select multiple users';
+$lang['staff'] = 'Staff';
+$lang['estimate_email'] = 'Estimate eMail';
+$lang['project_management_system'] = 'Project Management System';
 
 /* End of file fx_lang.php */
