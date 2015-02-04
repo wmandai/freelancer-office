@@ -844,7 +844,7 @@ $lang['forgot_password_subject'] = 'Mistet passord';
 $lang['reset_password_subject'] = 'Nytt passord';
 $lang['change_email_subject'] = 'Endre E-post';
 
-// 1.6.1
+// 1.6.2
 $lang['company_not_set'] = 'Ditt firma er ikke satt.';
 $lang['eg'] = 'eg';
 $lang['show_account_details'] = 'Vis kontodetaljer';

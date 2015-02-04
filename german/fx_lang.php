@@ -1,5 +1,5 @@
 <?php
-setlocale (LC_TIME, "de_DE");
+
 $lang['account_details'] = 'Kontodetails';
 $lang['access_denied'] = 'Anfrage abgelehnt. Bitte wenden Sie sich für Unterstützung an den Systemadmin.';
 $lang['activities'] = 'Aktivitäten';
@@ -844,7 +844,7 @@ $lang['forgot_password_subject'] = 'Password vergessen';
 $lang['reset_password_subject'] = 'Password zurücksetzten';
 $lang['change_email_subject'] = 'eMail Adresse ändern';
 
-// 1.6.1
+// 1.6.2
 $lang['company_not_set'] = 'Ihre Firma ist nicht eingetragen.';
 $lang['eg'] = 'z.B.';
 $lang['show_account_details'] = 'Account Details anzeigen';

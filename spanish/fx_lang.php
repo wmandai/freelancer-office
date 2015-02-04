@@ -844,7 +844,7 @@ $lang['forgot_password_subject'] = 'Forgot Password';
 $lang['reset_password_subject'] = 'Reset Password';
 $lang['change_email_subject'] = 'Change Email';
 
-// 1.6.1
+// 1.6.2
 $lang['company_not_set'] = 'Your company is not set.';
 $lang['eg'] = 'e.g';
 $lang['show_account_details'] = 'Show Account Details';
