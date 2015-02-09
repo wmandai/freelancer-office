@@ -894,8 +894,8 @@ $lang['project_updated'] = 'Prosjekt oppdatert';
 $lang['task_updated'] = 'Oppgave oppdatert';
 $lang['via_bitcoin'] = 'Med BitCoin';
 $lang['bitcoin_address'] = 'BitCoin Adresse';
-$lang['portmark_help_text'] = 'If TRUE, edit application/config/postmark.php with your config info';
-$lang['smtp_host_help'] = 'SMTP Server Address';
+$lang['portmark_help_text'] = 'om SANT, rediger application/config/postmark.php med riktig info';
+$lang['smtp_host_help'] = 'SMTP Server';
 $lang['smtp'] = 'SMTP';
 $lang['php_mail'] = 'PHP mail';
 
