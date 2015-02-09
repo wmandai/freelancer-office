@@ -894,5 +894,9 @@ $lang['project_updated'] = 'Projekt aktualisiert';
 $lang['task_updated'] = 'Aufgabe aktualisiert';
 $lang['via_bitcoin'] = 'Per Bitcoin';
 $lang['bitcoin_address'] = 'Bitcoin Addresse';
+$lang['portmark_help_text'] = 'Wenn TRUE, bearbeiten Sie die Datei application/config/postmark.php mit den entsprechenden Daten';
+$lang['smtp_host_help'] = 'SMTP Server Addresse';
+$lang['smtp'] = 'SMTP';
+$lang['php_mail'] = 'PHP mail';
 
 /* End of file fx_lang.php */
