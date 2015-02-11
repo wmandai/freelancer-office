@@ -631,10 +631,10 @@ $lang['company_placeholder_name'] = 'Firmen Name';
 $lang['company_placeholder_email'] = 'yourclient@mail.com';
 $lang['company_placeholder_city'] = 'Berlin';
 $lang['activity_added_new_company'] = 'Hat eine neue Firma hinzugefügt ';
-$lang['activity_added_new_project'] = ' Hat ein Projekt erstellt #';
+$lang['activity_added_new_project'] = ' Hat ein Projekt erstellt ';
 $lang['activity_added_new_task'] = 'Hat eine Aufgabe erstellt: ';
 $lang['activity_edited_a_task'] = 'Hat eine Aufgabe bearbeitet ';
-$lang['activity_edited_a_project'] = ' Hat ein Projekt bearbeitet #';
+$lang['activity_edited_a_project'] = ' Hat ein Projekt bearbeitet ';
 $lang['activity_deleted_project'] = 'Hat Projekt gelöscht #';
 $lang['activity_from_the_system'] = ' vom System';
 $lang['activity_updated_company'] = 'Hat Firma aktualisiert ';
@@ -898,5 +898,39 @@ $lang['portmark_help_text'] = 'Wenn TRUE, bearbeiten Sie die Datei application/c
 $lang['smtp_host_help'] = 'SMTP Server Addresse';
 $lang['smtp'] = 'SMTP';
 $lang['php_mail'] = 'PHP mail';
+$lang['show_item_tax'] = 'Artikel Steuer anzeigen';
+$lang['allow_bitcoin'] = 'Bitcoin erlauben';
+$lang['show_to_client'] = 'Für Kunden sichtbar';
+$lang['hide_to_client'] = 'Für Kunden nicht sichtbar';
+$lang['invoice_not_visible'] = 'Die Rechnung ist für den Kunden nicht sichtbar';
+$lang['invoice_visible'] = 'Die Rechnung ist nun für den Kunden sichtbar';
+$lang['estimate_visible'] = 'Das Angebot ist nun für den Kunden sichtbar';
+$lang['estimate_not_visible'] = 'Das Angebot ist für den Kunden nicht sichtbar';
+$lang['enable_languages'] = 'Sprachauswahl aktivieren';
+$lang['use_gravatar'] = 'Gravatar benutzen';
+$lang['estimate_settings'] = 'Angebots Einstellungen';
+$lang['invoice_prefix'] = 'Rechnungs Präfix';
+$lang['estimate_color'] = 'Anbebots Farbe';
+$lang['estimate_prefix'] = 'Angebots Präfix';
+$lang['display_estimate_badge'] = 'Angebots Label anzeigen';
+$lang['estimate_language'] = 'Angebots Sprache';
+$lang['company_details'] = 'Firmendetails';
+$lang['alert_settings'] = 'Warnungs eMails';
+$lang['email_account_details'] = 'eMail Account Einstellungen';
+$lang['email_staff_tickets'] = 'Mitarbeiter über Ticker benachrichtigen ';
+$lang['notify_bug_assignment'] = 'Über Bug Zuweisung benachrichtigen';
+$lang['notify_bug_comments'] = 'Über Bug Kommentar benachrichtigen';
+$lang['notify_bug_status'] = 'Über Bug Status benachrichtigen';
+$lang['notify_project_assignments'] = 'Über Projekt Zuweisung benachrichtigen';
+$lang['notify_project_comments'] = 'Über Projekt Kommentar benachrichtigen';
+$lang['notify_project_files'] = 'Über Projekt Datei benachrichtigen';
+$lang['notify_task_assignments'] = 'Über Aufgaben Zuweisung benachrichtigen';
+$lang['notify_message_received'] = 'Über erhaltene Nachrichten benachrichtigen';
+
+
+if(file_exists(APPPATH.'/language/german/custom_language.php')){
+	include APPPATH.'/language/german/custom_language.php';
+}
+
 
 /* End of file fx_lang.php */

@@ -611,6 +611,8 @@ $lang['account_password'] = 'Heslo účtu';
 $lang['port'] = 'Port';
 $lang['hostname'] = 'Hosting';
 $lang['hosting_company'] = 'Hostingová společnost';
+$lang['hidden_username'] = 'Hidden Username';
+$lang['hidden_password'] = 'Hidden Password';
 $lang['additional_fields'] = 'Další pole';
 $lang['unread_messages'] = 'Nepřečtené zprávy';
 $lang['years'] = ' Roky';
@@ -625,16 +627,15 @@ $lang['with_all_the_love'] = 'Vytvořil';
 $lang['remember_password'] = 'Zapamatovat heslo?';
 $lang['get_new_password'] = 'Zaslat nové heslo!';
 $lang['do_not_have_account'] = 'Nemáte účet?';
-$lang['get_your_account'] = 'Založit účet!';
 $lang['company_placeholder_name'] = 'např. Test, s.r.o.';
 $lang['company_placeholder_email'] = 'klient@openweb.cz';
 $lang['company_placeholder_city'] = 'Brno';
 $lang['activity_added_new_company'] = 'Přidána společnost ';
-$lang['activity_added_new_project'] = ' vytvořen projekt #';
+$lang['activity_added_new_project'] = ' vytvořen projekt ';
 $lang['activity_added_new_task'] = 'Přidán úkol: ';
 $lang['activity_edited_a_task'] = 'Upraven úkol ';
-$lang['activity_edited_a_project'] = ' upraven projekt #';
-$lang['activity_deleted_project'] = 'Smazán projekt #';
+$lang['activity_edited_a_project'] = ' upraven projekt ';
+$lang['activity_deleted_project'] = 'Smazán projekt';
 $lang['activity_from_the_system'] = ' ze systému';
 $lang['activity_updated_company'] = 'Aktualizována společnost ';
 $lang['activity_updated_system_user'] = 'Aktualizovaný systémový uživatel : ';
@@ -675,7 +676,6 @@ $lang['date_format'] = 'Formát data';
 $lang['discount'] = 'Sleva';
 $lang['sort_by'] = 'Třídit faktury';
 $lang['send_email'] = 'Odeslat E-mail';
-$lang['recurring'] = 'Opakující se';
 $lang['recur_frequency'] = 'Opakovat každých ';
 $lang['view_estimate'] = 'Zobrazit nabídku';
 $lang['view_payment'] = 'Zobarzit platbu';
@@ -898,5 +898,39 @@ $lang['portmark_help_text'] = 'If TRUE, edit application/config/postmark.php wit
 $lang['smtp_host_help'] = 'SMTP Server';
 $lang['smtp'] = 'SMTP';
 $lang['php_mail'] = 'PHP mail';
+$lang['show_item_tax'] = 'Show Item Tax';
+$lang['allow_bitcoin'] = 'Allow Bitcoin';
+$lang['show_to_client'] = 'Show to Client';
+$lang['hide_to_client'] = 'Hide to Client';
+$lang['invoice_not_visible'] = 'Invoice not visible to client';
+$lang['invoice_visible'] = 'Invoice is now visible to Client';
+$lang['estimate_visible'] = 'Estimate is now visible to Client';
+$lang['estimate_not_visible'] = 'Estimate not visible to Client';
+$lang['enable_languages'] = 'Enable Languages';
+$lang['use_gravatar'] = 'Use Gravatar';
+$lang['estimate_settings'] = 'Estimate Settings';
+$lang['invoice_prefix'] = 'Invoice Prefix';
+$lang['estimate_color'] = 'Estimate Color';
+$lang['estimate_prefix'] = 'Estimate Prefix';
+$lang['display_estimate_badge'] = 'Display Estimate Badge';
+$lang['estimate_language'] = 'Estimate Language';
+$lang['company_details'] = 'Company Details';
+$lang['alert_settings'] = 'Alert Settings';
+$lang['email_account_details'] = 'Email Account Details';
+$lang['email_staff_tickets'] = 'Notify staff Tickets';
+$lang['notify_bug_assignment'] = 'Notify bug assignment';
+$lang['notify_bug_comments'] = 'Notify bug comments';
+$lang['notify_bug_status'] = 'Notify bug status';
+$lang['notify_project_assignments'] = 'Notify project assignments';
+$lang['notify_project_comments'] = 'Notify project comments';
+$lang['notify_project_files'] = 'Notify project files';
+$lang['notify_task_assignments'] = 'Notify Task assignment';
+$lang['notify_message_received'] = 'Notify Received message';
+
+
+if(file_exists(APPPATH.'/language/czech/custom_language.php')){
+	include APPPATH.'/language/czech/custom_language.php';
+}
+
 
 /* End of file fx_lang.php */

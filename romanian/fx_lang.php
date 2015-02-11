@@ -631,10 +631,10 @@ $lang['company_placeholder_name'] = 'Ex. Client Companie';
 $lang['company_placeholder_email'] = 'AdresaDeEmail@mail.ro';
 $lang['company_placeholder_city'] = 'Bucuresti';
 $lang['activity_added_new_company'] = 'Adaugat o nouă companie ';
-$lang['activity_added_new_project'] = ' s-a creat un proiect #';
+$lang['activity_added_new_project'] = ' s-a creat un proiect ';
 $lang['activity_added_new_task'] = 'S-a adaugat o sarcină cu denumirea: ';
 $lang['activity_edited_a_task'] = 'S-a editat o sarcină ';
-$lang['activity_edited_a_project'] = ' s-a editat un proiect #';
+$lang['activity_edited_a_project'] = ' s-a editat un proiect ';
 $lang['activity_deleted_project'] = 'Proiect sters #';
 $lang['activity_from_the_system'] = ' din sistemul';
 $lang['activity_updated_company'] = 'Firma Actualizată ';
@@ -898,5 +898,39 @@ $lang['portmark_help_text'] = 'If TRUE, edit application/config/postmark.php wit
 $lang['smtp_host_help'] = 'SMTP Server Address';
 $lang['smtp'] = 'SMTP';
 $lang['php_mail'] = 'PHP mail';
+$lang['show_item_tax'] = 'Show Item Tax';
+$lang['allow_bitcoin'] = 'Allow Bitcoin';
+$lang['show_to_client'] = 'Show to Client';
+$lang['hide_to_client'] = 'Hide to Client';
+$lang['invoice_not_visible'] = 'Invoice not visible to client';
+$lang['invoice_visible'] = 'Invoice is now visible to Client';
+$lang['estimate_visible'] = 'Estimate is now visible to Client';
+$lang['estimate_not_visible'] = 'Estimate not visible to Client';
+$lang['enable_languages'] = 'Enable Languages';
+$lang['use_gravatar'] = 'Use Gravatar';
+$lang['estimate_settings'] = 'Estimate Settings';
+$lang['invoice_prefix'] = 'Invoice Prefix';
+$lang['estimate_color'] = 'Estimate Color';
+$lang['estimate_prefix'] = 'Estimate Prefix';
+$lang['display_estimate_badge'] = 'Display Estimate Badge';
+$lang['estimate_language'] = 'Estimate Language';
+$lang['company_details'] = 'Company Details';
+$lang['alert_settings'] = 'Alert Settings';
+$lang['email_account_details'] = 'Email Account Details';
+$lang['email_staff_tickets'] = 'Notify staff Tickets';
+$lang['notify_bug_assignment'] = 'Notify bug assignment';
+$lang['notify_bug_comments'] = 'Notify bug comments';
+$lang['notify_bug_status'] = 'Notify bug status';
+$lang['notify_project_assignments'] = 'Notify project assignments';
+$lang['notify_project_comments'] = 'Notify project comments';
+$lang['notify_project_files'] = 'Notify project files';
+$lang['notify_task_assignments'] = 'Notify Task assignment';
+$lang['notify_message_received'] = 'Notify Received message';
+
+
+if(file_exists(APPPATH.'/language/romanian/custom_language.php')){
+	include APPPATH.'/language/romanian/custom_language.php';
+}
+
 
 /* End of file fx_lang.php */
