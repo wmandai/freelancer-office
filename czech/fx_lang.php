@@ -926,6 +926,8 @@ $lang['notify_project_comments'] = 'Notify project comments';
 $lang['notify_project_files'] = 'Notify project files';
 $lang['notify_task_assignments'] = 'Notify Task assignment';
 $lang['notify_message_received'] = 'Notify Received message';
+$lang['favicon'] = 'Favicon';
+$lang['allow_client_registration'] = 'Allow Client Registration';
 
 
 if(file_exists(APPPATH.'/language/czech/custom_language.php')){

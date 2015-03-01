@@ -926,6 +926,8 @@ $lang['notify_project_comments'] = 'Über Projekt Kommentar benachrichtigen';
 $lang['notify_project_files'] = 'Über Projekt Datei benachrichtigen';
 $lang['notify_task_assignments'] = 'Über Aufgaben Zuweisung benachrichtigen';
 $lang['notify_message_received'] = 'Über erhaltene Nachrichten benachrichtigen';
+$lang['favicon'] = 'Favicon';
+$lang['allow_client_registration'] = 'Kunden können sich registrieren';
 
 
 if(file_exists(APPPATH.'/language/german/custom_language.php')){

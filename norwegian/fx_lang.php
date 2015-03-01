@@ -926,6 +926,8 @@ $lang['notify_project_comments'] = 'Varsle prosjekt kommentarer';
 $lang['notify_project_files'] = 'Varsle prosjekt filer';
 $lang['notify_task_assignments'] = 'Varsle oppgave tildeling';
 $lang['notify_message_received'] = 'Varsle ved ny melding';
+$lang['favicon'] = 'Favicon';
+$lang['allow_client_registration'] = 'Allow Client Registration';
 
 
 if(file_exists(APPPATH.'/language/norwegian/custom_language.php')){
