@@ -543,7 +543,7 @@ $lang['change_if_necessary'] = 'Schimbă dacă este necesar';
 $lang['system_stats'] = 'Stare sistem';
 $lang['my_projects'] = 'Proiectele mele';
 
-//1.4 Additions
+// 1.4 Additions
 $lang['from_templates'] = 'De la şabloane';
 
 // New Language files - login - register
@@ -562,7 +562,7 @@ $lang['invoice_payments_this_month'] = 'Plăți facturi în această lună ';
 $lang['your'] = 'tale';
 $lang['nothing_to_display_here'] = 'Nimic de afişat';
 
-//Fixed INVOICE PDF and others
+// Fixed INVOICE PDF and others
 $lang['payment_information'] = 'Informații de plată';
 $lang['updates'] = 'Actualizări';
 $lang['company_representative'] = 'Reprezentant al companiei';
@@ -573,7 +573,7 @@ $lang['change_username'] = 'Schimbă numele de utilizator';
 $lang['username_not_available'] = 'Numele de utilizator nu este disponibil. Vă rugăm să încercați din nou';
 $lang['username_changed_successfully'] = 'Nume de utilizator schimbat cu succes';
 
-// Version 1.5.6
+// 1.5.6
 $lang['not_paid'] = 'Neplată';
 $lang['partially_paid'] = 'Plătit parţial';
 $lang['fully_paid'] = 'Platit integral';
@@ -603,7 +603,7 @@ $lang['client_updated'] = 'Client actualizat cu succes';
 $lang['user_added_successfully'] = 'Utilizator adăugat cu succes';
 $lang['view_contacts'] = 'Vezi contactele';
 
-//1.5.7
+// 1.5.7
 $lang['database_schema_updated'] = 'Schema Bazei de date actualizată';
 $lang['company_vat'] = 'TVA pentru companie';
 $lang['account_username'] = 'Cont utilizator';
@@ -619,8 +619,6 @@ $lang['years'] = ' Ani';
 $lang['days'] = ' Zile';
 $lang['weeks'] = ' Săptămâni';
 $lang['months'] = ' Luni';
-$lang['minutes'] = ' Minute';
-$lang['hours'] = ' Ore';
 
 // Jøran Sørbø's ADDITIONS
 $lang['with_all_the_love'] = 'Dezvoltat cu toată dragostea din lume de către';
@@ -928,6 +926,38 @@ $lang['notify_task_assignments'] = 'Notify Task assignment';
 $lang['notify_message_received'] = 'Notify Received message';
 $lang['favicon'] = 'Favicon';
 $lang['allow_client_registration'] = 'Allow Client Registration';
+$lang['custom_css'] = 'Custom CSS';
+
+// 1.6.3
+$lang['invoice_items'] = 'Invoice Items';
+$lang['total_outstanding'] = 'Total Outstanding';
+$lang['edit_bugs'] = 'Edit Bugs';
+$lang['delete_message'] = 'Delete Message';
+$lang['search_invoice'] = 'Search Invoice';
+$lang['search_project'] = 'Search Project';
+$lang['edit_user'] = 'Edit User';
+$lang['edit_item'] = 'Edit Item';
+$lang['switch_to_tasks_timesheet'] = 'Switch to Tasks Timesheet';
+$lang['switch_to_project_timesheet'] = 'Switch to Project Timesheet';
+$lang['processing'] = 'Processing...';
+$lang['loading'] = 'Loading...';
+$lang['show_entries'] = 'Show _MENU_ entries';
+$lang['empty_table'] = 'No data available in table';
+$lang['no_records'] = 'No matching records found';
+$lang['pagination_info'] = 'Showing _START_ to _END_ of _TOTAL_ entries';
+$lang['pagination_empty'] = 'Showing 0 to 0 of 0 entries';
+$lang['pagination_filtered'] = '(filtered from _MAX_ total entries)';
+$lang['first'] = 'First';
+$lang['last'] = 'Last';
+$lang['previous'] = 'Previous';
+$lang['next'] = 'Next';
+$lang['others'] = 'Others';
+$lang['current'] = 'Current';
+$lang['admin_staff'] = 'Admin/Staff';
+$lang['selected_country'] = 'Selected Country';
+$lang['other_countries'] = 'Other Countries';
+$lang['general_estimate'] = 'General Estimate';
+$lang['unregistered_clients'] = 'Unregistered Clients';
 
 
 if(file_exists(APPPATH.'/language/romanian/custom_language.php')){

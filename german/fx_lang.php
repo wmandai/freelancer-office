@@ -543,7 +543,7 @@ $lang['change_if_necessary'] = 'Ggf. ändern';
 $lang['system_stats'] = 'Systemstatistiken';
 $lang['my_projects'] = 'Meine Projekte';
 
-//1.4 Additions
+// 1.4 Additions
 $lang['from_templates'] = 'Aus Vorlage';
 
 // New Language files - login - register
@@ -562,7 +562,7 @@ $lang['invoice_payments_this_month'] = 'Rechnungszahlungen diesen Monat ';
 $lang['your'] = 'Ihr';
 $lang['nothing_to_display_here'] = 'Keine Einträge';
 
-//Fixed INVOICE PDF and others
+// Fixed INVOICE PDF and others
 $lang['payment_information'] = 'Zahlungsinformation';
 $lang['updates'] = 'Updates';
 $lang['company_representative'] = 'Firmen Vertreter';
@@ -573,7 +573,7 @@ $lang['change_username'] = 'Benutzername ändern';
 $lang['username_not_available'] = 'Benutzername nicht verfügbar. Versuchen Sie einen anderen';
 $lang['username_changed_successfully'] = 'Benutzername wurde erfolgreich geändert';
 
-// Version 1.5.6
+// 1.5.6
 $lang['not_paid'] = 'Nicht bezahlt';
 $lang['partially_paid'] = 'Zum Teil bezahlt';
 $lang['fully_paid'] = 'Komplett bezahlt';
@@ -603,7 +603,7 @@ $lang['client_updated'] = 'Kunde wurde erfolgreich aktualisiert';
 $lang['user_added_successfully'] = 'Benutzer wurde erfolgreich hinzugefügt';
 $lang['view_contacts'] = 'Kontakte anzeigen';
 
-//1.5.7
+// 1.5.7
 $lang['database_schema_updated'] = 'Datenbank wurde erfolgreich aktualisiert';
 $lang['company_vat'] = 'USt-IdNr';
 $lang['account_username'] = 'Account Benutzername';
@@ -619,8 +619,6 @@ $lang['years'] = ' Jahre';
 $lang['days'] = ' Tage';
 $lang['weeks'] = ' Wochen';
 $lang['months'] = ' Monate';
-$lang['minutes'] = ' Minuten';
-$lang['hours'] = ' Stunden';
 
 // Jøran Sørbø's ADDITIONS
 $lang['with_all_the_love'] = 'Entwickelt mit der Liebe der gesamten Welt von';
@@ -928,6 +926,38 @@ $lang['notify_task_assignments'] = 'Über Aufgaben Zuweisung benachrichtigen';
 $lang['notify_message_received'] = 'Über erhaltene Nachrichten benachrichtigen';
 $lang['favicon'] = 'Favicon';
 $lang['allow_client_registration'] = 'Kunden können sich registrieren';
+$lang['custom_css'] = 'Custom CSS';
+
+// 1.6.3
+$lang['invoice_items'] = 'Rechnungsposition';
+$lang['total_outstanding'] = 'Insgesammt austehende';
+$lang['edit_bugs'] = 'Bugs bearbeiten';
+$lang['delete_message'] = 'Nachricht löschen';
+$lang['search_invoice'] = 'Rechnungen durchsuchen';
+$lang['search_project'] = 'Projekte durchsuchen';
+$lang['edit_user'] = 'Benutzer bearbeiten';
+$lang['edit_item'] = 'Vorlage bearbeiten';
+$lang['switch_to_tasks_timesheet'] = 'Zu Aufgaben Tracking wechseln';
+$lang['switch_to_project_timesheet'] = 'Zu Projekt Tracking wechseln';
+$lang['processing'] = 'Verarbeite...';
+$lang['loading'] = 'Lade...';
+$lang['show_entries'] = 'Zeige _MENU_ Einträge';
+$lang['empty_table'] = 'Keine Einträge in dieser Tabelle vorhanden';
+$lang['no_records'] = 'Keine Einträge gefunden';
+$lang['pagination_info'] = 'Einträge _START_ bis _END_ von _TOTAL_';
+$lang['pagination_empty'] = 'Einträge 0 bis 0 von 0';
+$lang['pagination_filtered'] = '(gefiltert von _MAX_ gesamten Eonträgen)';
+$lang['first'] = 'Erste';
+$lang['last'] = 'Letzte';
+$lang['previous'] = 'Zurück';
+$lang['next'] = 'Nächste';
+$lang['others'] = 'Andere';
+$lang['current'] = 'Aktuelle';
+$lang['admin_staff'] = 'Admin/Staff';
+$lang['selected_country'] = 'Ausgewähltes Land';
+$lang['other_countries'] = 'Andere Länder';
+$lang['general_estimate'] = 'Allgemeines Angebot';
+$lang['unregistered_clients'] = 'Unregestrierte Kunden';
 
 
 if(file_exists(APPPATH.'/language/german/custom_language.php')){

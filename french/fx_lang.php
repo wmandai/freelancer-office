@@ -543,7 +543,7 @@ $lang['change_if_necessary'] = 'Changer si nécessaire';
 $lang['system_stats'] = 'Stats système';
 $lang['my_projects'] = 'Mes projets';
 
-//1.4 Additions
+// 1.4 Additions
 $lang['from_templates'] = 'Depuis un modèle';
 
 // New Language files - login - register
@@ -562,7 +562,7 @@ $lang['invoice_payments_this_month'] = 'Paiement des factures ce mois-ci';
 $lang['your'] = 'votre';
 $lang['nothing_to_display_here'] = 'Rien à afficher';
 
-//Fixed INVOICE PDF and others
+// Fixed INVOICE PDF and others
 $lang['payment_information'] = 'Informations de paiement';
 $lang['updates'] = 'Mises à jour';
 $lang['company_representative'] = 'Représentant';
@@ -573,7 +573,7 @@ $lang['change_username'] = 'Changer le pseudo';
 $lang['username_not_available'] = 'Pseudo indisponible';
 $lang['username_changed_successfully'] = 'Pseudo modifié avec succès';
 
-// Version 1.5.6
+// 1.5.6
 $lang['not_paid'] = 'Impayé';
 $lang['partially_paid'] = 'Paiement partiel';
 $lang['fully_paid'] = 'Payé';
@@ -603,7 +603,7 @@ $lang['client_updated'] = 'Client mis à jour avec succès';
 $lang['user_added_successfully'] = 'Utilisateur ajouté avec succès';
 $lang['view_contacts'] = 'Voir Contacts';
 
-//1.5.7
+// 1.5.7
 $lang['database_schema_updated'] = 'Schéma de base de données mis à jour avec succès';
 $lang['company_vat'] = 'TVA';
 $lang['account_username'] = 'Pseudo';
@@ -619,8 +619,6 @@ $lang['years'] = ' Years';
 $lang['days'] = ' Days';
 $lang['weeks'] = ' Weeks';
 $lang['months'] = ' Months';
-$lang['minutes'] = ' Minutes';
-$lang['hours'] = ' Hours';
 
 // Jøran Sørbø's ADDITIONS
 $lang['with_all_the_love'] = 'Developpé avec tous l\amour du monde par';
@@ -928,6 +926,38 @@ $lang['notify_task_assignments'] = 'Notify Task assignment';
 $lang['notify_message_received'] = 'Notify Received message';
 $lang['favicon'] = 'Favicon';
 $lang['allow_client_registration'] = 'Allow Client Registration';
+$lang['custom_css'] = 'Custom CSS';
+
+// 1.6.3
+$lang['invoice_items'] = 'Invoice Items';
+$lang['total_outstanding'] = 'Total Outstanding';
+$lang['edit_bugs'] = 'Edit Bugs';
+$lang['delete_message'] = 'Delete Message';
+$lang['search_invoice'] = 'Search Invoice';
+$lang['search_project'] = 'Search Project';
+$lang['edit_user'] = 'Edit User';
+$lang['edit_item'] = 'Edit Item';
+$lang['switch_to_tasks_timesheet'] = 'Switch to Tasks Timesheet';
+$lang['switch_to_project_timesheet'] = 'Switch to Project Timesheet';
+$lang['processing'] = 'Processing...';
+$lang['loading'] = 'Loading...';
+$lang['show_entries'] = 'Show _MENU_ entries';
+$lang['empty_table'] = 'No data available in table';
+$lang['no_records'] = 'No matching records found';
+$lang['pagination_info'] = 'Showing _START_ to _END_ of _TOTAL_ entries';
+$lang['pagination_empty'] = 'Showing 0 to 0 of 0 entries';
+$lang['pagination_filtered'] = '(filtered from _MAX_ total entries)';
+$lang['first'] = 'First';
+$lang['last'] = 'Last';
+$lang['previous'] = 'Previous';
+$lang['next'] = 'Next';
+$lang['others'] = 'Others';
+$lang['current'] = 'Current';
+$lang['admin_staff'] = 'Admin/Staff';
+$lang['selected_country'] = 'Selected Country';
+$lang['other_countries'] = 'Other Countries';
+$lang['general_estimate'] = 'General Estimate';
+$lang['unregistered_clients'] = 'Unregistered Clients';
 
 
 if(file_exists(APPPATH.'/language/french/custom_language.php')){
