@@ -958,6 +958,7 @@ $lang['selected_country']                        = 'Επιλεγμένη Χώρ�
 $lang['other_countries']                         = 'Άλλες Χώρες';
 $lang['general_estimate']                        = 'Γενική Εκτίμηση';
 $lang['unregistered_clients']                    = 'Με Εγγεγραμμένοι Πελάτες';
+$lang['bill_for']                                = 'χρέωση για';
 
 if(file_exists(APPPATH.'/language/greek/custom_language.php')){
 	include APPPATH.'/language/greek/custom_language.php';
