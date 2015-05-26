@@ -924,7 +924,7 @@ $lang['favicon'] = 'Favicon';
 $lang['allow_client_registration'] = 'Allow Client Registration';
 $lang['custom_css'] = 'Custom CSS';
 
-// 1.6.3
+// 1.7
 $lang['invoice_items'] = 'Invoice Items';
 $lang['total_outstanding'] = 'Total Outstanding';
 $lang['edit_bugs'] = 'Edit Bugs';

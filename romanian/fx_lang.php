@@ -924,7 +924,7 @@ $lang['favicon'] = 'Favicon';
 $lang['allow_client_registration'] = 'Permite clientilor sa se inregistreze';
 $lang['custom_css'] = 'CSS personalizat';
 
-// 1.6.3
+// 1.7
 $lang['invoice_items'] = 'Articole factură';
 $lang['total_outstanding'] = 'Total restanta';
 $lang['edit_bugs'] = 'Editare erori';

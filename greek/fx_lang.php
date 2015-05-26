@@ -924,7 +924,7 @@ $lang['favicon'] = 'Εικονίδιο Σελίδας';
 $lang['allow_client_registration'] = 'Επιτρέψτε την Εγγραφή Πελάτη';
 $lang['custom_css'] = 'Προσαρμοσμένη CSS';
 
-// 1.6.3
+// 1.7
 $lang['invoice_items'] = 'Στοιχεία Τιμολογίου';
 $lang['total_outstanding'] = 'Σύνολο Ανεξόφλητων';
 $lang['edit_bugs'] = 'Επεξεργασία Σφαλμάτων';
