@@ -481,7 +481,7 @@ $lang['yearly_overview'] = 'Godišnji pregled';
 $lang['year'] = 'Godišnje';
 $lang['you'] = 'Vi';
 
-// Version 1.4 Translanions
+// Version 1.4 Translations
 $lang['projects_completion'] = 'Završetak projekta';
 $lang['transactions'] = 'Transakcije';
 $lang['visible'] = 'Vidljivost';
@@ -500,18 +500,18 @@ $lang['vat'] = 'PIB';
 $lang['payments_sent'] = 'Izvršene uplate';
 $lang['extras'] = 'Dodaci';
 
-// Version 1.4 Translanions edit Modules templates
+// Version 1.4 Translations edit Modules templates
 $lang['go'] = 'Idi';
 $lang['yes'] = 'Da';
 $lang['no'] = 'Ne';
 
-// Version 1.4 Translanions edit Modules invoices
+// Version 1.4 Translations edit Modules invoices
 $lang['this_tax_will'] = 'Ovaj porez će prebrisati osnovni porez.';
 
-// Version 1.4 Translanions edit Modules settings
+// Version 1.4 Translations edit Modules settings
 $lang['this_tax_applied'] = 'Ovaj porez će biti primenjen na sve račune!';
 
-// Version 1.4 Translanions edit Modules login
+// Version 1.4 Translations edit Modules login
 $lang['sign_in'] = 'Prijavi se';
 $lang['get_another_captcha'] = 'Traži drugi CAPTCHA';
 $lang['enter_the_words_above'] = 'Unesite riječ odozgo.';
@@ -524,7 +524,7 @@ $lang['email_user'] = 'E-pošta ili korisničko ime';
 $lang['get_an_audio_captcha'] = 'Prebaci na audio CAPTCHA';
 $lang['get_an_image_captcha'] = 'Prebaci na sliku CAPTCHA';
 
-// Missing 1.2 Untranslaned words
+// Missing 1.2 Untranslated words
 $lang['project_shortcuts'] = 'Prečac projekta';
 $lang['invoice_shortcuts'] = 'Prečac računa';
 $lang['average_this_month'] = 'Prosjek ovog meseca';
@@ -554,7 +554,7 @@ $lang['already_have_an_account'] = 'Već imate nalog?';
 // New Language files - Modules project
 $lang['type_your_note_here'] = 'Ovdje upišite Vašu bilješku.';
 
-// New Language files - Untranslaned words
+// New Language files - Untranslated words
 $lang['notification'] = 'Objave';
 $lang['all_rights_reserved'] = 'Sva prava pridržana.';
 $lang['ago'] = 'ranije';
@@ -1057,20 +1057,20 @@ $lang['system_font'] = 'Sistemski font';
 $lang['active'] = 'U toku';
 $lang['on_hold'] = 'Zaustavljen';
 $lang['done'] = 'Završen';
-$lang['translanions'] = 'Prevodi';
-$lang['translanion_updated_successfully'] = 'Prijevod je uspješno izmjenjen';
-$lang['translanion_added_successfully'] = 'Prijevod je uspješno dodat';
-$lang['existing_translanion'] = 'Izaberite postojeći prevod';
-$lang['add_translanion'] = 'Dodaj prevod';
-$lang['save_translanion'] = 'Sačuvaj prevod';
+$lang['translations'] = 'Prijevodi';
+$lang['translation_updated_successfully'] = 'Prijevod je uspješno izmjenjen';
+$lang['translation_added_successfully'] = 'Prijevod je uspješno dodat';
+$lang['existing_translation'] = 'Izaberite postojeći prijevod';
+$lang['add_translation'] = 'Dodaj prijevod';
+$lang['save_translation'] = 'Sačuvaj prijevod';
 $lang['file'] = 'Fajl';
-$lang['translanion_backed_up_successfully'] = 'Prijevod je uspješno backupovan';
-$lang['translanion_restored_successfully'] = 'Prijevod je uspješno povraćen';
+$lang['translation_backed_up_successfully'] = 'Prijevod je uspješno backupovan';
+$lang['translation_restored_successfully'] = 'Prijevod je uspješno povraćen';
 $lang['backup'] = 'Backupuj';
 $lang['restore'] = 'Povrati';
-$lang['translanion_tools'] = 'Alat prijevoda';
-$lang['submit_translanion_note'] = 'Podijeli sa Gitlabom';
-$lang['translanion_submitted_successfully'] = 'Prijevod je uspješno poslan';
+$lang['translation_tools'] = 'Alat prijevoda';
+$lang['submit_translation_note'] = 'Podijeli sa Gitlabom';
+$lang['translation_submitted_successfully'] = 'Prijevod je uspješno poslan';
 $lang['theme_settings'] = 'Postavke teme';
 $lang['apple_icon'] = 'Ikona za Apple Retina';
 $lang['deactivate'] = 'Isključi';
