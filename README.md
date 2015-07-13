@@ -7,7 +7,8 @@ Share your translations
 --------------------
 Help translate it to your own language
 
-View the demo here http://envfolite.com and login using admin/admin
+**View the demo here http://envfolite.com and login using admin/admin**
+
 Using shared language files
 --------------------
 Download the files and extract.
