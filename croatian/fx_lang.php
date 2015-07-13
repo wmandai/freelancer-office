@@ -1130,7 +1130,27 @@ $lang['db_outdated_warning'] = '%s Upozorenje! %s Struktura Vaše baze podataka 
 $lang['invoice_start_number'] = 'Početni broj računa';
 $lang['postmark_api_key'] = 'API ključ Postmarka';
 $lang['postmark_from_address'] = 'E-pošta Postmarka';
-
+$lang['beta_updates'] = 'Receive Beta Updates';
+$lang['enable'] = 'Enable';
+$lang['disable'] = 'Disable';
+$lang['backups'] = 'Backups';
+$lang['view_project'] = 'View Project';
+$lang['view_invoice'] = 'View Invoice';
+$lang['enter_message'] = 'Enter your message here';
+$lang['sample_ticket_subject'] = 'Sample Ticket Subject';
+$lang['about_the_project'] = 'About the project';
+$lang['check'] = 'Check';
+$lang['general'] = 'General';
+$lang['bank'] = 'Bank';
+$lang['hosting'] = 'Hosting';
+$lang['account'] = 'Account';
+$lang['contact'] = 'Contact';
+$lang['web'] = 'Web';
+$lang['fax'] = 'Fax';
+$lang['edit_company'] = 'Edit Company';
+$lang['account_holder'] = 'Account Holder';
+$lang['login_background'] = 'Login Background';
+$lang['hide_branding'] = 'Hide Branding';
 
 if(file_exists(APPPATH . '/language/croatian/custom_language.php')) {
 	include APPPATH . '/language/croatian/custom_language.php';
