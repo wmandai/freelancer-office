@@ -1151,6 +1151,15 @@ $lang['edit_company'] = 'Edit Company';
 $lang['account_holder'] = 'Account Holder';
 $lang['login_background'] = 'Login Background';
 $lang['hide_branding'] = 'Hide Branding';
+$lang['invoice_footer'] = 'Invoice Footer';
+$lang['estimate_footer'] = 'Estimate Footer';
+$lang['currency_position'] = 'Currency Position';
+$lang['currency_decimals'] = 'Currency Decimals';
+$lang['tax_decimals'] = 'Tax Decimals (%)';
+$lang['quantity_decimals'] = 'Quantity Decimals';
+$lang['before_amount'] = 'Before the amount';
+$lang['after_amount'] = 'After the amount';
+$lang['re_install'] = 'Re-Install';
 
 if(file_exists(APPPATH . '/language/croatian/custom_language.php')) {
 	include APPPATH . '/language/croatian/custom_language.php';
