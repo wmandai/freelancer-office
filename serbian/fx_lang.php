@@ -1130,6 +1130,27 @@ $lang['db_outdated_warning'] = '%s Упозорење! %s Структура В�
 $lang['invoice_start_number'] = 'Почетни број рачуна';
 $lang['postmark_api_key'] = 'АПИ кључ Постмарка';
 $lang['postmark_from_address'] = 'Е-пошта Постмарка';
+$lang['beta_updates'] = 'Receive Beta Updates';
+$lang['enable'] = 'Enable';
+$lang['disable'] = 'Disable';
+$lang['backups'] = 'Backups';
+$lang['view_project'] = 'View Project';
+$lang['view_invoice'] = 'View Invoice';
+$lang['enter_message'] = 'Enter your message here';
+$lang['sample_ticket_subject'] = 'Sample Ticket Subject';
+$lang['about_the_project'] = 'About the project';
+$lang['check'] = 'Check';
+$lang['general'] = 'General';
+$lang['bank'] = 'Bank';
+$lang['hosting'] = 'Hosting';
+$lang['account'] = 'Account';
+$lang['contact'] = 'Contact';
+$lang['web'] = 'Web';
+$lang['fax'] = 'Fax';
+$lang['edit_company'] = 'Edit Company';
+$lang['account_holder'] = 'Account Holder';
+$lang['login_background'] = 'Login Background';
+$lang['hide_branding'] = 'Hide Branding';
 
 
 if(file_exists(APPPATH.'/language/serbian/custom_language.php')){
