@@ -14,7 +14,9 @@ Help translate it to your own language
 Using shared language files
 --------------------
 Download the files and extract.
+
 Paste each language folder here application/language
+
 Add your language to database table fx_languages
 
 To Translate it
