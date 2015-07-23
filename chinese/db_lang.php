@@ -1,29 +1,29 @@
 <?php
 
-$lang['db_invalid_connection_str'] = 'Unable to determine the database settings based on the connection string you submitted.';
-$lang['db_unable_to_connect'] = 'Unable to connect to your database server using the provided settings.';
-$lang['db_unable_to_select'] = 'Unable to select the specified database: %s';
-$lang['db_unable_to_create'] = 'Unable to create the specified database: %s';
-$lang['db_invalid_query'] = 'The query you submitted is not valid.';
-$lang['db_must_set_table'] = 'You must set the database table to be used with your query.';
-$lang['db_must_use_set'] = 'You must use the "set" method to update an entry.';
-$lang['db_must_use_index'] = 'You must specify an index to match on for batch updates.';
-$lang['db_batch_missing_index'] = 'One or more rows submitted for batch updating is missing the specified index.';
-$lang['db_must_use_where'] = 'Updates are not allowed unless they contain a "where" clause.';
-$lang['db_del_must_use_where'] = 'Deletes are not allowed unless they contain a "where" or "like" clause.';
-$lang['db_field_param_missing'] = 'To fetch fields requires the name of the table as a parameter.';
-$lang['db_unsupported_function'] = 'This feature is not available for the database you are using.';
-$lang['db_transaction_failure'] = 'Transaction failure: Rollback performed.';
-$lang['db_unable_to_drop'] = 'Unable to drop the specified database.';
-$lang['db_unsuported_feature'] = 'Unsupported feature of the database platform you are using.';
-$lang['db_unsuported_compression'] = 'The file compression format you chose is not supported by your server.';
-$lang['db_filepath_error'] = 'Unable to write data to the file path you have submitted.';
-$lang['db_invalid_cache_path'] = 'The cache path you submitted is not valid or writable.';
-$lang['db_table_name_required'] = 'A table name is required for that operation.';
-$lang['db_column_name_required'] = 'A column name is required for that operation.';
-$lang['db_column_definition_required'] = 'A column definition is required for that operation.';
-$lang['db_unable_to_set_charset'] = 'Unable to set client connection character set: %s';
-$lang['db_error_heading'] = 'A Database Error Occurred';
+$lang['db_invalid_connection_str'] = '无法根据你提交的字符串检测到数据库设定。';
+$lang['db_unable_to_connect'] = '无法根据指定设定字符串到数据库服务器。';
+$lang['db_unable_to_select'] = '无法选择特定的数据库: %s';
+$lang['db_unable_to_create'] = '无法创建特定的数据库: %s';
+$lang['db_invalid_query'] = '您的查询无效。';
+$lang['db_must_set_table'] = '使用查询你必须设置数据库表单。';
+$lang['db_must_use_set'] = '你必须使用“set”方法更新入口。';
+$lang['db_must_use_index'] = '你必须使用指定索引匹配进行批处理更新。';
+$lang['db_batch_missing_index'] = '提交的批处理更新列缺少指定的索引。';
+$lang['db_must_use_where'] = '更新被拒绝除非包含“where"子句。';
+$lang['db_del_must_use_where'] = '删除被拒绝除非包含“where"或“like"子句。';
+$lang['db_field_param_missing'] = '要提取该字段需要表单名称作为参数。';
+$lang['db_unsupported_function'] = '这个特性对于你正在使用的数据库无效。';
+$lang['db_transaction_failure'] = '事务失败: 执行回滚。';
+$lang['db_unable_to_drop'] = '不能放弃指定数据库。';
+$lang['db_unsuported_feature'] = '你正在使用的数据库平台不支持的特性。';
+$lang['db_unsuported_compression'] = '你选择的文件压缩格式服务器不支持。';
+$lang['db_filepath_error'] = '无法写入数据到你提交的文件路径。';
+$lang['db_invalid_cache_path'] = '你提交的缓存路径无效或不可改写。';
+$lang['db_table_name_required'] = '操作需要表单名称。';
+$lang['db_column_name_required'] = '操作需要列名称。';
+$lang['db_column_definition_required'] = '操作需要列定义。';
+$lang['db_unable_to_set_charset'] = '无法设定客户端连接字符集: %s';
+$lang['db_error_heading'] = '发生数据库错误';
 
 /* End of file db_lang.php */
 /* Location: ./system/language/english/db_lang.php */
