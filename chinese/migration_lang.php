@@ -10,4 +10,4 @@ $lang['migration_invalid_filename']		= "迁移 \"%s\" 的文件名无效。";
 
 
 /* End of file migration_lang.php */
-/* Location: ./system/language/english/migration_lang.php */
+/* Location: ./system/language/chinese/migration_lang.php */
