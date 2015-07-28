@@ -1,16 +1,16 @@
 <?php
 
 $lang['profiler_database']		= '数据库';
-$lang['profiler_controller_info'] = 'CLASS/METHOD';
-$lang['profiler_benchmarks']	= 'BENCHMARKS';
-$lang['profiler_queries']		= 'QUERIES';
-$lang['profiler_get_data']		= 'GET DATA';
-$lang['profiler_post_data']		= 'POST DATA';
-$lang['profiler_uri_string']	= 'URI STRING';
-$lang['profiler_memory_usage']	= 'MEMORY USAGE';
-$lang['profiler_config']		= 'CONFIG VARIABLES';
-$lang['profiler_session_data']	= 'SESSION DATA';
-$lang['profiler_headers']		= 'HTTP HEADERS';
+$lang['profiler_controller_info'] = '类/方法';
+$lang['profiler_benchmarks']	= '基准';
+$lang['profiler_queries']		= '查询';
+$lang['profiler_get_data']		= 'GET数据';
+$lang['profiler_post_data']		= 'POST数据';
+$lang['profiler_uri_string']	= 'URI字符串';
+$lang['profiler_memory_usage']	= '内存使用';
+$lang['profiler_config']		= '变量设置';
+$lang['profiler_session_data']	= 'SESSION数据';
+$lang['profiler_headers']		= 'HTTP标头';
 $lang['profiler_no_db']			= '数据库驱动没有被正确的加载';
 $lang['profiler_no_queries']	= '没有执行查询';
 $lang['profiler_no_post']		= 'POST数据不存在';
