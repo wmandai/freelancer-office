@@ -21,4 +21,4 @@ $lang['imglib_save_failed'] = "无法保存图像。请确保图像和文件目�
 
 
 /* End of file imglib_lang.php */
-/* Location: ./system/language/english/imglib_lang.php */
+/* Location: ./system/language/chinese/imglib_lang.php */
