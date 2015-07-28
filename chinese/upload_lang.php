@@ -19,4 +19,4 @@ $lang['upload_not_writable'] = "上传目标文件夹可能不可写。";
 
 
 /* End of file upload_lang.php */
-/* Location: ./system/language/english/upload_lang.php */
+/* Location: ./system/language/chinese/upload_lang.php */
