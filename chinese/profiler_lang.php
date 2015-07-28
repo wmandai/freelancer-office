@@ -1,6 +1,6 @@
 <?php
 
-$lang['profiler_database']		= 'DATABASE';
+$lang['profiler_database']		= '数据库';
 $lang['profiler_controller_info'] = 'CLASS/METHOD';
 $lang['profiler_benchmarks']	= 'BENCHMARKS';
 $lang['profiler_queries']		= 'QUERIES';
@@ -11,15 +11,15 @@ $lang['profiler_memory_usage']	= 'MEMORY USAGE';
 $lang['profiler_config']		= 'CONFIG VARIABLES';
 $lang['profiler_session_data']	= 'SESSION DATA';
 $lang['profiler_headers']		= 'HTTP HEADERS';
-$lang['profiler_no_db']			= 'Database driver is not currently loaded';
-$lang['profiler_no_queries']	= 'No queries were run';
-$lang['profiler_no_post']		= 'No POST data exists';
-$lang['profiler_no_get']		= 'No GET data exists';
-$lang['profiler_no_uri']		= 'No URI data exists';
-$lang['profiler_no_memory']		= 'Memory Usage Unavailable';
-$lang['profiler_no_profiles']	= 'No Profile data - all Profiler sections have been disabled.';
-$lang['profiler_section_hide']	= 'Hide';
-$lang['profiler_section_show']	= 'Show';
+$lang['profiler_no_db']			= '数据库驱动没有被正确的加载';
+$lang['profiler_no_queries']	= '没有执行查询';
+$lang['profiler_no_post']		= 'POST数据不存在';
+$lang['profiler_no_get']		= 'GET数据不存在';
+$lang['profiler_no_uri']		= 'URI数据不存在';
+$lang['profiler_no_memory']		= '存储不可用';
+$lang['profiler_no_profiles']	= '没有描述数据-所有探查路径已禁用。';
+$lang['profiler_section_hide']	= '隐藏';
+$lang['profiler_section_show']	= '显示';
 
 /* End of file profiler_lang.php */
 /* Location: ./system/language/english/profiler_lang.php */
