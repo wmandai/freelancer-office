@@ -21,4 +21,4 @@ $lang['email_exit_status'] = "存在状态代码: %s";
 
 
 /* End of file email_lang.php */
-/* Location: ./system/language/english/email_lang.php */
+/* Location: ./system/language/chinese/email_lang.php */
