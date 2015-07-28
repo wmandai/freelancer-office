@@ -29,9 +29,9 @@ $lang['auth_message_banned'] = 'Usted ha sido baneado.';
 $lang['auth_message_unregistered'] = 'Tu cuenta ha sido eliminada...';
 
 // Email subjects
-$lang['auth_subject_welcome'] = 'Bienvenido a %s!';
-$lang['auth_subject_activate'] = 'Bienvenido a %s!';
-$lang['auth_subject_forgot_password'] = 'Ha olvidado su contraseña en %s?';
+$lang['auth_subject_welcome'] = '¡Bienvenido a %s!';
+$lang['auth_subject_activate'] = '¡Bienvenido a %s!';
+$lang['auth_subject_forgot_password'] = '¿Ha olvidado su contraseña en %s?';
 $lang['auth_subject_reset_password'] = 'Su nueva contraseña en %s';
 $lang['auth_subject_change_email'] = 'Su nueva dirección de correo electrónico en %s';
 
