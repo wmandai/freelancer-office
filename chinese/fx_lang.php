@@ -1163,8 +1163,8 @@ $lang['after_amount'] = 'After the amount';
 $lang['re_install'] = '重新安装';
 
 
-if(file_exists(APPPATH.'/language/english/custom_language.php')){
-	include APPPATH.'/language/english/custom_language.php';
+if(file_exists(APPPATH.'/language/chinese/custom_language.php')){
+	include APPPATH.'/language/chinese/custom_language.php';
 }
 
 
