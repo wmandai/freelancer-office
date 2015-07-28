@@ -1,21 +1,21 @@
 <?php
 
-$lang['upload_userfile_not_set'] = "Unable to find a post variable called userfile.";
-$lang['upload_file_exceeds_limit'] = "The uploaded file exceeds the maximum allowed size in your PHP configuration file.";
-$lang['upload_file_exceeds_form_limit'] = "The uploaded file exceeds the maximum size allowed by the submission form.";
-$lang['upload_file_partial'] = "The file was only partially uploaded.";
-$lang['upload_no_temp_directory'] = "The temporary folder is missing.";
-$lang['upload_unable_to_write_file'] = "The file could not be written to disk.";
-$lang['upload_stopped_by_extension'] = "The file upload was stopped by extension.";
-$lang['upload_no_file_selected'] = "You did not select a file to upload.";
-$lang['upload_invalid_filetype'] = "The filetype you are attempting to upload is not allowed.";
-$lang['upload_invalid_filesize'] = "The file you are attempting to upload is larger than the permitted size.";
-$lang['upload_invalid_dimensions'] = "The image you are attempting to upload exceedes the maximum height or width.";
-$lang['upload_destination_error'] = "A problem was encountered while attempting to move the uploaded file to the final destination.";
-$lang['upload_no_filepath'] = "The upload path does not appear to be valid.";
-$lang['upload_no_file_types'] = "You have not specified any allowed file types.";
-$lang['upload_bad_filename'] = "The file name you submitted already exists on the server.";
-$lang['upload_not_writable'] = "The upload destination folder does not appear to be writable.";
+$lang['upload_userfile_not_set'] = "无法找到名为用户文件的POST变量。";
+$lang['upload_file_exceeds_limit'] = "上传文件超过您配置的PHP文件最大的尺寸。";
+$lang['upload_file_exceeds_form_limit'] = "上传文件超过您提交的表单的允许的最大尺寸。";
+$lang['upload_file_partial'] = "文件仅部分上传。";
+$lang['upload_no_temp_directory'] = "临时文件丢失。";
+$lang['upload_unable_to_write_file'] = "文件无法写入磁盘.";
+$lang['upload_stopped_by_extension'] = "上传文件文件禁止扩展。";
+$lang['upload_no_file_selected'] = "您没有选择上传文件。";
+$lang['upload_invalid_filetype'] = "您试图上传的文件类型不允许。";
+$lang['upload_invalid_filesize'] = "您试图上传的文件大于允许的尺寸。";
+$lang['upload_invalid_dimensions'] = "您试图上传的图像超出最大的长度和宽度。";
+$lang['upload_destination_error'] = "试图移动上传文件到最终目标时发生一个问题。";
+$lang['upload_no_filepath'] = "上传路径似乎无效。";
+$lang['upload_no_file_types'] = "您还没有指定任何一个文件类型。";
+$lang['upload_bad_filename'] = "您提交的文件名在服务器中已经存在。";
+$lang['upload_not_writable'] = "上传目标文件夹可能不可写。";
 
 
 /* End of file upload_lang.php */
