@@ -26,4 +26,4 @@ $lang['greater_than']		= "%s字段中的数字必须大于 %s 字段中的数字
 
 
 /* End of file form_validation_lang.php */
-/* Location: ./system/language/english/form_validation_lang.php */
+/* Location: ./system/language/chinese/form_validation_lang.php */
