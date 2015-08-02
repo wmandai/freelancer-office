@@ -57,4 +57,4 @@ $lang['UP13'] = '(UTC +13:00) Hora de las islas Fénix, Tonga';
 $lang['UP14'] = '(UTC +14:00) Islas de la Línea';
 
 /* End of file date_lang.php */
-/* Location: ./system/language/english/date_lang.php */
+/* Location: ./system/language/spanish/date_lang.php */
