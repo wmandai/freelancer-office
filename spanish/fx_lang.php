@@ -481,146 +481,146 @@ $lang['year'] = 'Año';
 $lang['you'] = 'Usted';
 
 // Version 1.4 Translations
-$lang['projects_completion'] = 'Project Completion';
-$lang['transactions'] = 'Transactions';
+$lang['projects_completion'] = 'Terminación del Proyecto';
+$lang['transactions'] = 'Transacciones';
 $lang['visible'] = 'Visible';
-$lang['collaborators'] = 'Collaborators';
-$lang['administrators'] = 'Administrators';
-$lang['templates'] = 'Templates';
-$lang['save_as_template'] = 'Save as Template';
-$lang['fixed_rate'] = 'Fixed Rate';
-$lang['fixed_price'] = 'Fixed Price';
-$lang['hourly_rate'] = 'Hourly Rate';
-$lang['project_notes'] = 'Project Notes';
-$lang['project_cost'] = 'Project Cost';
-$lang['delete_task'] = 'Delete Task';
-$lang['note_saved_successfully'] = 'Note saved successfully';
+$lang['collaborators'] = 'Colaboradores';
+$lang['administrators'] = 'Administradores';
+$lang['templates'] = 'Plantillas';
+$lang['save_as_template'] = 'Guardar como Plantilla';
+$lang['fixed_rate'] = 'Tasa Fija';
+$lang['fixed_price'] = 'Precio Fijo';
+$lang['hourly_rate'] = 'Tarifa Por Hora';
+$lang['project_notes'] = 'Notas del Proyecto';
+$lang['project_cost'] = 'Costo Del Proyecto';
+$lang['delete_task'] = 'Eliminar Tarea';
+$lang['note_saved_successfully'] = 'Nota guardada correctamente';
 $lang['vat'] = 'VAT';
-$lang['payments_sent'] = 'Payments Sent';
+$lang['payments_sent'] = 'Pagos Enviados';
 $lang['extras'] = 'Extras';
 
 // Version 1.4 Translations edit Modules templates
-$lang['go'] = 'Go';
-$lang['yes'] = 'Yes';
+$lang['go'] = 'Ir';
+$lang['yes'] = 'Si';
 $lang['no'] = 'No';
 
 // Version 1.4 Translations edit Modules invoices
-$lang['this_tax_will'] = 'This tax will overwrite the Default Tax';
+$lang['this_tax_will'] = 'Este impuesto será sobrescrito al impuesto por defecto';
 
 // Version 1.4 Translations edit Modules settings
-$lang['this_tax_applied'] = 'This tax will be applied on all invoices';
+$lang['this_tax_applied'] = 'Este impuesto se aplicará en todas las facturas';
 
 // Version 1.4 Translations edit Modules login
-$lang['sign_in'] = 'Sign in';
-$lang['get_another_captcha'] = 'Get another CAPTCHA';
-$lang['enter_the_words_above'] = 'Enter the words above';
-$lang['do_not_have_an_account'] = 'Do not have an account?';
-$lang['get_your_account'] = 'Get Your Account';
-$lang['enter_the_code_exactly'] = 'Enter the code exactly as it appears:';
-$lang['enter_the_numbers_you_hear'] = 'Enter the numbers you hear';
-$lang['this_is_my_computer'] = 'This is my computer';
-$lang['email_user'] = 'Email or Username';
-$lang['get_an_audio_captcha'] = 'Get an audio CAPTCHA';
-$lang['get_an_image_captcha'] = 'Get an image CAPTCHA';
+$lang['sign_in'] = 'Registrarse';
+$lang['get_another_captcha'] = 'Obtener otro CAPTCHA';
+$lang['enter_the_words_above'] = 'Introduzca las palabras de arriba';
+$lang['do_not_have_an_account'] = '¿no tiene una cuenta?';
+$lang['get_your_account'] = 'Obtenga su cuenta';
+$lang['enter_the_code_exactly'] = 'Ingrese el código exactamente como aparece:';
+$lang['enter_the_numbers_you_hear'] = 'Introduzca los números que oye';
+$lang['this_is_my_computer'] = 'Este es mi computador';
+$lang['email_user'] = 'Correo electrónico o nombre de usuario';
+$lang['get_an_audio_captcha'] = 'Obtener un CAPTCHA de audio';
+$lang['get_an_image_captcha'] = 'Obtener un CAPTCHA de imagen';
 
 // Missing 1.2 Untranslated words
-$lang['project_shortcuts'] = 'Project Shortcut';
-$lang['invoice_shortcuts'] = 'Invoice Shortcut';
-$lang['average_this_month'] = 'Average this Month';
-$lang['use_current'] = 'Use Current';
+$lang['project_shortcuts'] = 'Atajo al Proyecto';
+$lang['invoice_shortcuts'] = 'Atajo a la Factura';
+$lang['average_this_month'] = 'Promedio de este mes';
+$lang['use_current'] = 'Uso Corriente';
 $lang['admin'] = 'Admin';
-$lang['collaborator'] = 'Collaborator';
-$lang['draft'] = 'Draft';
-$lang['cash'] = 'Cash';
-$lang['project_timesheet'] = 'Project Timesheet';
-$lang['tasks_timesheet'] = 'Task Timesheet';
-$lang['type_message'] = 'Type your Message';
-$lang['filter'] = 'Filter';
-$lang['choose_file'] = 'Choose File';
-$lang['company_represantitive'] = 'This could be a company representative';
-$lang['change_if_necessary'] = 'Change if necesssary';
-$lang['system_stats'] = 'System Stats';
-$lang['my_projects'] = 'My Projects';
+$lang['collaborator'] = 'Colaborador';
+$lang['draft'] = 'Borrador';
+$lang['cash'] = 'Efectivo';
+$lang['project_timesheet'] = 'Horas de Proyecto';
+$lang['tasks_timesheet'] = 'Horas de Tareas';
+$lang['type_message'] = 'Escriba su mensaje';
+$lang['filter'] = 'Filtro';
+$lang['choose_file'] = 'Elija el Archivo';
+$lang['company_represantitive'] = 'Esto podría ser un representante de la compañía';
+$lang['change_if_necessary'] = 'Cambiar si es necesario';
+$lang['system_stats'] = 'Estadísticas del sistema';
+$lang['my_projects'] = 'Mis Proyectos';
 
 // 1.4 Additions
-$lang['from_templates'] = 'From Templates';
+$lang['from_templates'] = 'A partir de Plantillas';
 
 // New Language files - login - register
-$lang['sign_up_form'] = 'Sign up Form';
-$lang['sign_up'] = 'Sign Up';
-$lang['already_have_an_account'] = 'Already have an Account?';
+$lang['sign_up_form'] = 'Formulario de registro';
+$lang['sign_up'] = 'Registrar';
+$lang['already_have_an_account'] = '¿Ya tiene una cuenta?';
 
 // New Language files - Modules project
-$lang['type_your_note_here'] = 'Type your note here.';
+$lang['type_your_note_here'] = 'Escriba su nota aquí.';
 
 // New Language files - Untranslated words
-$lang['notification'] = 'Notifications';
-$lang['all_rights_reserved'] = 'All rights reserved.';
-$lang['ago'] = 'ago';
-$lang['invoice_payments_this_month'] = 'Invoice Payments this Month ';
-$lang['your'] = 'your';
-$lang['nothing_to_display_here'] = 'Nothing to display';
+$lang['notification'] = 'Notificaciones';
+$lang['all_rights_reserved'] = 'Todos los derechos reservados.';
+$lang['ago'] = 'atrás';
+$lang['invoice_payments_this_month'] = 'Los Pagos de Facturas de este Mes ';
+$lang['your'] = 'su';
+$lang['nothing_to_display_here'] = 'Nada que mostrar';
 
 // Fixed INVOICE PDF and others
 $lang['payment_information'] = 'Información sobre el pago';
-$lang['updates'] = 'Updates';
-$lang['company_representative'] = 'Company Representative';
-$lang['invoice_logo'] = 'Invoice Logo';
-$lang['upload_logo'] = 'Upload Logo';
-$lang['new_username'] = 'New Username';
-$lang['change_username'] = 'Change Username';
-$lang['username_not_available'] = 'Username not available. Please try again';
-$lang['username_changed_successfully'] = 'Username changed successfully';
+$lang['updates'] = 'Actualizaciones';
+$lang['company_representative'] = 'Representante de la Compañía';
+$lang['invoice_logo'] = 'Logo de la Factura';
+$lang['upload_logo'] = 'Subir Logo';
+$lang['new_username'] = 'Nuevo nombre de usuario';
+$lang['change_username'] = 'Cambiar nombre de usuario';
+$lang['username_not_available'] = 'Nombre de usuario no está disponible. Por favor, inténtelo de nuevo';
+$lang['username_changed_successfully'] = 'Nombre de usuario cambiado correctamente';
 
 // 1.5.6
-$lang['not_paid'] = 'Not Paid';
-$lang['partially_paid'] = 'Partially Paid';
-$lang['fully_paid'] = 'Fully Paid';
-$lang['sent'] = 'Sent';
-$lang['revenue_collection'] = 'Revenue Collection';
-$lang['sidebar_theme'] = 'Sidebar Theme';
-$lang['download'] = 'Download';
-$lang['thousand_separator'] = 'Thousand Separator';
-$lang['decimal_separator'] = 'Decimal Separator';
+$lang['not_paid'] = 'No Pagado';
+$lang['partially_paid'] = 'Parcialmente Pagado';
+$lang['fully_paid'] = 'Totalmente Pagado';
+$lang['sent'] = 'Enviado';
+$lang['revenue_collection'] = 'Recaudación de Ingresos';
+$lang['sidebar_theme'] = 'Tema de la Barra Lateral';
+$lang['download'] = 'Descargar';
+$lang['thousand_separator'] = 'Separador de Mil';
+$lang['decimal_separator'] = 'Separador Decimal';
 $lang['pending'] = 'Pendiente';
-$lang['received'] = 'Received';
-$lang['percentage_received'] = 'Percentage Received';
-$lang['percentage_pending'] = 'Percentage Pending';
-$lang['percentage_collection'] = 'Percentage Collection';
-$lang['paid_this_month'] = 'Paid this Month';
-$lang['new_company'] = 'New Company';
-$lang['primary_contact'] = 'Primary Contact';
-$lang['company_id'] = 'Company Ref';
-$lang['add_company'] = 'Add Company';
-$lang['delete_company_warning'] = 'All Data including Invoices belonging to this Company will be deleted.';
-$lang['delete_company'] = 'Delete Company';
-$lang['company_deleted_successfully'] = 'Company deleted Successfully';
-$lang['add_contact'] = 'Add Contact';
-$lang['website'] = 'Website';
-$lang['primary_contact_set'] = 'Primary contact set successfully';
-$lang['client_updated'] = 'Client Updated Successfully';
-$lang['user_added_successfully'] = 'User added Successfully';
-$lang['view_contacts'] = 'View Contacts';
+$lang['received'] = 'Recibido';
+$lang['percentage_received'] = 'Porcentaje Recibido';
+$lang['percentage_pending'] = 'Porcentaje Pendiente';
+$lang['percentage_collection'] = 'Recaudación de Porcentaje';
+$lang['paid_this_month'] = 'Pagado este Mes';
+$lang['new_company'] = 'Nueva Empresa';
+$lang['primary_contact'] = 'Contacto Primario';
+$lang['company_id'] = 'Empresa Ref';
+$lang['add_company'] = 'Añadir Empresa';
+$lang['delete_company_warning'] = 'Se borrarán Todos los Datos incluyendo Facturas que pertenecen a esta Empresa.';
+$lang['delete_company'] = 'Eliminar Empresa';
+$lang['company_deleted_successfully'] = 'Empresa eliminada con éxito';
+$lang['add_contact'] = 'Agregar Contacto';
+$lang['website'] = 'Sitio Web';
+$lang['primary_contact_set'] = 'Contacto principal configurado con éxito';
+$lang['client_updated'] = 'Cliente Actualizado con éxito';
+$lang['user_added_successfully'] = 'Usuario agregado con éxito';
+$lang['view_contacts'] = 'Ver contactos';
 
 // 1.5.7
-$lang['database_schema_updated'] = 'Database Schema updated successfully';
-$lang['company_vat'] = 'Company VAT';
-$lang['account_username'] = 'Account Username';
-$lang['account_password'] = 'Account Password';
-$lang['port'] = 'Port';
+$lang['database_schema_updated'] = 'Database Schema actualizado correctamente';
+$lang['company_vat'] = 'IVA de la Compañía';
+$lang['account_username'] = 'Cuenta de Usuario';
+$lang['account_password'] = 'Cuenta de Contraseña';
+$lang['port'] = 'Puerto';
 $lang['hostname'] = 'Hosting';
-$lang['hosting_company'] = 'Hosting Company';
-$lang['hidden_username'] = 'Hidden Username';
-$lang['hidden_password'] = 'Hidden Password';
-$lang['additional_fields'] = 'Additional Fields';
-$lang['unread_messages'] = 'Unread Messages';
-$lang['years'] = ' Years';
-$lang['days'] = ' Days';
-$lang['weeks'] = ' Weeks';
-$lang['months'] = ' Months';
+$lang['hosting_company'] = 'Empresa de Hosting';
+$lang['hidden_username'] = 'Nombre de usuario oculto';
+$lang['hidden_password'] = 'Contraseña oculta';
+$lang['additional_fields'] = 'Campos Adicionales';
+$lang['unread_messages'] = 'Mensajes Sin Leer';
+$lang['years'] = ' Años';
+$lang['days'] = ' Días';
+$lang['weeks'] = ' Semanas';
+$lang['months'] = ' Meses';
 
 // Jøran Sørbø's ADDITIONS
-$lang['with_all_the_love'] = 'Developed with all the love in the World by';
+$lang['with_all_the_love'] = 'Desarrollado con todo el amor del mundo por';
 $lang['remember_password'] = 'Rembered Password?';
 $lang['get_new_password'] = 'Get new Password!';
 $lang['do_not_have_account'] = 'Do not have an account?';
