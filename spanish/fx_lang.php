@@ -650,9 +650,9 @@ $lang['bug_comment_add'] = 'Se ha añadido un comentario a un bug';
 $lang['bug_status_change'] = 'Bug marcado %s como %s';
 
 // Added 1.6.0 language files
-$lang['invoice_not_found'] = 'Invoice not found';
-$lang['tickets'] = 'Tickets';
-$lang['item_lookups'] = 'Item Lookups';
+$lang['invoice_not_found'] = 'Factura no encontrada';
+$lang['tickets'] = 'Entradas';
+$lang['item_lookups'] = 'Búsqueda de items';
 $lang['use_postmark'] = 'Use Postmark';
 $lang['application_settings'] = 'Application Settings';
 $lang['permission_settings'] = 'Permission Settings';
@@ -819,23 +819,23 @@ $lang['no_comments_found'] = 'No comments found';
 $lang['preview_file'] = 'Preview File';
 
 // Email templates subjects
-$lang['assigned_bug_subject'] = 'New bug assigned';
-$lang['new_bug_reported_subject'] = 'New bug reported';
-$lang['bug_status_change_subject'] = 'Bug status changed';
-$lang['bug_comment_subject'] = 'New bug comment received';
-$lang['bug_file_uploaded'] = 'New File Uploaded';
-$lang['project_assigned_subject'] = 'Project assigned';
-$lang['project_complete_subject'] = 'Project Completed';
-$lang['project_comment_subject'] = 'New Project comment Received';
-$lang['task_assigned_subject'] = 'New task assigned';
-$lang['task_file_uploaded'] = 'New task file uploaded';
-$lang['project_file_uploaded'] = 'New project file uploaded';
-$lang['payment_received_subject'] = 'Payment Received';
-$lang['new_message_subject'] = 'New message received';
-$lang['welcome_email_subject'] = 'Registration successfull';
-$lang['forgot_password_subject'] = 'Forgot Password';
-$lang['reset_password_subject'] = 'Reset Password';
-$lang['change_email_subject'] = 'Change Email';
+$lang['assigned_bug_subject'] = 'Nuevo bug asignado';
+$lang['new_bug_reported_subject'] = 'Nuevo bug reportado';
+$lang['bug_status_change_subject'] = 'Estado de bug cambiado';
+$lang['bug_comment_subject'] = 'Nuevo comentario del bug recibido';
+$lang['bug_file_uploaded'] = 'Nuevo Archivo Subido';
+$lang['project_assigned_subject'] = 'Proyecto asignado';
+$lang['project_complete_subject'] = 'Proyecto Completado';
+$lang['project_comment_subject'] = 'Nuevo comentario del Proyecto recibido';
+$lang['task_assigned_subject'] = 'Nueva tarea asignada';
+$lang['task_file_uploaded'] = 'Nuevo archivo de tarea subido';
+$lang['project_file_uploaded'] = 'Nuevo archivo de proyecto subido';
+$lang['payment_received_subject'] = 'Pago Recibido';
+$lang['new_message_subject'] = 'Nuevo mensaje recibido';
+$lang['welcome_email_subject'] = 'Registro Exitoso';
+$lang['forgot_password_subject'] = 'Ha olvidado su Contraseña';
+$lang['reset_password_subject'] = 'Resetear Constraseña';
+$lang['change_email_subject'] = 'Cambiar Email';
 
 // 1.6.2
 $lang['company_not_set'] = 'Your company is not set.';
