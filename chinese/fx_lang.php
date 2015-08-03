@@ -604,11 +604,11 @@ $lang['user_added_successfully'] = '添加用户成功！';
 $lang['view_contacts'] = '查看联系人';
 
 // 1.5.7
-$lang['database_schema_updated'] = 'Database schema updated successfully!';
-$lang['company_vat'] = '公司VAT';
+$lang['database_schema_updated'] = 'Database schema已更新成功！';
+$lang['company_vat'] = '公司增值税';
 $lang['account_username'] = '账户用户名';
 $lang['account_password'] = '账户密码';
-$lang['port'] = 'Port';
+$lang['port'] = '端口';
 $lang['hostname'] = 'Hosting';
 $lang['hosting_company'] = '托管公司';
 $lang['hidden_username'] = '隐藏的用户名';
