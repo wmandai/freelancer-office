@@ -496,9 +496,9 @@ $lang['project_notes'] = '项目注释';
 $lang['project_cost'] = '项目成本';
 $lang['delete_task'] = '删除任务';
 $lang['note_saved_successfully'] = '注释保存成功！';
-$lang['vat'] = 'VAT';
+$lang['vat'] = '增值税';
 $lang['payments_sent'] = '付款已发送';
-$lang['extras'] = '其余Extras';
+$lang['extras'] = '其余';
 
 // Version 1.4 Translations edit Modules templates
 $lang['go'] = '去';
