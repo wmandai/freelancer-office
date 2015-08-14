@@ -1,28 +1,28 @@
 <?php
 
-$lang['required']			= "The %s field is required.";
-$lang['isset']				= "The %s field must have a value.";
-$lang['valid_email']		= "The %s field must contain a valid email address.";
-$lang['valid_emails']		= "The %s field must contain all valid email addresses.";
-$lang['valid_url']			= "The %s field must contain a valid URL.";
-$lang['valid_ip']			= "The %s field must contain a valid IP.";
-$lang['min_length']			= "The %s field must be at least %s characters in length.";
-$lang['max_length']			= "The %s field can not exceed %s characters in length.";
-$lang['exact_length']		= "The %s field must be exactly %s characters in length.";
-$lang['alpha']				= "The %s field may only contain alphabetical characters.";
-$lang['alpha_numeric']		= "The %s field may only contain alpha-numeric characters.";
-$lang['alpha_dash']			= "The %s field may only contain alpha-numeric characters, underscores, and dashes.";
-$lang['numeric']			= "The %s field must contain only numbers.";
-$lang['is_numeric']			= "The %s field must contain only numeric characters.";
-$lang['integer']			= "The %s field must contain an integer.";
-$lang['regex_match']		= "The %s field is not in the correct format.";
-$lang['matches']			= "The %s field does not match the %s field.";
-$lang['is_unique'] 			= "The %s field must contain a unique value.";
-$lang['is_natural']			= "The %s field must contain only positive numbers.";
-$lang['is_natural_no_zero']	= "The %s field must contain a number greater than zero.";
-$lang['decimal']			= "The %s field must contain a decimal number.";
-$lang['less_than']			= "The %s field must contain a number less than %s.";
-$lang['greater_than']		= "The %s field must contain a number greater than %s.";
+$lang['required']			= "To %s pole jest wymagane.";
+$lang['isset']				= "To %s pole musi mieć jakąś wartość.";
+$lang['valid_email']		= "To %s pole musi zawierać ważny adres email.";
+$lang['valid_emails']		= "To %s pole musi zawierać wszystkie ważne adresy email.";
+$lang['valid_url']			= "To %s pole musi zawierać ważny URL.";
+$lang['valid_ip']			= "To %s pole musi zawierać ważny IP.";
+$lang['min_length']			= "To %s pole musi zawierać minimum %s znaków.";
+$lang['max_length']			= "To %s pole nie może przekroczyć %s znaków.";
+$lang['exact_length']		= "To %s pole musi mieć dokładnie %s znaków.";
+$lang['alpha']				= "To %s pole może zawierać tylko litery.";
+$lang['alpha_numeric']		= "To %s pole może zwierać tylko znaki alfa-numeryczne.";
+$lang['alpha_dash']			= "To %s pole może zwierać tylko znaki alfa-numeryczne, podkreślenia, i dashes.";
+$lang['numeric']			= "To %s pole musi zawierać tylko cyfry.";
+$lang['is_numeric']			= "To %s pole musi zawierać tylko cyfry.";
+$lang['integer']			= "To %s pole musi zawierać tylko liczby całkowite.";
+$lang['regex_match']		= "To %s pole nie jest we właściwym formacie.";
+$lang['matches']			= "To %s pole nie pasuje do %s pola.";
+$lang['is_unique'] 			= "To %s pole musi zawierać unikalną wartość.";
+$lang['is_natural']			= "To %s pole musi zawierać tylko liczby dodatnie.";
+$lang['is_natural_no_zero']	= "To %s pole musi zawierać liczbę większą od zero.";
+$lang['decimal']			= "The %s pole musi zawierać liczbę dziesiętną.";
+$lang['less_than']			= "The %s pole musi zawierać liczbę mniejszą niż %s.";
+$lang['greater_than']		= "To %s pole musi zawierać liczbę większą niż %s.";
 
 
 /* End of file form_validation_lang.php */

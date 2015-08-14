@@ -1087,7 +1087,7 @@ $lang['declined'] = 'Declined';
 $lang['page'] = 'Page';
 $lang['page_of'] = 'of';
 
-// 1.71
+// 1.7.1
 $lang['install'] = 'Install';
 $lang['new'] = 'New';
 $lang['installed'] = 'Installed';
@@ -1132,7 +1132,6 @@ $lang['enter_message'] = 'Enter your message here';
 $lang['sample_ticket_subject'] = 'Sample Ticket Subject';
 $lang['about_the_project'] = 'About the project';
 $lang['check'] = 'Check';
-$lang['e_g'] = 'e.g.';
 $lang['general'] = 'General';
 $lang['bank'] = 'Bank';
 $lang['hosting'] = 'Hosting';
@@ -1153,6 +1152,14 @@ $lang['quantity_decimals'] = 'Quantity Decimals';
 $lang['before_amount'] = 'Before the amount';
 $lang['after_amount'] = 'After the amount';
 $lang['re_install'] = 'Re-Install';
+$lang['login_title'] = 'Login Title';
+$lang['email_signature'] = 'Email Signature';
+$lang['upcoming_invoices'] = 'Upcoming Invoices';
+$lang['hosting_account'] = 'Hosting Account';
+$lang['bank_account'] = 'Bank Account';
+$lang['show_bank_details'] = 'Show Bank Details';
+$lang['ticket'] = 'Ticket';
+$lang['no_ticket_replies'] = 'No replies to display';
 
 
 if(file_exists(APPPATH.'/language/romanian/custom_language.php')){

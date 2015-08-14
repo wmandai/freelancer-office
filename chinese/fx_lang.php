@@ -1,5 +1,4 @@
 <?php
-
 $lang['account_details'] = 'Account Details';
 $lang['access_denied'] = 'Module Access Denied! Contact admin for assistance';
 $lang['activities'] = 'Activities';
@@ -447,7 +446,7 @@ $lang['timeline'] = 'Timeline';
 $lang['timesheets'] = 'Timesheets';
 $lang['time_entered_success'] = 'Time entered successfully!';
 $lang['time_entered_failed'] = 'Failed to enter time to the database! Please try again.';
-$lang['total'] = 'Total'; 
+$lang['total'] = 'Total';
 $lang['total_earnings'] = 'Total Earnings';
 $lang['total_sales'] = 'Total Sales';
 $lang['total_time'] = 'Total Time';
@@ -645,7 +644,7 @@ $lang['activity_invoice_reminder_sent'] = 'Sent invoice %s reminder to client';
 $lang['activity_estimate_created'] = 'Created estimate %s';
 $lang['activity_estimate_sent'] = 'Estimate %s was marked as sent';
 $lang['modal_estimate_dont_edit'] = 'Don\'t edit words enclosed in braces';
-$lang['activity_uploaded_file'] = 'Uploaded project file %s'; //check in all languages
+$lang['activity_uploaded_file'] = 'Uploaded project file %s';
 $lang['bug_created'] = 'Created issue %s';
 $lang['bug_comment_add'] = 'Added a comment to bug %s';
 $lang['bug_status_change'] = 'Marked issue %s as %s';
@@ -713,7 +712,7 @@ $lang['ticket_replied_successfully'] = 'Ticket replied successfully';
 $lang['reply_ticket'] = 'Reply Ticket';
 $lang['delete_ticket_warning'] = 'This operation will delete the ticket and it\'s replies! Do you want to proceed?';
 $lang['ticket_deleted_successfully'] = 'Ticket deleted successfully!';
-$lang['activity_ticket_status_changed']= 'Changed ticket status';
+$lang['activity_ticket_status_changed'] = 'Changed ticket status';
 $lang['ticket_status_changed'] = 'Ticket status changed!';
 $lang['invoice_project'] = 'Invoice Project';
 $lang['time_logged_successfully'] = 'Time logged successfully!';
@@ -730,10 +729,8 @@ $lang['activity_copied_project'] = 'Copied project %s';
 $lang['project_copied'] = 'Project copied successfully!';
 $lang['invoice_not_created'] = 'Invoice not created!';
 $lang['invoiced_project'] = 'Invoiced project %s';
-
 $lang['ticket_edited_successfully'] = 'Ticket edited successfully';
 $lang['activity_ticket_edited'] = 'Edited ticket %s';
-
 $lang['email_template'] = 'Email Template';
 $lang['ticket_staff_email'] = 'Staff Email';
 $lang['ticket_client_email'] = 'Client Email';
@@ -779,7 +776,6 @@ $lang['project_team_updated'] = 'Project team updated successfully!';
 $lang['add_milestone'] = 'Add Milestone';
 $lang['delete_milestone'] = 'Delete Milestone';
 $lang['milestone_name'] = 'Milestone Name';
-
 $lang['activity_added_new_milestone'] = 'Added new milestone %s';
 $lang['milestone_added_successfully'] = 'Milestone added successfully';
 $lang['edit_milestone'] = 'Edit Milestone';
@@ -787,7 +783,6 @@ $lang['milestone_edited_successfully'] = 'Milestone edited successfully';
 $lang['milestone_deleted_successfully'] = 'Milestone deleted successfully';
 $lang['delete_milestone_warning'] = 'You are about to delete a milestone';
 $lang['activity_deleted_milestone'] = 'Deleted milestone %s';
-
 $lang['milestone_tasks'] = 'Milestone Tasks';
 $lang['project_settings'] = 'Project Settings';
 $lang['timer_not_allowed'] = 'This timer was started by another staff!';
@@ -800,11 +795,9 @@ $lang['client_create_project'] = 'Clients Add Projects';
 $lang['automatic_email_on_recur'] = 'Email On Recur';
 $lang['invoices_due_after'] = 'Invoices due after';
 $lang['stop_recurring'] = 'Stop Recurring';
-
 $lang['activity_recurring_stopped'] = 'Stopped recurring invoice %s';
 $lang['recurring_invoice_stopped'] = 'Recurring invoice stopped successfully';
 $lang['stop_recur_warning'] = 'This will stop recurring this invoice';
-
 $lang['choose_template'] = 'Choose Template';
 $lang['account_emails'] = 'Account Emails';
 $lang['bug_emails'] = 'Bug Emails';
@@ -1115,7 +1108,6 @@ $lang['check_for_updates'] = 'Check for Updates';
 $lang['no_updates_found'] = 'No updates found';
 $lang['backup_now'] = 'Backup Now';
 $lang['no_backup_found'] = 'No backup files found';
-$lang['powered_by'] = 'Powered by';
 $lang['build'] = 'Build';
 $lang['importance'] = 'Importance';
 $lang['title'] = 'Title';
@@ -1140,7 +1132,6 @@ $lang['enter_message'] = 'Enter your message here';
 $lang['sample_ticket_subject'] = 'Sample Ticket Subject';
 $lang['about_the_project'] = 'About the project';
 $lang['check'] = 'Check';
-$lang['e_g'] = 'e.g.';
 $lang['general'] = 'General';
 $lang['bank'] = 'Bank';
 $lang['hosting'] = 'Hosting';
@@ -1161,10 +1152,15 @@ $lang['quantity_decimals'] = 'Quantity Decimals';
 $lang['before_amount'] = 'Before the amount';
 $lang['after_amount'] = 'After the amount';
 $lang['re_install'] = 'Re-Install';
+$lang['login_title'] = 'Login Title';
+$lang['email_signature'] = 'Email Signature';
+$lang['upcoming_invoices'] = 'Upcoming Invoices';
+$lang['hosting_account'] = 'Hosting Account';
+$lang['bank_account'] = 'Bank Account';
+$lang['show_bank_details'] = 'Show Bank Details';
 
-
-if(file_exists(APPPATH.'/language/english/custom_language.php')){
-	include APPPATH.'/language/english/custom_language.php';
+if(file_exists(APPPATH.'/language/chinese/custom_language.php')){
+	include APPPATH.'/language/chinese/custom_language.php';
 }
 
 

@@ -604,7 +604,7 @@ $lang['view_contacts'] = 'Kontakte anzeigen';
 
 // 1.5.7
 $lang['database_schema_updated'] = 'Datenbank wurde erfolgreich aktualisiert';
-$lang['company_vat'] = 'USt-IdNr';
+$lang['company_vat'] = 'Steuernummer';
 $lang['account_username'] = 'Account Benutzername';
 $lang['account_password'] = 'Account Passwort';
 $lang['port'] = 'Port';
@@ -1087,7 +1087,7 @@ $lang['declined'] = 'Ablehnen';
 $lang['page'] = 'Seite';
 $lang['page_of'] = 'von';
 
-// 1.71
+// 1.7.1
 $lang['install'] = 'Installieren';
 $lang['new'] = 'Neu';
 $lang['installed'] = 'Installiert';
@@ -1132,7 +1132,6 @@ $lang['enter_message'] = 'Gib deine Nachricht hier ein';
 $lang['sample_ticket_subject'] = 'Beispiel Ticket Titel';
 $lang['about_the_project'] = 'Über das Projekt';
 $lang['check'] = 'Überprüfen';
-$lang['e_g'] = 'z.B.';
 $lang['general'] = 'Generell';
 $lang['bank'] = 'Bank';
 $lang['hosting'] = 'Hosting';
@@ -1144,15 +1143,23 @@ $lang['edit_company'] = 'Kunde bearbeiten';
 $lang['account_holder'] = 'Account Besitzer';
 $lang['login_background'] = 'Login Hintergrund';
 $lang['hide_branding'] = 'Branding verstecken';
-$lang['invoice_footer'] = 'Invoice Footer';
-$lang['estimate_footer'] = 'Estimate Footer';
-$lang['currency_position'] = 'Currency Position';
-$lang['currency_decimals'] = 'Currency Decimals';
-$lang['tax_decimals'] = 'Tax Decimals (%)';
-$lang['quantity_decimals'] = 'Quantity Decimals';
-$lang['before_amount'] = 'Before the amount';
-$lang['after_amount'] = 'After the amount';
-$lang['re_install'] = 'Re-Install';
+$lang['invoice_footer'] = 'Rechungsfußzeile';
+$lang['estimate_footer'] = 'Angebotsfußzeile';
+$lang['currency_position'] = 'Position der Währung';
+$lang['currency_decimals'] = 'Währung Dezimalenstellen';
+$lang['tax_decimals'] = 'Steuer Dezimalstellen (%)';
+$lang['quantity_decimals'] = 'Mengen Dezimalstellen';
+$lang['before_amount'] = 'Vor dem Betrag';
+$lang['after_amount'] = 'Nach dem Betrag';
+$lang['re_install'] = 'Erneut Installieren';
+$lang['login_title'] = 'Login Titel';
+$lang['email_signature'] = 'Email Signatur';
+$lang['upcoming_invoices'] = 'Nächsten Rechnungen';
+$lang['hosting_account'] = 'Hosting Account';
+$lang['bank_account'] = 'Bank Konto';
+$lang['show_bank_details'] = 'Zeige Bank Details';
+$lang['ticket'] = 'Ticket';
+$lang['no_ticket_replies'] = 'Keine Antwort';
 
 
 if(file_exists(APPPATH.'/language/german/custom_language.php')){

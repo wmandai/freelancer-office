@@ -1078,7 +1078,6 @@ $lang['trash'] = 'Σκουπίδια';
 $lang['manually_rename_install'] = 'Μετονομάστε τον φάκελο ./install';
 $lang['purchase_not_validated'] = 'Η αγορά σας δεν έχει πιστοποιηθεί.';
 $lang['unable_verify_purchase'] = 'Δεν ήταν δυνατή η επαλήθευση της αγοράς σας';
-$lang['set_envato_username'] = 'Παρακαλώ εισάγετε σωστά το όνομα χρήστη Envato';
 $lang['fo_not_validated'] = 'To Freelancer Office δεν είναι πιστοποιημένο';
 $lang['not_licenced_message'] = 'Για να πιστοποιήσετε την αγορά σας εισάγετε το όνομα χρήστη Envato και τον κωδικό αφοράς στις %s ή αγοράστε το Freelancer Office στο';
 $lang['from'] = 'Τα στοιχεία μας';
@@ -1088,7 +1087,7 @@ $lang['declined'] = 'Απορρίφθηκε';
 $lang['page'] = 'Σελίδα';
 $lang['page_of'] = 'από';
 
-// 1.71
+// 1.7.1
 $lang['install'] = 'Εγκατάσταση';
 $lang['new'] = 'Νέα';
 $lang['installed'] = 'Εγκαταστημένη';
@@ -1133,7 +1132,6 @@ $lang['enter_message'] = 'Εισάγετε το μήνυμά σας';
 $lang['sample_ticket_subject'] = 'Υπόδειγμα τίτλου εισιτηρίου';
 $lang['about_the_project'] = 'Σχετικά με το έργο';
 $lang['check'] = 'Έλεγχος';
-$lang['e_g'] = 'π.χ.';
 $lang['general'] = 'Γενικά';
 $lang['bank'] = 'Τράπεζα';
 $lang['hosting'] = 'Φιλοξενία';
@@ -1154,7 +1152,14 @@ $lang['quantity_decimals'] = 'Δεκαδικά Ποσότητας';
 $lang['before_amount'] = 'Πριν το ποσό';
 $lang['after_amount'] = 'Μετά το ποσό';
 $lang['re_install'] = 'Επανεγκατάσταση';
-
+$lang['login_title'] = 'Τίτλος Σύνδεσης';
+$lang['email_signature'] = 'Υπογραφή Email';
+$lang['upcoming_invoices'] = 'Επερχόμενα Τιμολόγια';
+$lang['hosting_account'] = 'Λογαριασμός Φιλοξενίας';
+$lang['bank_account'] = 'Τραπεζικός Λογαριασμός';
+$lang['show_bank_details'] = 'Show Bank Details';
+$lang['ticket'] = 'Ticket';
+$lang['no_ticket_replies'] = 'No replies to display';
 
 if(file_exists(APPPATH.'/language/greek/custom_language.php')){
 	include APPPATH.'/language/greek/custom_language.php';
