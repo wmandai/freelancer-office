@@ -1161,6 +1161,15 @@ $lang['quantity_decimals'] = '数量小数';
 $lang['before_amount'] = '前量';
 $lang['after_amount'] = '后量';
 $lang['re_install'] = '重新安装';
+$lang['login_title'] = 'Login Title';
+$lang['email_signature'] = 'Email Signature';
+$lang['upcoming_invoices'] = 'Upcoming Invoices';
+$lang['hosting_account'] = 'Hosting Account';
+$lang['bank_account'] = 'Bank Account';
+$lang['show_bank_details'] = 'Show Bank Details';
+$lang['ticket'] = 'Ticket';
+$lang['no_ticket_replies'] = 'No replies to display';
+$lang['client_add_tasks'] = 'Allow clients to add tasks';
 
 
 if(file_exists(APPPATH.'/language/chinese/custom_language.php')){
