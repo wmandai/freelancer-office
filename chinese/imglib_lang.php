@@ -1,24 +1,24 @@
 <?php
 
-$lang['imglib_source_image_required'] = "You must specify a source image in your preferences.";
-$lang['imglib_gd_required'] = "The GD image library is required for this feature.";
-$lang['imglib_gd_required_for_props'] = "Your server must support the GD image library in order to determine the image properties.";
-$lang['imglib_unsupported_imagecreate'] = "Your server does not support the GD function required to process this type of image.";
-$lang['imglib_gif_not_supported'] = "GIF images are often not supported due to licensing restrictions.  You may have to use JPG or PNG images instead.";
-$lang['imglib_jpg_not_supported'] = "JPG images are not supported.";
-$lang['imglib_png_not_supported'] = "PNG images are not supported.";
-$lang['imglib_jpg_or_png_required'] = "The image resize protocol specified in your preferences only works with JPEG or PNG image types.";
-$lang['imglib_copy_error'] = "An error was encountered while attempting to replace the file.  Please make sure your file directory is writable.";
-$lang['imglib_rotate_unsupported'] = "Image rotation does not appear to be supported by your server.";
-$lang['imglib_libpath_invalid'] = "The path to your image library is not correct.  Please set the correct path in your image preferences.";
-$lang['imglib_image_process_failed'] = "Image processing failed.  Please verify that your server supports the chosen protocol and that the path to your image library is correct.";
-$lang['imglib_rotation_angle_required'] = "An angle of rotation is required to rotate the image.";
-$lang['imglib_writing_failed_gif'] = "GIF image.";
-$lang['imglib_invalid_path'] = "The path to the image is not correct.";
-$lang['imglib_copy_failed'] = "The image copy routine failed.";
-$lang['imglib_missing_font'] = "Unable to find a font to use.";
-$lang['imglib_save_failed'] = "Unable to save the image.  Please make sure the image and file directory are writable.";
+$lang['imglib_source_image_required'] = "你必须依据你的喜好指定一个源图片。";
+$lang['imglib_gd_required'] = "这个GD图像库需要这个特征。";
+$lang['imglib_gd_required_for_props'] = "你的服务器必须支持GD图像库检测图像属性。";
+$lang['imglib_unsupported_imagecreate'] = "你的服务器不支持处理此GD功能的图像.";
+$lang['imglib_gif_not_supported'] = "由于许可限制，GIF图像通常不支持，您可以使用JPG或者PNG替代。";
+$lang['imglib_jpg_not_supported'] = "不支持JPG图像。";
+$lang['imglib_png_not_supported'] = "不支持PNG图像。";
+$lang['imglib_jpg_or_png_required'] = "依照您的偏好所指定的图片调整协议仅适用于JPEG或者PNG图像类型。";
+$lang['imglib_copy_error'] = "尝试移动文件时发生错误。请确保您的文件目录可写。";
+$lang['imglib_rotate_unsupported'] = "你的服务器不支持图片旋转。";
+$lang['imglib_libpath_invalid'] = "你的图像库路径不正确。请在您的图像偏好中设定正确的路径。";
+$lang['imglib_image_process_failed'] = "图像处理失败。请确定你的服务器支持你所选的协议并且图像库路径正确。";
+$lang['imglib_rotation_angle_required'] = "一个图像角度需要调整图像。";
+$lang['imglib_writing_failed_gif'] = "GIF图像。";
+$lang['imglib_invalid_path'] = "图像路径不正确。";
+$lang['imglib_copy_failed'] = "图像复制路径失败。";
+$lang['imglib_missing_font'] = "找不到应用字体。";
+$lang['imglib_save_failed'] = "无法保存图像。请确保图像和文件目录可写。";
 
 
 /* End of file imglib_lang.php */
-/* Location: ./system/language/english/imglib_lang.php */
+/* Location: ./system/language/chinese/imglib_lang.php */

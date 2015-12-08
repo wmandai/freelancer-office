@@ -48,4 +48,4 @@ $lang['cal_december']	= "Aralık";
 
 
 /* End of file calendar_lang.php */
-/* Location: ./system/language/english/calendar_lang.php */
+/* Location: ./system/language/turkish/calendar_lang.php */

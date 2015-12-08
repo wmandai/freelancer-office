@@ -21,4 +21,4 @@ $lang['imglib_save_failed'] = "Невозможно сохранить изоб�
 
 
 /* End of file imglib_lang.php */
-/* Location: ./system/language/english/imglib_lang.php */
+/* Location: ./system/language/russian/imglib_lang.php */

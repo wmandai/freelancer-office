@@ -26,4 +26,4 @@ $lang['greater_than']		= "Поле %s должно содержать число
 
 
 /* End of file form_validation_lang.php */
-/* Location: ./system/language/english/form_validation_lang.php */
+/* Location: ./system/language/russian/form_validation_lang.php */

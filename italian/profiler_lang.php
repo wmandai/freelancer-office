@@ -22,4 +22,4 @@ $lang['profiler_section_hide']	= 'Nascondi';
 $lang['profiler_section_show']	= 'Mostra';
 
 /* End of file profiler_lang.php */
-/* Location: ./system/language/english/profiler_lang.php */
+/* Location: ./system/language/italian/profiler_lang.php */

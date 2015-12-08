@@ -19,4 +19,4 @@ $lang['upload_not_writable'] = "Папка для загрузки не дост
 
 
 /* End of file upload_lang.php */
-/* Location: ./system/language/english/upload_lang.php */
+/* Location: ./system/language/russian/upload_lang.php */

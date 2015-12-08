@@ -37,4 +37,4 @@ $lang['auth_subject_change_email'] = 'Noua adresa de email pe %s';
 
 
 /* End of file tank_auth_lang.php */
-/* Location: ./application/language/english/tank_auth_lang.php */
+/* Location: ./application/language/romanian/tank_auth_lang.php */

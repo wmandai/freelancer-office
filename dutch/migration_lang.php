@@ -10,4 +10,4 @@ $lang['migration_invalid_filename']		= "Migratie \"%s\" heeft een ongeldig besta
 
 
 /* End of file migration_lang.php */
-/* Location: ./system/language/english/migration_lang.php */
+/* Location: ./system/language/dutch/migration_lang.php */

@@ -19,4 +19,4 @@ $lang['upload_not_writable'] = "La carpeta de destino de la carga no parece pode
 
 
 /* End of file upload_lang.php */
-/* Location: ./system/language/english/upload_lang.php */
+/* Location: ./system/language/spanish/upload_lang.php */

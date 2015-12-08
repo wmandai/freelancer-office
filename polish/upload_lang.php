@@ -19,4 +19,4 @@ $lang['upload_not_writable'] = "Folder przeznaczenia nie jest zapisywalny.";
 
 
 /* End of file upload_lang.php */
-/* Location: ./system/language/english/upload_lang.php */
+/* Location: ./system/language/polish/upload_lang.php */

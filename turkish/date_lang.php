@@ -58,4 +58,4 @@ $lang['UP14']	= '(UTC +14:00) Line Adaları';
 
 
 /* End of file date_lang.php */
-/* Location: ./system/language/english/date_lang.php */
+/* Location: ./system/language/turkish/date_lang.php */

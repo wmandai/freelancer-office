@@ -37,4 +37,4 @@ $lang['auth_subject_change_email'] = 'Ваш новый адрес электр�
 
 
 /* End of file tank_auth_lang.php */
-/* Location: ./application/language/english/tank_auth_lang.php */
+/* Location: ./application/language/russian/tank_auth_lang.php */

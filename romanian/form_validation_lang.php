@@ -26,4 +26,4 @@ $lang['greater_than']		= "Campul %strebuie să conţină un numar mai mare decâ
 
 
 /* End of file form_validation_lang.php */
-/* Location: ./system/language/english/form_validation_lang.php */
+/* Location: ./system/language/romanian/form_validation_lang.php */

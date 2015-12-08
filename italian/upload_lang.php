@@ -19,4 +19,4 @@ $lang['upload_not_writable'] = "La cartella di destinazione non sembra essere sc
 
 
 /* End of file upload_lang.php */
-/* Location: ./system/language/english/upload_lang.php */
+/* Location: ./system/language/italian/upload_lang.php */

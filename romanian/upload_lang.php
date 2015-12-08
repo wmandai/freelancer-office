@@ -19,4 +19,4 @@ $lang['upload_not_writable'] = "Dosarul de destinație pentru încărcare nu par
 
 
 /* End of file upload_lang.php */
-/* Location: ./system/language/english/upload_lang.php */
+/* Location: ./system/language/romanian/upload_lang.php */

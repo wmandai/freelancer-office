@@ -10,4 +10,4 @@ $lang['migration_invalid_filename']		= "Migrarea \"%s\" are un nume de fişier i
 
 
 /* End of file migration_lang.php */
-/* Location: ./system/language/english/migration_lang.php */
+/* Location: ./system/language/romanian/migration_lang.php */

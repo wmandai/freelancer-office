@@ -1,40 +1,40 @@
 <?php
 
 // Errors
-$lang['auth_incorrect_password'] = 'Incorrect password!';
-$lang['auth_incorrect_login'] = 'Incorrect login!';
-$lang['auth_incorrect_email_or_username'] = 'Login or email doesn\'t exist!';
-$lang['auth_email_in_use'] = 'Email is already used by another user! Please choose another email.';
-$lang['auth_username_in_use'] = 'Username already exists! Please choose another username.';
-$lang['auth_current_email'] = 'This is your current email.';
-$lang['auth_incorrect_captcha'] = 'Your confirmation code does not match the one in the image!';
-$lang['auth_captcha_expired'] = 'Your confirmation code has expired! Please try again.';
+$lang['auth_incorrect_password'] = '密码不正确!';
+$lang['auth_incorrect_login'] = '登录不正确!';
+$lang['auth_incorrect_email_or_username'] = '登录或者邮箱不存在！';
+$lang['auth_email_in_use'] = '该邮箱已被其他用户注册！请选择其他邮箱。';
+$lang['auth_username_in_use'] = '该用户名已经存在！请选择其他用户名。';
+$lang['auth_current_email'] = '这是您现在的邮箱。';
+$lang['auth_incorrect_captcha'] = '您的验证码与图片中不一致。';
+$lang['auth_captcha_expired'] = '您的验证码已过期！请重试。';
 
 // Notifications
-$lang['auth_message_logged_out'] = 'You have been successfully logged out!';
-$lang['auth_message_registration_disabled'] = 'Registration is disabled!';
-$lang['auth_message_registration_completed_1'] = 'You have successfully registered! Check your email address to activate your account.';
-$lang['auth_message_registration_completed_2'] = 'You have successfully registered!';
-$lang['auth_message_activation_email_sent'] = 'A new activation email has been sent to %s! Follow the instructions in the email to activate your account.';
-$lang['auth_message_activation_completed'] = 'Your account has been successfully activated!';
-$lang['auth_message_activation_failed'] = 'The activation code you entered is incorrect or expired!';
-$lang['auth_message_password_changed'] = 'Your password has been successfully changed!';
-$lang['auth_message_new_password_sent'] = 'An email with instructions for creating a new password has been sent to you!';
-$lang['auth_message_new_password_activated'] = 'You have successfully reset your passwor!';
-$lang['auth_message_new_password_failed'] = 'Your activation key is incorrect or expired! Please check your email again and follow the instructions.';
-$lang['auth_message_new_email_sent'] = 'A confirmation email has been sent to %s! Follow the instructions in the email to complete this change of email address.';
-$lang['auth_message_new_email_activated'] = 'You have successfully changed your email!';
-$lang['auth_message_new_email_failed'] = 'Your activation key is incorrect or expired! Please check your email again and follow the instructions.';
-$lang['auth_message_banned'] = 'You are banned!';
-$lang['auth_message_unregistered'] = 'Your account has been deleted...';
+$lang['auth_message_logged_out'] = '您已经成功的退出。';
+$lang['auth_message_registration_disabled'] = '注册失效';
+$lang['auth_message_registration_completed_1'] = '您已经成功注册！查看您的邮箱地址以激活账户';
+$lang['auth_message_registration_completed_2'] = '您已经成功注册！';
+$lang['auth_message_activation_email_sent'] = '新的激活邮件已经发送到 %s！请按照邮件指示激活您的账户。';
+$lang['auth_message_activation_completed'] = '您的账户已经激活成功！';
+$lang['auth_message_activation_failed'] = '您输入的激活码无效或已过期！';
+$lang['auth_message_password_changed'] = '您的密码已经被成功更改！';
+$lang['auth_message_new_password_sent'] = '更改新密码的操作邮件已经发送给您';
+$lang['auth_message_new_password_activated'] = '您已经成功重置密码！';
+$lang['auth_message_new_password_failed'] = '您的激活密匙不正确或已过期！请重新检查邮箱遵从指示。';
+$lang['auth_message_new_email_sent'] = '确认邮件已经被发送到%s！遵从邮件中的指示完成邮箱地址的更改。';
+$lang['auth_message_new_email_activated'] = '您已经成功的更改了您的邮箱！';
+$lang['auth_message_new_email_failed'] = '您的激活码不正确或已过期！请重新检查邮箱并遵从指示。';
+$lang['auth_message_banned'] = '您被禁止！';
+$lang['auth_message_unregistered'] = '您的账户已经被删除...';
 
 // Email subjects
-$lang['auth_subject_welcome'] = 'Welcome to %s!';
-$lang['auth_subject_activate'] = 'Welcome to %s!';
-$lang['auth_subject_forgot_password'] = 'Forgot your password on %s?';
-$lang['auth_subject_reset_password'] = 'Your new password on %s.';
-$lang['auth_subject_change_email'] = 'Your new email address on %s.';
+$lang['auth_subject_welcome'] = '欢迎来到 %s！';
+$lang['auth_subject_activate'] = '欢迎来到%s！';
+$lang['auth_subject_forgot_password'] = '忘记您的密码是%s？';
+$lang['auth_subject_reset_password'] = '您的新密码是%s。';
+$lang['auth_subject_change_email'] = '您的新邮箱地址是%s。';
 
 
 /* End of file tank_auth_lang.php */
-/* Location: ./application/language/english/tank_auth_lang.php */
+/* Location: ./application/language/chinese/tank_auth_lang.php */

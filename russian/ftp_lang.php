@@ -15,4 +15,4 @@ $lang['ftp_unable_to_move']			= "Не удалось переместить фа
 
 
 /* End of file ftp_lang.php */
-/* Location: ./system/language/english/ftp_lang.php */
+/* Location: ./system/language/russian/ftp_lang.php */

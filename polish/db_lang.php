@@ -26,4 +26,4 @@ $lang['db_unable_to_set_charset'] = 'Nie można ustawić zestawu znaków połąc
 $lang['db_error_heading'] = 'Wystąpił błąd bazy danych';
 
 /* End of file db_lang.php */
-/* Location: ./system/language/english/db_lang.php */
+/* Location: ./system/language/polish/db_lang.php */

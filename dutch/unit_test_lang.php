@@ -1,12 +1,12 @@
 <?php
 
-$lang['ut_test_name']		= 'Naam';
-$lang['ut_test_datatype']	= 'Datatype';
-$lang['ut_res_datatype']	= 'Verwacht datatype';
+$lang['ut_test_name']		= 'Test Naam';
+$lang['ut_test_datatype']	= 'Test Datatype';
+$lang['ut_res_datatype']	= 'Verwachte Datatype';
 $lang['ut_result']			= 'Resultaat';
-$lang['ut_undefined']		= 'Onbepaalde naam';
+$lang['ut_undefined']		= 'Onbepaalde Test Naam';
 $lang['ut_file']			= 'Bestandsnaam';
-$lang['ut_line']			= 'Lijnnummer';
+$lang['ut_line']			= 'Lijn Nummer';
 $lang['ut_passed']			= 'Geslaagd';
 $lang['ut_failed']			= 'Mislukt';
 $lang['ut_boolean']			= 'Boolean';
@@ -22,4 +22,4 @@ $lang['ut_notes']			= 'Notities';
 
 
 /* End of file unit_test_lang.php */
-/* Location: ./system/language/english/unit_test_lang.php */
+/* Location: ./system/language/dutch/unit_test_lang.php */

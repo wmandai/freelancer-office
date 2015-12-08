@@ -48,4 +48,4 @@ $lang['cal_december']	= "Decembrie";
 
 
 /* End of file calendar_lang.php */
-/* Location: ./system/language/english/calendar_lang.php */
+/* Location: ./system/language/romanian/calendar_lang.php */

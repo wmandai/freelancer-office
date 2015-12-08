@@ -1,4 +1,5 @@
 <?php
+
 $lang['account_details'] = 'Accountgegevens';
 $lang['access_denied'] = 'Aanvraag geweigerd. Neem contact op met het systeembeheer voor hulp';
 $lang['activities'] = 'Activiteiten';
@@ -1087,7 +1088,7 @@ $lang['declined'] = 'Geweigerd';
 $lang['page'] = 'Pagina';
 $lang['page_of'] = 'van de';
 
-// 1.71
+// 1.7.1
 $lang['install'] = 'Installeren';
 $lang['new'] = 'Nieuw';
 $lang['installed'] = 'Geinstalleerd';
@@ -1132,7 +1133,6 @@ $lang['enter_message'] = 'Plaats uw bericht hier';
 $lang['sample_ticket_subject'] = 'Voorbeeld ticketonderwerp';
 $lang['about_the_project'] = 'Over het project';
 $lang['check'] = 'Check';
-$lang['e_g'] = 'bijv.';
 $lang['general'] = 'Algemeen';
 $lang['bank'] = 'Bank';
 $lang['hosting'] = 'Hosting';
@@ -1153,7 +1153,69 @@ $lang['quantity_decimals'] = 'Aantal decimalen';
 $lang['before_amount'] = 'Voor het bedrag';
 $lang['after_amount'] = 'Na het bedrag';
 $lang['re_install'] = 'Herinstalleren';
+$lang['login_title'] = 'Login Title';
+$lang['email_signature'] = 'Email Signature';
+$lang['upcoming_invoices'] = 'Upcoming Invoices';
+$lang['hosting_account'] = 'Hosting Account';
+$lang['bank_account'] = 'Bank Account';
+$lang['show_bank_details'] = 'Show Bank Details';
+$lang['ticket'] = 'Ticket';
+$lang['no_ticket_replies'] = 'No replies to display';
 
+// 1.8
+$lang['user_not_found'] = 'User not found';
+$lang['company_registration'] = 'Company Registration';
+$lang['client_default_currency'] = 'Client Default Currency';
+$lang['project_updated_subject'] = 'Project updated!';
+$lang['is_available'] = 'is available';
+$lang['is_not_available'] = 'is not available';
+$lang['already_exists'] = 'already exists';
+$lang['does_not_exist'] = 'does not exist';
+$lang['checking'] = 'Checking...';
+$lang['minimum_amount_of_chars'] = 'Minimum amount of characters is';
+$lang['state_province'] = 'State/Province';
+$lang['edit_client'] = 'Edit Client';
+$lang['modules'] = 'Modules';
+$lang['add_module'] = 'Add Module';
+$lang['swap_to_from_side'] = 'Swap To/From Side';
+$lang['client_add_tasks'] = 'Allow clients to add tasks';
+$lang['recur_next_date'] = 'Next Recur';
+$lang['mark_as_paid'] = 'Mark as Paid';
+$lang['mark_as_paid_notice'] = 'A new payment will be recorded for this Invoice';
+$lang['project_gantt'] = 'Project Gantt';
+$lang['show_project_gantt'] = 'Allow client to view Gantt chart';
+$lang['payment_slip'] = 'Payment Slip';
+$lang['mark_as_complete'] = 'Mark as Complete';
+$lang['mark_as_complete_info'] = 'This will mark project as completed';
+$lang['currency_added_successfully'] = 'Currency added successfully';
+$lang['currency_code_exists'] = 'Currency code exists';
+$lang['add_currency'] = 'Add Currency';
+$lang['currency_name'] = 'Currency Name';
+$lang['billable'] = 'Billable';
+$lang['not_billable'] = 'Not Billable';
+$lang['purchase_code'] = 'Purchase Code';
+$lang['check_license'] = 'Check License';
+$lang['answered'] = 'Answered';
+$lang['ticket_not_replied'] = 'This ticket has not been replied yet';
+$lang['theme_color'] = 'Theme Color';
+$lang['top_bar_color'] = 'Top Bar Color';
+$lang['auto_close_ticket'] = 'Auto Close Ticket';
+$lang['auto_close_ticket_after'] = 'Ticket Inactivity Days (Requires CRON)';
+$lang['minute'] = 'Minute';
+$lang['day'] = 'Day';
+$lang['decade'] = 'Decade';
+$lang['activity_invoice_recur'] = 'Invoice # %s recur. New Invoice # %s generated';
+$lang['activity_invoice_made_recur'] = 'Invoice #%s set to recur next on %s';
+$lang['show_project_hours'] = 'Allow client to view project hours';
+$lang['crons'] = 'CRONS';
+$lang['cron_settings'] = 'Cron Settings';
+$lang['cron_last_run'] = 'Cron Last Run';
+$lang['auto_backup_db'] = 'Auto Backup Database';
+$lang['notify_payment_received'] = 'Notify Payments Received';
+$lang['select_invoice'] = 'Select Invoice';
+$lang['ban_user'] = 'Ban User';
+$lang['ban_reason'] = 'Ban Reason';
+$lang['hide_sidebar'] = 'Hide Sidebar';
 
 if(file_exists(APPPATH.'/language/dutch/custom_language.php')){
 	include APPPATH.'/language/dutch/custom_language.php';

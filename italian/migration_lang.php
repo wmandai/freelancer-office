@@ -10,4 +10,4 @@ $lang['migration_invalid_filename']		= "La migrazione \"%s\" ha un nome file non
 
 
 /* End of file migration_lang.php */
-/* Location: ./system/language/english/migration_lang.php */
+/* Location: ./system/language/italian/migration_lang.php */

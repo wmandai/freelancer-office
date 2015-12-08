@@ -22,4 +22,4 @@ $lang['ut_notes']			= 'Notatki';
 
 
 /* End of file unit_test_lang.php */
-/* Location: ./system/language/english/unit_test_lang.php */
+/* Location: ./system/language/polish/unit_test_lang.php */

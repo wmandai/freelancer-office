@@ -15,4 +15,4 @@ $lang['ftp_unable_to_move']			= "Imposibil de mutat fișierul. Asigurați-vă c�
 
 
 /* End of file ftp_lang.php */
-/* Location: ./system/language/english/ftp_lang.php */
+/* Location: ./system/language/romanian/ftp_lang.php */

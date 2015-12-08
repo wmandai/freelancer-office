@@ -21,4 +21,4 @@ $lang['imglib_save_failed'] = "Nie można zapisać obrazu. Upewnij się, że obr
 
 
 /* End of file imglib_lang.php */
-/* Location: ./system/language/english/imglib_lang.php */
+/* Location: ./system/language/polish/imglib_lang.php */

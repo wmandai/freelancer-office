@@ -19,4 +19,4 @@ $lang['upload_not_writable'] = "A pasta de destino de upload não parece ter per
 
 
 /* End of file upload_lang.php */
-/* Location: ./system/language/english/upload_lang.php */
+/* Location: ./system/language/portuguese/upload_lang.php */

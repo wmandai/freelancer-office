@@ -1,4 +1,5 @@
 <?php
+
 $lang['account_details'] = 'Kontodetails';
 $lang['access_denied'] = 'Anfrage abgelehnt. Bitte wenden Sie sich für Unterstützung an den Systemadmin.';
 $lang['activities'] = 'Aktivitäten';
@@ -1159,8 +1160,62 @@ $lang['hosting_account'] = 'Hosting Account';
 $lang['bank_account'] = 'Bank Konto';
 $lang['show_bank_details'] = 'Zeige Bank Details';
 $lang['ticket'] = 'Ticket';
-$lang['no_ticket_replies'] = 'Keine Antwort';
+$lang['no_ticket_replies'] = 'Keine Antwort vorhanden';
 
+// 1.8
+$lang['user_not_found'] = 'Benutzer nicht gefunden';
+$lang['company_registration'] = 'Company Registration';
+$lang['client_default_currency'] = 'Client Default Currency';
+$lang['project_updated_subject'] = 'Project updated!';
+$lang['is_available'] = 'ist verfügbar';
+$lang['is_not_available'] = 'ist nicht verfügbar';
+$lang['already_exists'] = 'existiert bereits';
+$lang['does_not_exist'] = 'existiert nicht';
+$lang['checking'] = 'Überprüfe...';
+$lang['minimum_amount_of_chars'] = 'Mindest Anzahl an Zeichen ist';
+$lang['state_province'] = 'Staat';
+$lang['edit_client'] = 'Kunde bearbeiten';
+$lang['modules'] = 'Module';
+$lang['add_module'] = 'Module hinzufügen';
+$lang['swap_to_from_side'] = 'Wische von/zur Seite';
+$lang['client_add_tasks'] = 'Kunden erlauben Aufgaben hinzuzufügen';
+$lang['recur_next_date'] = 'Nächste Wiederholung';
+$lang['mark_as_paid'] = 'Als bezahlt markieren';
+$lang['mark_as_paid_notice'] = 'Eine neue Zahlung wird für diese Rechnung aufgenommen';
+$lang['project_gantt'] = 'Projekt Gantt';
+$lang['show_project_gantt'] = 'Kunde erlauben, Gantt Diagramm zu sehen';
+$lang['payment_slip'] = 'Payment Slip';
+$lang['mark_as_complete'] = 'Als abgeschlossen markieren';
+$lang['mark_as_complete_info'] = 'Das wird das Projekt als abgeschlossen makieren';
+$lang['currency_added_successfully'] = 'Währung wurde erfolgreich hinzugefügt';
+$lang['currency_code_exists'] = 'Währung existiert bereits';
+$lang['add_currency'] = 'Währung hinzufügen';
+$lang['currency_name'] = 'Währungsname';
+$lang['billable'] = 'Bezahlbar';
+$lang['not_billable'] = 'Nicht Bezahlbar';
+$lang['purchase_code'] = 'Kauf-Code';
+$lang['check_license'] = 'Lizenz überprüfen';
+$lang['answered'] = 'Beantwortet';
+$lang['ticket_not_replied'] = 'Dieses Ticket hat noch keine Antwort';
+$lang['theme_color'] = 'Theme Farbe';
+$lang['top_bar_color'] = 'Kopfzeilen Farbe';
+$lang['auto_close_ticket'] = 'Ticket automatisch schließen';
+$lang['auto_close_ticket_after'] = 'Ticket Inaktivitätstage (Benötigt CRON)';
+$lang['minute'] = 'Minute';
+$lang['day'] = 'Tag';
+$lang['decade'] = 'Dekade';
+$lang['activity_invoice_recur'] = 'Rechnung # %s wiederholt. Neue Rechnung # %s wurde erstellt';
+$lang['activity_invoice_made_recur'] = 'Rechnung #%s wurde für die Wiederholung am %s gesetzt';
+$lang['show_project_hours'] = 'Kunden erlauben, Projekt Stunden zu sehen';
+$lang['crons'] = 'CRONS';
+$lang['cron_settings'] = 'Cron Einstellungen';
+$lang['cron_last_run'] = 'Cron letzer durchlauf';
+$lang['auto_backup_db'] = 'Datenbank automatisch sichern';
+$lang['notify_payment_received'] = 'Benachrichtigung für Zahlung erhalten';
+$lang['select_invoice'] = 'Rechung auswählen';
+$lang['ban_user'] = 'Benutzer bannen';
+$lang['ban_reason'] = 'Ban Grund';
+$lang['hide_sidebar'] = 'Sidebar verstecken';
 
 if(file_exists(APPPATH.'/language/german/custom_language.php')){
 	include APPPATH.'/language/german/custom_language.php';

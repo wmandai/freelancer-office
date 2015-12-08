@@ -21,4 +21,4 @@ $lang['email_exit_status'] = "Starea codului de ieşire: %s";
 
 
 /* End of file email_lang.php */
-/* Location: ./system/language/english/email_lang.php */
+/* Location: ./system/language/romanian/email_lang.php */

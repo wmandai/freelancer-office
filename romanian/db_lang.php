@@ -26,4 +26,4 @@ $lang['db_unable_to_set_charset'] = 'Imposibil de setat pentru client un set de 
 $lang['db_error_heading'] = 'S-a produs o eroare la baza de date';
 
 /* End of file db_lang.php */
-/* Location: ./system/language/english/db_lang.php */
+/* Location: ./system/language/romanian/db_lang.php */

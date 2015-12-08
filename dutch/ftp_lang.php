@@ -15,4 +15,4 @@ $lang['ftp_unable_to_move']			= "Niet mogelijk om bestand te verplaatsen. Contro
 
 
 /* End of file ftp_lang.php */
-/* Location: ./system/language/english/ftp_lang.php */
+/* Location: ./system/language/dutch/ftp_lang.php */

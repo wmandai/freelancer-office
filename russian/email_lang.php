@@ -21,4 +21,4 @@ $lang['email_exit_status'] = "Статус кода выхода: %s";
 
 
 /* End of file email_lang.php */
-/* Location: ./system/language/english/email_lang.php */
+/* Location: ./system/language/russian/email_lang.php */
