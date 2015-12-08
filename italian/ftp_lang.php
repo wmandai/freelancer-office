@@ -1,17 +1,17 @@
 <?php
 
-$lang['ftp_no_connection']			= "Unable to locate a valid connection ID. Please make sure you are connected before peforming any file routines.";
-$lang['ftp_unable_to_connect']		= "Unable to connect to your FTP server using the supplied hostname.";
-$lang['ftp_unable_to_login']		= "Unable to login to your FTP server. Please check your username and password.";
-$lang['ftp_unable_to_makdir']		= "Unable to create the directory you have specified.";
-$lang['ftp_unable_to_changedir']	= "Unable to change directories.";
-$lang['ftp_unable_to_chmod']		= "Unable to set file permissions. Please check your path. Note: This feature is only available in PHP 5 or higher.";
-$lang['ftp_unable_to_upload']		= "Unable to upload the specified file. Please check your path.";
-$lang['ftp_unable_to_download']		= "Unable to download the specified file. Please check your path.";
-$lang['ftp_no_source_file']			= "Unable to locate the source file. Please check your path.";
-$lang['ftp_unable_to_rename']		= "Unable to rename the file.";
-$lang['ftp_unable_to_delete']		= "Unable to delete the file.";
-$lang['ftp_unable_to_move']			= "Unable to move the file. Please make sure the destination directory exists.";
+$lang['ftp_no_connection']			= "Impossibile trovare un ID valido per la connessione. Assicurati di essere connesso prima di effettuare qualsiasi azione sui file.";
+$lang['ftp_unable_to_connect']		= "Impossibile connettersi al server FTP utilizzando l'hostname fornito.";
+$lang['ftp_unable_to_login']		= "Impossibile effettuare il login al server FTP. Ricontrolla il tuo username e la password.";
+$lang['ftp_unable_to_makdir']		= "Impossibile creare la directory che hai indicato.";
+$lang['ftp_unable_to_changedir']	= "Impossibile cambiare la directory.";
+$lang['ftp_unable_to_chmod']		= "Impossibile impostare i permessi sui file. Ricontrolla il percorso. Nota: questa feature &egrave; disponibile solo per il PHP 5 o superiore.";
+$lang['ftp_unable_to_upload']		= "Impossibile caricare il file selezionato. Ricontrolla il percorso.";
+$lang['ftp_unable_to_download']		= "Impossibile scaricare il file selezionato. Ricontrolla il percorso.";
+$lang['ftp_no_source_file']			= "Impossibile trovare il file sorgente. Ricontrolla il percorso.";
+$lang['ftp_unable_to_rename']		= "Impossibile rinominare il file.";
+$lang['ftp_unable_to_delete']		= "Impossibile cancellare il file.";
+$lang['ftp_unable_to_move']			= "Impossibile spostare il file. Assicurati che la directory di destinazione esista.";
 
 
 /* End of file ftp_lang.php */
