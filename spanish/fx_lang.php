@@ -1153,14 +1153,14 @@ $lang['quantity_decimals'] = 'Cantidad en Decimales';
 $lang['before_amount'] = 'Antes de la cantidad';
 $lang['after_amount'] = 'Después de la cantidad';
 $lang['re_install'] = 'Re-Instalar';
-$lang['login_title'] = 'Login Title';
-$lang['email_signature'] = 'Email Signature';
-$lang['upcoming_invoices'] = 'Upcoming Invoices';
-$lang['hosting_account'] = 'Hosting Account';
-$lang['bank_account'] = 'Bank Account';
-$lang['show_bank_details'] = 'Show Bank Details';
+$lang['login_title'] = 'Título de inicio de sesión';
+$lang['email_signature'] = 'Firma de email';
+$lang['upcoming_invoices'] = 'Próximas facturas';
+$lang['hosting_account'] = 'Cuenta de alojamiento';
+$lang['bank_account'] = 'Cuenta bancaria';
+$lang['show_bank_details'] = 'Mostrar detalles de banco';
 $lang['ticket'] = 'Ticket';
-$lang['no_ticket_replies'] = 'No replies to display';
+$lang['no_ticket_replies'] = 'No hay respuestas para mostrar';
 
 // 1.8
 $lang['user_not_found'] = 'User not found';
