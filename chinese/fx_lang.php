@@ -1153,14 +1153,14 @@ $lang['quantity_decimals'] = '数量小数';
 $lang['before_amount'] = '前量';
 $lang['after_amount'] = '后量';
 $lang['re_install'] = '重新安装';
-$lang['login_title'] = 'Login Title';
-$lang['email_signature'] = 'Email Signature';
-$lang['upcoming_invoices'] = 'Upcoming Invoices';
-$lang['hosting_account'] = 'Hosting Account';
-$lang['bank_account'] = 'Bank Account';
-$lang['show_bank_details'] = 'Show Bank Details';
-$lang['ticket'] = 'Ticket';
-$lang['no_ticket_replies'] = 'No replies to display';
+$lang['login_title'] = '登录标题';
+$lang['email_signature'] = '电子邮件签名';
+$lang['upcoming_invoices'] = '即将到来的发票';
+$lang['hosting_account'] = '托管账户';
+$lang['bank_account'] = '银行账户';
+$lang['show_bank_details'] = '显示银行详情';
+$lang['ticket'] = '票';
+$lang['no_ticket_replies'] = '没有回复显示';
 
 // 1.8
 $lang['user_not_found'] = 'User not found';
