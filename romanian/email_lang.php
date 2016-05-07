@@ -1,24 +1,29 @@
 <?php
-
-$lang['email_must_be_array'] = "Metoda de validare prin e-mail trebuie să fie realizată.";
-$lang['email_invalid_address'] = "Adresă de email incorectă: %s";
-$lang['email_attachment_missing'] = "Nu se poate găsi ataşamentul la email: %s";
-$lang['email_attachment_unreadable'] = "Nu se poate deschide ataşamentul: %s";
-$lang['email_no_recipients'] = "Trebuie să includeți destinatari: Către, Cc, sau Bcc";
-$lang['email_send_failure_phpmail'] = "Imposibil de trimis email prin funcţia PHP mail(). Este posibil ca serverul tău să nu fie configurat pentru această metodă.";
-$lang['email_send_failure_sendmail'] = "Imposibil de trimis email prin funcţia PHP Sendmail. Este posibil ca serverul tău să nu fie configurat pentru această metodă.";
-$lang['email_send_failure_smtp'] = "Imposibil de trimis email prin funcţia PHP SMTP.  Este posibil ca serverul tău să nu fie configurat pentru această metodă.";
-$lang['email_sent'] = "Mesajul tău a fost trimis cu succes prin acest protocol: %s";
-$lang['email_no_socket'] = "Nu se poate deschide o legătură către Sendmail. Verificaţi setările.";
-$lang['email_no_hostname'] = "Nu ai specificat un nume de host pentru SMTP.";
-$lang['email_smtp_error'] = "Următoarea eroare SMTP s-a produs: %s";
-$lang['email_no_smtp_unpw'] = "Eroare: Trebuie să setezi pentru SMTP un nume de utilizator şi o parolă.";
-$lang['email_failed_smtp_login'] = "Imposibil de trimis comanda AUTH LOGIN. Eroare: %s";
-$lang['email_smtp_auth_un'] = "Imposibil de autentificat numele de utilizator. Eroare: %s";
-$lang['email_smtp_auth_pw'] = "Imposibil de autentificat parola. Erare: %s";
-$lang['email_smtp_data_failure'] = "Nu se poate trimite date: %s";
-$lang['email_exit_status'] = "Starea codului de ieşire: %s";
-
-
-/* End of file email_lang.php */
-/* Location: ./system/language/romanian/email_lang.php */
+/**
+ * System messages translation for CodeIgniter(tm)
+ * @author    CodeIgniter community
+ * @author  Cristian Robert Chiribuc
+ * @copyright    Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license    http://opensource.org/licenses/MIT	MIT License
+ * @link    http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['email_must_be_array']         = 'Metoda de validare email trebuie să fie de tip array.';
+$lang['email_invalid_address']       = 'Adresa de email nu este validă: %s';
+$lang['email_attachment_missing']    = 'Nu s-a putut localiza următorul atașament de email: %s';
+$lang['email_attachment_unreadable'] = 'Atașamentul următor nu a putut fi deschis: %s';
+$lang['email_no_from']               = 'Nu se poate trimite email fără header-ul "De la".';
+$lang['email_no_recipients']         = 'Trebuie să includeți destinatarii: To, Cc, or Bcc';
+$lang['email_send_failure_phpmail']  = 'Nu s-a putut trimite email folosind PHP mail(). Este posibil ca server-ul dvs. să nu fie configurat pentru a trimite email-uri folosind această metodă.';
+$lang['email_send_failure_sendmail'] = 'Nu s-a putut trimite email folosind PHP Sendmail. Este posibil ca server-ul dvs. să nu fie configurat pentru a trimite email-uri folosind această metodă.';
+$lang['email_send_failure_smtp']     = 'Nu s-a putut trimite email folosind PHP SMTP. Este posibil ca server-ul dvs. să nu fie configurat pentru a trimite email-uri folosind această metodă.';
+$lang['email_sent']                  = 'Mesajul dvs. a fost trimis cu succes folosind următorul protocol: %s';
+$lang['email_no_socket']             = 'Nu s-a putut deschide un socket pentru Sendmail. Verificați setările.';
+$lang['email_no_hostname']           = 'Nu ați specificat un hostname SMTP.';
+$lang['email_smtp_error']            = 'Următoarea eroare SMTP a fost întâlnită: %s';
+$lang['email_no_smtp_unpw']          = 'Eroare: Trebuie să atribuiți un nume de utilizator și parolă SMTP.';
+$lang['email_failed_smtp_login']     = 'Eroare la trimiterea comenzii AUTH LOGIN. Eroare: %s';
+$lang['email_smtp_auth_un']          = 'Autentificarea numelui de utilizator nu a putut fi efectuată. Eroare: %s';
+$lang['email_smtp_auth_pw']          = 'Autentificarea parolei nu a putut fi efectuată. Error: %s';
+$lang['email_smtp_data_failure']     = 'Datele nu pot fi trimise: %s';
+$lang['email_exit_status']           = 'Codul stării de ieșire: %s';

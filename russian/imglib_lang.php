@@ -1,24 +1,26 @@
 <?php
-
-$lang['imglib_source_image_required'] = "Вы должны указать исходный файл в настройках.";
-$lang['imglib_gd_required'] = "Необходима Библиотека изображений GD для этой функции.";
-$lang['imglib_gd_required_for_props'] = "Сервер должен поддерживать библиотеку изображений GD для того, чтобы определить свойства изображения.";
-$lang['imglib_unsupported_imagecreate'] = "Ваш сервер не поддерживает функцию GD, необходимую для обработки этого типа изображения.";
-$lang['imglib_gif_not_supported'] = "GIF изображения часто не поддерживается из-за лицензионных ограничений. Возможно, придется использовать JPG или PNG изображения.";
-$lang['imglib_jpg_not_supported'] = "JPG изображения не поддерживаются.";
-$lang['imglib_png_not_supported'] = "PNG изображения не поддерживаются.";
-$lang['imglib_jpg_or_png_required'] = "Протокол изменения размера изображения, указанный в настройках работает только с типами изображения JPEG или PNG.";
-$lang['imglib_copy_error'] = "Ошибка при попытке замены файла. Пожалуйста, убедитесь, папка доступна для записи.";
-$lang['imglib_rotate_unsupported'] = "Поворот изображения не поддерживается вашим сервером.";
-$lang['imglib_libpath_invalid'] = "Путь к библиотеке изображений некорректен. Пожалуйста, установите правильный путь в настройках изображений.";
-$lang['imglib_image_process_failed'] = "Обработка изображений не удалось. Пожалуйста, убедитесь, что ваш сервер поддерживает выбранный протокол и что путь к библиотеке изображений указан верно.";
-$lang['imglib_rotation_angle_required'] = "Укажите угол, чтобы повернуть изображение";
-$lang['imglib_writing_failed_gif'] = "GIF изображение.";
-$lang['imglib_invalid_path'] = "Путь к изображению некорректен.";
-$lang['imglib_copy_failed'] = "Копирование изображений не удалось.";
-$lang['imglib_missing_font'] = "Невозможно найти шрифт.";
-$lang['imglib_save_failed'] = "Невозможно сохранить изображение. Убедитесь, что каталог изображений доступен для записи.";
-
-
-/* End of file imglib_lang.php */
-/* Location: ./system/language/russian/imglib_lang.php */
+/**
+ * System messages translation for CodeIgniter(tm)
+ * @author    CodeIgniter community
+ * @copyright    Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license    http://opensource.org/licenses/MIT	MIT License
+ * @link    http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['imglib_source_image_required']   = 'Необходимо указать исходное изображение.';
+$lang['imglib_gd_required']             = 'Для выполнения этой функции необходима GD библиотека.';
+$lang['imglib_gd_required_for_props']   = 'Ваш сервер должен поддерживать GD библиотеку, чтобы определить свойства изображения.';
+$lang['imglib_unsupported_imagecreate'] = 'Ваш сервер не поддерживает функцию GD, необходимую для обработки этого типа изображения.';
+$lang['imglib_gif_not_supported']       = 'GIF изображения часто не поддерживаются из-за лицензионных ограничений. Возможно, Вам придётся использовать JPG или PNG изображения взамен.';
+$lang['imglib_jpg_not_supported']       = 'JPG изображения не поддерживаются.';
+$lang['imglib_png_not_supported']       = 'PNG изображения не поддерживаются.';
+$lang['imglib_jpg_or_png_required']     = 'Протокол изменения размера изображения, указанный Вами в настройках, работает только с изображениями в формате JPG и PNG.';
+$lang['imglib_copy_error']              = 'Произошла ошибка при попытке записи файла. Пожалуйста, убедитесь что каталог доступен для записи.';
+$lang['imglib_rotate_unsupported']      = 'Поворот изображения не поддерживаться вашим сервером.';
+$lang['imglib_libpath_invalid']         = 'Неверный путь к библиотеке для обработки изображений. Пожалуйста, укажите правильный путь.';
+$lang['imglib_image_process_failed']    = 'Обработка изображения закончилась неудачей. Пожалуйста, убедитесь что Ваш сервер поддерживает выбранный протокол  и что путь к вашей библиотеке для обработки изображений является правильным.';
+$lang['imglib_rotation_angle_required'] = 'Необходимо указать угол поворота.';
+$lang['imglib_invalid_path']            = 'Неверный путь к изображению.';
+$lang['imglib_copy_failed']             = 'Копирование изображения закончилось неудачей.';
+$lang['imglib_missing_font']            = 'Невозможно найти шрифт.';
+$lang['imglib_save_failed']             = 'Невозможно сохранить изображение. Пожалуйста, убедитесь что изображение и каталог доступны для записи.';

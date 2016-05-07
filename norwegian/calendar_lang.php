@@ -1,50 +1,54 @@
 <?php
-
-$lang['cal_su']			= "Sø";
-$lang['cal_mo']			= "Ma";
-$lang['cal_tu']			= "Ti";
-$lang['cal_we']			= "On";
-$lang['cal_th']			= "To";
-$lang['cal_fr']			= "Fr";
-$lang['cal_sa']			= "Lø";
-$lang['cal_sun']		= "SØn";
-$lang['cal_mon']		= "Man";
-$lang['cal_tue']		= "Tir";
-$lang['cal_wed']		= "Ons";
-$lang['cal_thu']		= "Tor";
-$lang['cal_fri']		= "Fre";
-$lang['cal_sat']		= "Lør";
-$lang['cal_sunday']		= "Søndag";
-$lang['cal_monday']		= "Mandag";
-$lang['cal_tuesday']	= "Tirsdag";
-$lang['cal_wednesday']	= "Onsdag";
-$lang['cal_thursday']	= "Torsddag";
-$lang['cal_friday']		= "Fredag";
-$lang['cal_saturday']	= "Lørdag";
-$lang['cal_jan']		= "Jan";
-$lang['cal_feb']		= "Feb";
-$lang['cal_mar']		= "Mar";
-$lang['cal_apr']		= "Apr";
-$lang['cal_may']		= "Mai";
-$lang['cal_jun']		= "Jun";
-$lang['cal_jul']		= "Jul";
-$lang['cal_aug']		= "Aug";
-$lang['cal_sep']		= "Sep";
-$lang['cal_oct']		= "Okt";
-$lang['cal_nov']		= "Nov";
-$lang['cal_dec']		= "Des";
-$lang['cal_january']	= "Januar";
-$lang['cal_february']	= "Februar";
-$lang['cal_march']		= "Mars";
-$lang['cal_april']		= "April";
-$lang['cal_mayl']		= "Mai";
-$lang['cal_june']		= "Juni";
-$lang['cal_july']		= "Juli";
-$lang['cal_august']		= "August";
-$lang['cal_september']	= "September";
-$lang['cal_october']	= "Oktober";
-$lang['cal_november']	= "November";
-$lang['cal_december']	= "Desember";
-
-
-/* End of file calendar_lang.php */
+/**
+ * System messages translation for CodeIgniter(tm)
+ * @author    CodeIgniter community
+ * @copyright    Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license    http://opensource.org/licenses/MIT	MIT License
+ * @link    http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['cal_su']        = 'sø';
+$lang['cal_mo']        = 'ma';
+$lang['cal_tu']        = 'ti';
+$lang['cal_we']        = 'on';
+$lang['cal_th']        = 'to';
+$lang['cal_fr']        = 'fr';
+$lang['cal_sa']        = 'lø';
+$lang['cal_sun']       = 'søn';
+$lang['cal_mon']       = 'man';
+$lang['cal_tue']       = 'tir';
+$lang['cal_wed']       = 'ons';
+$lang['cal_thu']       = 'tor';
+$lang['cal_fri']       = 'fre';
+$lang['cal_sat']       = 'lør';
+$lang['cal_sunday']    = 'søndag';
+$lang['cal_monday']    = 'mandag';
+$lang['cal_tuesday']   = 'tirsdag';
+$lang['cal_wednesday'] = 'onsdag';
+$lang['cal_thursday']  = 'torsdag';
+$lang['cal_friday']    = 'fredag';
+$lang['cal_saturday']  = 'lørdag';
+$lang['cal_jan']       = 'jan';
+$lang['cal_feb']       = 'feb';
+$lang['cal_mar']       = 'mar';
+$lang['cal_apr']       = 'apr';
+$lang['cal_may']       = 'mai';
+$lang['cal_jun']       = 'jun';
+$lang['cal_jul']       = 'jul';
+$lang['cal_aug']       = 'aug';
+$lang['cal_sep']       = 'sep';
+$lang['cal_oct']       = 'okt';
+$lang['cal_nov']       = 'nov';
+$lang['cal_dec']       = 'des';
+$lang['cal_january']   = 'januar';
+$lang['cal_february']  = 'februar';
+$lang['cal_march']     = 'mars';
+$lang['cal_april']     = 'april';
+$lang['cal_mayl']      = 'mai';
+$lang['cal_june']      = 'juni';
+$lang['cal_july']      = 'juli';
+$lang['cal_august']    = 'august';
+$lang['cal_september'] = 'september';
+$lang['cal_october']   = 'oktober';
+$lang['cal_november']  = 'november';
+$lang['cal_december']  = 'desember';

@@ -1,25 +1,31 @@
 <?php
-
-$lang['profiler_database']		= 'DATABASE';
+/**
+ * System messages translation for CodeIgniter(tm)
+ * @author    CodeIgniter community
+ * @author    Stefano Mazzega
+ * @copyright    Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license    http://opensource.org/licenses/MIT	MIT License
+ * @link    http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['profiler_database']        = 'DATABASE';
 $lang['profiler_controller_info'] = 'CLASSE/METODO';
-$lang['profiler_benchmarks']	= 'BENCHMARK';
-$lang['profiler_queries']		= 'QUERIES';
-$lang['profiler_get_data']		= 'DATI GET';
-$lang['profiler_post_data']		= 'DATI POST';
-$lang['profiler_uri_string']	= 'STRINGA URI';
-$lang['profiler_memory_usage']	= 'UTILIZZO MEMORIA';
-$lang['profiler_config']		= 'VARIABILI DI CONFIGURAZIONE';
-$lang['profiler_session_data']	= 'DATI DI SESSIONE';
-$lang['profiler_headers']		= 'HTTP HEADERS';
-$lang['profiler_no_db']			= 'Il driver del database non &egrave; attualmente caricato';
-$lang['profiler_no_queries']	= 'Non sono state eseguite queries';
-$lang['profiler_no_post']		= 'Non ci sono dati POST';
-$lang['profiler_no_get']		= 'Non ci sono dati GET';
-$lang['profiler_no_uri']		= 'Non ci sono dati per l\'URI';
-$lang['profiler_no_memory']		= 'Utilizzo Memoria non disponibile';
-$lang['profiler_no_profiles']	= 'Nessun dato di profilazione - tutte le sezioni del Profiler sono state disabilitate.';
-$lang['profiler_section_hide']	= 'Nascondi';
-$lang['profiler_section_show']	= 'Mostra';
-
-/* End of file profiler_lang.php */
-/* Location: ./system/language/italian/profiler_lang.php */
+$lang['profiler_benchmarks']      = 'BENCHMARKS';
+$lang['profiler_queries']         = 'QUERIES';
+$lang['profiler_get_data']        = 'GET DATA';
+$lang['profiler_post_data']       = 'POST DATA';
+$lang['profiler_uri_string']      = 'URI STRING';
+$lang['profiler_memory_usage']    = 'MEMORY USAGE';
+$lang['profiler_config']          = 'CONFIG VARIABLES';
+$lang['profiler_session_data']    = 'SESSION DATA';
+$lang['profiler_headers']         = 'HTTP HEADERS';
+$lang['profiler_no_db']           = 'Il driver del database non è attualmente caricato';
+$lang['profiler_no_queries']      = 'Nessuna query è stata eseguita';
+$lang['profiler_no_post']         = 'Nessun POST esistente';
+$lang['profiler_no_get']          = 'Nessun GET esistente';
+$lang['profiler_no_uri']          = 'Nessun URI esistente';
+$lang['profiler_no_memory']       = 'Utilizzo memoria non disponibile';
+$lang['profiler_no_profiles']     = 'No Profile data - tutte le sezioni del Profiler sono state disabilitate.';
+$lang['profiler_section_hide']    = 'Nascondi';
+$lang['profiler_section_show']    = 'Mostra';
+$lang['profiler_seconds']         = 'secondi';

@@ -1,18 +1,21 @@
 <?php
-
-$lang['ftp_no_connection']			= "Nelze nalézt ID připojení. Zkontrolujte, zda jste připojeni před prováděním jakékoliv změny.";
-$lang['ftp_unable_to_connect']		= "Nelze se připojit k serveru FTP pomocí zadaného názevu hostitele.";
-$lang['ftp_unable_to_login']		= "Nelze se přihlásit k serveru FTP. Zkontrolujte prosím své uživatelské jméno a heslo.";
-$lang['ftp_unable_to_makdir']		= "Nelze vytvořit adresář, který jste zadali.";
-$lang['ftp_unable_to_changedir']	= "Nelze změnit adresáře.";
-$lang['ftp_unable_to_chmod']		= "Nelze nastavit oprávnění k souboru. Zkontrolujte prosím vaši cestu. Poznámka: Tato funkce je pouze k dispozici v PHP 5 nebo vyšší.";
-$lang['ftp_unable_to_upload']		= "Nelze uložit zadaný souboru. Zkontrolujte prosím vaši cestu.";
-$lang['ftp_unable_to_download']		= "Nelze stáhnout soubor. Zkontrolujte prosím vaši cestu.";
-$lang['ftp_no_source_file']			= "Nelze najít zdrojový soubor. Zkontrolujte prosím vaši cestu.";
-$lang['ftp_unable_to_rename']		= "Nelze přejmenovat soubor.";
-$lang['ftp_unable_to_delete']		= "Nelze smazat soubor.";
-$lang['ftp_unable_to_move']			= "Nelze přesunout soubor. Prosím, ujistěte se, že cílový adresář existuje.";
-
-
-/* End of file ftp_lang.php */
-/* Location: ./system/language/czech/ftp_lang.php */
+/**
+ * System messages translation for CodeIgniter(tm)
+ * @author    CodeIgniter community
+ * @copyright    Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license    http://opensource.org/licenses/MIT	MIT License
+ * @link    http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['ftp_no_connection']       = 'Nebylo možno nalézt ID spojení. Ujistěte se prosím, že jste navázali spojení před prací se soubory.';
+$lang['ftp_unable_to_connect']   = 'Nebylo možné se připojit s daným hostname.';
+$lang['ftp_unable_to_login']     = 'Nepodařilo se spojit s FTP serverem, zkontrolujte prosím přihlašovací jméno a heslo.';
+$lang['ftp_unable_to_mkdir']     = 'Nepodařilo se vytvořit adresář.';
+$lang['ftp_unable_to_changedir'] = 'Nepodařilo se změnit adresář.';
+$lang['ftp_unable_to_chmod']     = 'Nepodařilo se nastavit práva souboru. Zkontrolujte prosím cestu.';
+$lang['ftp_unable_to_upload']    = 'Nepodařilo se nahrát soubor. Zkontrolujte prosím cestu.';
+$lang['ftp_unable_to_download']  = 'Nepodařilo se stáhnout soubor. Zkontrolujte prosím cestu.';
+$lang['ftp_no_source_file']      = 'Nepodařilo se najít zdrojové soubory. Zkontrolujte prosím cestu.';
+$lang['ftp_unable_to_rename']    = 'Nepodařilo se přejmenovat soubor.';
+$lang['ftp_unable_to_delete']    = 'Nepodařilo se smazat soubor.';
+$lang['ftp_unable_to_move']      = 'Nepodařilo se přesunout soubor. Zkontrolujte prosím, zda cílová složka existuje.';

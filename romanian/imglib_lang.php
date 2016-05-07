@@ -1,24 +1,27 @@
 <?php
-
-$lang['imglib_source_image_required'] = "Trebuie să specificați o imagine sursă în preferințele dumneavoastră.";
-$lang['imglib_gd_required'] = "Este nevoie de librăria GD image pentru această opţiune";
-$lang['imglib_gd_required_for_props'] = "Serverul trebuie să fie compatibil cu biblioteca de imagine GD, în scopul de a determina proprietățile de imagine.";
-$lang['imglib_unsupported_imagecreate'] = "Serverul nu acceptă funcția HG necesara pentru a procesa acest tip de imagine";
-$lang['imglib_gif_not_supported'] = "Imaginile GIF nu sunt acceptate de multe ori din cauza restricțiilor de acordare a licențelor. Va trebui să utilizați imagini JPG sau PNG.";
-$lang['imglib_jpg_not_supported'] = "Imaginile JPG nu sunt acceptate.";
-$lang['imglib_png_not_supported'] = "Imaginile PNG nu sunt acceptate";
-$lang['imglib_jpg_or_png_required'] = "Protocolul de redimensionare a imaginii specificată în preferințele dvs. funcționează numai cu JPEG sau PNG.";
-$lang['imglib_copy_error'] = "A apărut o eroare în timp ce s-a înlocuit fișierul. Asigurați-vă că directorul de fișiere poate fi scris.";
-$lang['imglib_rotate_unsupported'] = "Rotirea imaginii nu pare să fie acceptată de server.";
-$lang['imglib_libpath_invalid'] = "Calea spre bibliotecă de imagini nu este corectă. Vă rugăm să setați calea corect în preferințele dvs. de imagine.";
-$lang['imglib_image_process_failed'] = "Prelucrarea imaginii a eșuat. Vă rugăm să verificați dacă serverul acceptă protocolul ales și dacă calea spre bibliotecă de imagini este corectă.";
-$lang['imglib_rotation_angle_required'] = "Un unghi de rotație este necesară pentru a roti imaginea.";
-$lang['imglib_writing_failed_gif'] = "Imagine GIF.";
-$lang['imglib_invalid_path'] = "Calea către imagine nu este corectă.";
-$lang['imglib_copy_failed'] = "Copierea de rutină a imaginii a eşuat";
-$lang['imglib_missing_font'] = "Imposibil de a găsi un font pentru a fi utilizat.";
-$lang['imglib_save_failed'] = "Imposibil de a salva imaginea. Vă rugăm să vă asiguraţi că imaginea și directorul de fișiere au drept de scriere.";
-
-
-/* End of file imglib_lang.php */
-/* Location: ./system/language/romanian/imglib_lang.php */
+/**
+ * System messages translation for CodeIgniter(tm)
+ * @author    CodeIgniter community
+ * @author  Cristian Robert Chiribuc
+ * @copyright    Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license    http://opensource.org/licenses/MIT	MIT License
+ * @link    http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
+$lang['imglib_source_image_required']   = 'Trebuie specificată o sursă a imaginii în preferințe.';
+$lang['imglib_gd_required']             = 'Biblioteca de imagine GD este necesară pentru această caracteristică.';
+$lang['imglib_gd_required_for_props']   = 'Serverul dvs. trebuie să suporte biblioteca de imagine GF pentru a putea stabili proprietățile imaginii.';
+$lang['imglib_unsupported_imagecreate'] = 'Serverul dvs. nu suportă funcția GD necesară procesării acestui tip de imagine.';
+$lang['imglib_gif_not_supported']       = 'Imaginile de tip GIF nu sunt suportate de cele mai multe ori din cauza restricțiilor de licență. Va trebui să utilizați imagini JPG sau PNG în schimb.';
+$lang['imglib_jpg_not_supported']       = 'Imaginile JPG nu sunt suportate.';
+$lang['imglib_png_not_supported']       = 'Imaginile PNG nu sunt suportate.';
+$lang['imglib_jpg_or_png_required']     = 'Protocolul de redimensionare a imaginii specificat în preferințele dvs. funcționeazâ doar cu imagini de tipul JPEG sau PNG.';
+$lang['imglib_copy_error']              = 'A fost întâlnită o eroare la încercarea schimbării fișierului. Asigurați-vă că fișierul director are permisiuni de scriere.';
+$lang['imglib_rotate_unsupported']      = 'Rotirea imaginii nu pare a fi suportată de serverul dvs..';
+$lang['imglib_libpath_invalid']         = 'Calea către biblioteca de imagine nu este corectă. Setați calea corectă în preferințele de imagine.';
+$lang['imglib_image_process_failed']    = 'Procesarea imaginii a eșuat. Verificați dacă serverul dvs. suportă protocolul ales și dacă este corectă calea către biblioteca de imagine.';
+$lang['imglib_rotation_angle_required'] = 'Este necesar un unghi de rotație petru a roti imaginea.';
+$lang['imglib_invalid_path']            = 'Calea către imagine nu este corectă.';
+$lang['imglib_copy_failed']             = 'Copierea imaginii de rutină a eșuat.';
+$lang['imglib_missing_font']            = 'Nu s-a putut găsi un font pentru a fi folosit.';
+$lang['imglib_save_failed']             = 'Imaginea nu a putut fi salvată. Asigurați-vă că imaginea și fișierul director au permisiuni de scriere.';
