@@ -1,18 +1,24 @@
 <?php
+/**
+ * System messages translation for CodeIgniter(tm)
+ *
+ * @author	CodeIgniter community
+ * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @copyright	Pieter Krul
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('Directe toegang tot scripts is niet toegestaan');
 
-$lang['ftp_no_connection']			= "Niet mogelijk om een geldige ID verbinding te lokaliseren. Controleer of u verbonden bent voor u verder gaat.";
-$lang['ftp_unable_to_connect']		= "Niet mogelijk om verbinding te maken met uw FTP server met de ingevoerde hostname.";
-$lang['ftp_unable_to_login']		= "Niet mogelijk om in te loggen op uw FTP server. Controleer uw gebruikersnaam en wachtwoord.";
-$lang['ftp_unable_to_makdir']		= "Niet mogelijk om de gespecificeerde directory aan te maken.";
-$lang['ftp_unable_to_changedir']	= "Niet mogelijk om directories te veranderen.";
-$lang['ftp_unable_to_chmod']		= "Niet mogelijk om bestandsrechten te creeren. Controleer uw pad. Notitie: Deze functie is alleen mogelijk met PHP 5 of hoger";
-$lang['ftp_unable_to_upload']		= "Niet mogelijk om gespecificeerd bestand te uploaden. Controleer het pad.";
-$lang['ftp_unable_to_download']		= "Niet mogelijk om gespecificeerd bestand te downloaden. Controleer het pad.";
-$lang['ftp_no_source_file']			= "Niet mogelijk om het bronbestand te lokaliseren. Controleer het pad.";
-$lang['ftp_unable_to_rename']		= "Niet mogelijk om bestand te hernoemen.";
-$lang['ftp_unable_to_delete']		= "Niet mogelijk om bestand te verwijderen.";
-$lang['ftp_unable_to_move']			= "Niet mogelijk om bestand te verplaatsen. Controleer of uw aangegeven locatie bestaat.";
-
-
-/* End of file ftp_lang.php */
-/* Location: ./system/language/english/ftp_lang.php */
+$lang['ftp_no_connection']		= 'Het systeem kan geen werkende verbinding maken. Zorg dat deze is opgezet voordat routines worden uitgevoerd.';
+$lang['ftp_unable_to_connect']		= 'Het systeem kan met de opgegeven hostnaam geen FTP-verbinding opzetten.';
+$lang['ftp_unable_to_login']		= 'Het systeem kan niet aanmelden bij de FTP server. Controleer a.u.b. de gebruikersnaam en wachtwoord.';
+$lang['ftp_unable_to_mkdir']		= 'Het systeem kan de opgegeven directory niet aanmaken.';
+$lang['ftp_unable_to_changedir']	= 'Het systeem kan niet van directory veranderen.';
+$lang['ftp_unable_to_chmod']		= 'Het systeem kan de bestandspermissies niet instellen. Controleer a.u.b. het bestandspad.';
+$lang['ftp_unable_to_upload']		= 'Het systeem kan het opgegeven bestand niet uploaden. Controleer a.u.b. het bestandspad.';
+$lang['ftp_unable_to_download']		= 'Het systeem kan het opgegeven bestand niet downloaden. Controleer a.u.b. het bestandspad.';
+$lang['ftp_no_source_file']		= 'Het systeem kan het bronbestand niet vinden. Controleer a.u.b. het bestandspad.';
+$lang['ftp_unable_to_rename']		= 'Het systeem kan het bestand niet hernoemen.';
+$lang['ftp_unable_to_delete']		= 'Het systeem kan het bestand niet verwijderen.';
+$lang['ftp_unable_to_move']		= 'Het systeem kan het bestand niet verplaatsen. Controleer of het bestemmingspad bestaat.';

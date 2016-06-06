@@ -1,29 +1,35 @@
 <?php
+/**
+ * System messages translation for CodeIgniter(tm)
+ *
+ * @author	CodeIgniter community
+ * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['db_invalid_connection_str'] = 'Die Datenbankkonfiguration konnte nicht f&uuml;r die angegebene Verbindung ermittelt werden.';
-$lang['db_unable_to_connect'] = 'Mit den angegebenen Verbindungsdaten konnte keine Verbindung zur Datenbank hergestellt werden.';
-$lang['db_unable_to_select'] = 'Die Verbindung zur Datenbank %s ist fehlgeschlagen.';
-$lang['db_unable_to_create'] = 'Die Datenbank %s konnte nicht erstellt werden.';
-$lang['db_invalid_query'] = 'Die angegebene Abfrage ist nicht g&uuml;ltig.';
-$lang['db_must_set_table'] = 'Es muss eine Datenbanktabelle f&uuml;r die Abfrage angegeben werden.';
-$lang['db_must_use_set'] = 'Der Befehl "SET" muss in der Aktualisierungs-Abfrage enthalten sein.';
-$lang['db_must_use_index'] = 'Sie m&uuml;ssen einen Index f&uuml;r die Batchaktualisierung angeben.';
-$lang['db_batch_missing_index'] = 'F&uuml;r eine oder mehrere Reihen der Batchaktualisierung fehlt der Eintrag f&uuml;r den Index.';
-$lang['db_must_use_where'] = 'Aktualisierungen von Datens&auml;tzen erfordern eine "WHERE"-Klausel.';
-$lang['db_del_must_use_where'] = 'Das La&ouml;schen von Datens&auml;tzen erfordert eine "WHERE"-Klausel.';
-$lang['db_field_param_missing'] = 'Der Name der Tabelle, aus der Daten abgefragt werden sollen, muss angegeben werden.';
-$lang['db_unsupported_function'] = 'Dieser Befehl wird von der verwendeten Datenbank nicht unterst&uuml;tzt.';
-$lang['db_transaction_failure'] = 'Die Transaktion ist fehlgeschlagen: Der vorherige Zustand wurde wiederhergestellt.';
-$lang['db_unable_to_drop'] = 'Die Datenbank konnte nicht gel&ouml;scht werden.';
-$lang['db_unsuported_feature'] = 'Dieser Befehl wird von der verwendeten Datenbank nicht unterst&uuml;tzt.';
-$lang['db_unsuported_compression'] = 'Das verwendete Kompressions-Dateiformat wird von der Datenbank nicht unterst&uuml;tzt.';
-$lang['db_filepath_error'] = 'Die Ausgabe von Daten in den angegebenen Dateipfad ist fehlgeschlagen.';
-$lang['db_invalid_cache_path'] = 'Der Zwischenspeicher-Pfad (Cache) ist ung&uuml;ltig oder schreibgesch&uuml;tzt.';
-$lang['db_table_name_required'] = 'F&uuml;r diese Verarbeitung wird ein Tabellenname ben&ouml;tigt.';
-$lang['db_column_name_required'] = 'F&uuml;r diese Verarbeitung wird ein Spaltenname ben&ouml;tigt.';
-$lang['db_column_definition_required'] = 'F&uuml;r diese Verarbeitung wird eine Spaltenbeschreibung ben&ouml;tigt.';
-$lang['db_unable_to_set_charset'] = 'Unm&ouml;glich den Zeichensatz f&uuml;r die Client Verbindung zu setzen: %s';
-$lang['db_error_heading'] = 'Ein Datenbankfehler ist aufgetreten';
-
-/* End of file db_lang.php */
-/* Location: ./system/language/german/db_lang.php */
+$lang['db_invalid_connection_str'] = 'Die Datenbank-Einstellungen sind anhand der vorliegenden Verbindungsdaten nicht zu ermitteln.';
+$lang['db_unable_to_connect'] = 'Mit den vorliegenden Einstellungen ist keine Verbindung zum Datenbank-Server möglich.';
+$lang['db_unable_to_select'] = 'Die folgende Datenbank kann nicht gewählt werden: %s';
+$lang['db_unable_to_create'] = 'Die folgende Datenbank kann nicht erstellt werden: %s';
+$lang['db_invalid_query'] = 'Die vorliegende SQL-Abfrage ist ungültig.';
+$lang['db_must_set_table'] = 'Sie müssen die Tabelle der Datenbank für Ihre Abfrage angegeben.';
+$lang['db_must_use_set'] = 'Zum Updaten eines Eintrages müssen Sie die "set" Methode verwenden.';
+$lang['db_must_use_index'] = 'Für einen Batch-Update müssen Sie einen passenden Index bestimmen.';
+$lang['db_batch_missing_index'] = 'Eine oder mehrere angegebene Zeilen für einen Batch-Update haben einen fehlenden Index.';
+$lang['db_must_use_where'] = 'Updates sind nicht erlaubt, solange Sie nicht eine "where" Bedingung enthalten.';
+$lang['db_del_must_use_where'] = 'Löschungen sind nicht erlaubt, solange Sie nicht eine Bedingung wie "where" oder "like" enthalten sind.';
+$lang['db_field_param_missing'] = 'Um Felder abzufragen benötigen Sie den Namen der Tabelle als Parameter.';
+$lang['db_unsupported_function'] = 'Die verwendete Datenbank-Plattform unterstützt diese Funktion nicht.';
+$lang['db_transaction_failure'] = 'Transaktions-Fehler: Rollback durchgeführt.';
+$lang['db_unable_to_drop'] = 'Die angegebene Datenbank kann nicht gelöscht werden.';
+$lang['db_unsupported_feature'] = 'Ihre Datenbank-Plattform unterstützt diese Funktion nicht.';
+$lang['db_unsupported_compression'] = 'Das angegebene Format für die Daten-Komprimierung wird auf Ihrem Server nicht unterstützt.';
+$lang['db_filepath_error'] = 'Die Daten konnten nicht in das angegebene Verzeichnis geschrieben werden.';
+$lang['db_invalid_cache_path'] = 'Der angegebene Pfad für den Cache ist ungültig oder nicht beschreibbar.';
+$lang['db_table_name_required'] = 'Ein Tabellenname wird für diesen Vorgang benötigt.';
+$lang['db_column_name_required'] = 'Ein Spaltenname wird für diesen Vorgang benötigt.';
+$lang['db_column_definition_required'] = 'Eine Spalten-Definition wird für diesen Vorgang benötigt.';
+$lang['db_unable_to_set_charset'] = 'Der Verbindungs-Zeichensatz konnte nicht gesetzt werden: %s';
+$lang['db_error_heading'] = 'Es ist ein Datenbank-Fehler aufgetreten.';

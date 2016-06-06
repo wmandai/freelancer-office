@@ -1,40 +1,40 @@
 <?php
 
 // Errors
-$lang['auth_incorrect_password'] = 'Incorrect password';
-$lang['auth_incorrect_login'] = 'Incorrect login';
-$lang['auth_incorrect_email_or_username'] = 'Login or email doesn\'t exist';
-$lang['auth_email_in_use'] = 'Email is already used by another user. Please choose another email.';
-$lang['auth_username_in_use'] = 'Username already exists. Please choose another username.';
-$lang['auth_current_email'] = 'This is your current email';
-$lang['auth_incorrect_captcha'] = 'Your confirmation code does not match the one in the image.';
-$lang['auth_captcha_expired'] = 'Your confirmation code has expired. Please try again.';
+$lang['auth_incorrect_password'] = 'Niepoprawne hasło';
+$lang['auth_incorrect_login'] = 'Niepoprawny login';
+$lang['auth_incorrect_email_or_username'] = 'Login lub email nie istnieje';
+$lang['auth_email_in_use'] = 'Email jest wykorzystywany przez innego użytkownika. Wybierz inny email.';
+$lang['auth_username_in_use'] = 'Nazwa użytkownika już istnieje. Wybierz inną.';
+$lang['auth_current_email'] = 'To Twój obecny email';
+$lang['auth_incorrect_captcha'] = 'Kod potwierdzający nie pasuje do tego na obrazku.';
+$lang['auth_captcha_expired'] = 'Kod potwierdzający przeterminował się. Spróbuj ponownie.';
 
 // Notifications
-$lang['auth_message_logged_out'] = 'You have been successfully logged out.';
-$lang['auth_message_registration_disabled'] = 'Registration is disabled.';
-$lang['auth_message_registration_completed_1'] = 'You have successfully registered. Check your email address to activate your account.';
-$lang['auth_message_registration_completed_2'] = 'You have successfully registered.';
-$lang['auth_message_activation_email_sent'] = 'A new activation email has been sent to %s. Follow the instructions in the email to activate your account.';
-$lang['auth_message_activation_completed'] = 'Your account has been successfully activated.';
-$lang['auth_message_activation_failed'] = 'The activation code you entered is incorrect or expired.';
-$lang['auth_message_password_changed'] = 'Your password has been successfully changed.';
-$lang['auth_message_new_password_sent'] = 'An email with instructions for creating a new password has been sent to you.';
-$lang['auth_message_new_password_activated'] = 'You have successfully reset your password';
-$lang['auth_message_new_password_failed'] = 'Your activation key is incorrect or expired. Please check your email again and follow the instructions.';
-$lang['auth_message_new_email_sent'] = 'A confirmation email has been sent to %s. Follow the instructions in the email to complete this change of email address.';
-$lang['auth_message_new_email_activated'] = 'You have successfully changed your email';
-$lang['auth_message_new_email_failed'] = 'Your activation key is incorrect or expired. Please check your email again and follow the instructions.';
-$lang['auth_message_banned'] = 'You are banned.';
-$lang['auth_message_unregistered'] = 'Your account has been deleted...';
+$lang['auth_message_logged_out'] = 'Zostałeś pomyślnie wylogowany.';
+$lang['auth_message_registration_disabled'] = 'Rejestracja jest wyłączona.';
+$lang['auth_message_registration_completed_1'] = 'Rejestracja pomyślna. Sprawdź email, by aktywować konto.';
+$lang['auth_message_registration_completed_2'] = 'Rejestracja pomyślna.';
+$lang['auth_message_activation_email_sent'] = 'Nowy email aktywujący został wysłąny na %s. Postępuj zgodnie z instrukcjami w mailu, by aktywować konto.';
+$lang['auth_message_activation_completed'] = 'Twoje konto zostało pomyślnie aktywowane.';
+$lang['auth_message_activation_failed'] = 'Kod aktywacyjny, który wprowadziłeś jest niepoprawny lub przeterminowany.';
+$lang['auth_message_password_changed'] = 'Hasło pomyślnie zmienione.';
+$lang['auth_message_new_password_sent'] = 'Email z instrukcjami jak stworzyć nowe hasło został do Ciebie wysłany.';
+$lang['auth_message_new_password_activated'] = 'Hasło pomyślnie zresetowane';
+$lang['auth_message_new_password_failed'] = 'Twój klucz aktywacyjny jest nieprawidłowy lub przeterminowany. Sprawdź swój email ponownie i podążaj za instrukcjami.';
+$lang['auth_message_new_email_sent'] = 'Email potwierdzający został wysłany na %s. Podążaj za instrukcjami w emailu, by zakończyć zmianę adresu email.';
+$lang['auth_message_new_email_activated'] = 'Pomyślnie zmieniłeś email';
+$lang['auth_message_new_email_failed'] = 'Twój klucz aktywacyjny jest nieprawidłowy lub przeterminowany. Sprawdź swój email ponownie i podążaj za instrukcjami.';
+$lang['auth_message_banned'] = 'Jesteś zablokowany.';
+$lang['auth_message_unregistered'] = 'Twoje konto zostało usunięte...';
 
 // Email subjects
-$lang['auth_subject_welcome'] = 'Welcome to %s!';
-$lang['auth_subject_activate'] = 'Welcome to %s!';
-$lang['auth_subject_forgot_password'] = 'Forgot your password on %s?';
-$lang['auth_subject_reset_password'] = 'Your new password on %s';
-$lang['auth_subject_change_email'] = 'Your new email address on %s';
+$lang['auth_subject_welcome'] = 'Witamy w %s!';
+$lang['auth_subject_activate'] = 'Witamy w %s!';
+$lang['auth_subject_forgot_password'] = 'Zapomniałeś hasła w %s?';
+$lang['auth_subject_reset_password'] = 'Twoje nowe hasło w %s';
+$lang['auth_subject_change_email'] = 'Twój nowy email w %s';
 
 
 /* End of file tank_auth_lang.php */
-/* Location: ./application/language/english/tank_auth_lang.php */
+/* Location: ./application/language/polish/tank_auth_lang.php */

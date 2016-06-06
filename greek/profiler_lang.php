@@ -19,6 +19,7 @@ $lang['profiler_no_memory'] = 'Η χρήση μνήμης δεν είναι δι
 $lang['profiler_no_profiles'] = 'Δεν υπάρχουν δεδομένα προφίλ - όλα τα τμήματα του Profiler έχουν απενεργοποιηθεί.';
 $lang['profiler_section_hide'] = 'Απόκρυψη';
 $lang['profiler_section_show'] = 'Εμφάνιση';
+$lang['profiler_seconds'] = 'seconds';
 
 /* End of file profiler_lang.php */
 /* Location: ./application/language/greek/profiler_lang.php */

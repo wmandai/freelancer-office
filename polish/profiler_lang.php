@@ -1,25 +1,32 @@
 <?php
+/**
+ * System messages translation for CodeIgniter(tm)
+ *
+ * @author	CodeIgniter community
+ * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['profiler_database']		= 'BAZA DANYCH';
-$lang['profiler_controller_info'] = 'KLASA/METODA';
-$lang['profiler_benchmarks']	= 'BENCHMARKI';
-$lang['profiler_queries']		= 'ZAPYTANIA';
-$lang['profiler_get_data']		= 'DANE GET';
-$lang['profiler_post_data']		= 'DANE POST';
-$lang['profiler_uri_string']	= 'ŁAŃCUCH URI';
-$lang['profiler_memory_usage']	= 'UŻYCIE PAMIĘCI';
-$lang['profiler_config']		= 'ZMIENNE KONFIGURACYJNE';
-$lang['profiler_session_data']	= 'DANE SESJI';
-$lang['profiler_headers']		= 'NAGŁÓWKI HTTP';
-$lang['profiler_no_db']			= 'Sterownik bazy danych nie może być obecnie załadowany';
-$lang['profiler_no_queries']	= 'Nie uruchomiono żadnych zapytań';
-$lang['profiler_no_post']		= 'Brak danych POST';
-$lang['profiler_no_get']		= 'Brak danych GET';
-$lang['profiler_no_uri']		= 'Brak danych URI';
-$lang['profiler_no_memory']		= 'Użycie pamięci niedostępne';
-$lang['profiler_no_profiles']	= 'Brak danych Profilu - wszystkie sekcje Profilu zostały zablokowane.';
-$lang['profiler_section_hide']	= 'Ukryj';
-$lang['profiler_section_show']	= 'Pokaż';
-
-/* End of file profiler_lang.php */
-/* Location: ./system/language/polish/profiler_lang.php */
+$lang['profiler_database']          = 'BAZA DANYCH';
+$lang['profiler_controller_info']   = 'KLASA/METODA';
+$lang['profiler_benchmarks']        = 'BENCHMARKI';
+$lang['profiler_queries']           = 'ZAPYTANIA';
+$lang['profiler_get_data']          = 'DANE GET';
+$lang['profiler_post_data']         = 'DANE POST';
+$lang['profiler_uri_string']        = 'CIĄG URI';
+$lang['profiler_memory_usage']      = 'ZUŻYCIE PAMIĘCI';
+$lang['profiler_config']            = 'ZMIENNE KONFIGURACYJNE';
+$lang['profiler_session_data']      = 'ZMIENNE SESYJNE';
+$lang['profiler_headers']           = 'NAGŁÓWKI HTTP';
+$lang['profiler_no_db']             = 'Biblioteka do obsługi bazy danych nie jest obecnie załadowana';
+$lang['profiler_no_queries']        = 'Nie wykonano żadnych zapytań';
+$lang['profiler_no_post']           = 'Brak danych typu POST';
+$lang['profiler_no_get']            = 'Brak danych typu GET';
+$lang['profiler_no_uri']            = 'Brak danych typu URI';
+$lang['profiler_no_memory']         = 'Dane o zużyciu pamięci są niedostępne';
+$lang['profiler_no_profiles']       = 'Brak danych dla Profilera - wszystkie sekcje profilera zostały wyłączone.';
+$lang['profiler_section_hide']      = 'Ukryj';
+$lang['profiler_section_show']      = 'Pokaż';
+$lang['profiler_seconds']           = 'sekundy';

@@ -1,29 +1,41 @@
 <?php
+/**
+ * System messages translation for CodeIgniter(tm)
+ *
+ * @author	CodeIgniter community
+ * @author  Cristian Robert Chiribuc
+ * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['required']			= "Campul %s este obligatoriu.";
-$lang['isset']				= "Campul %s trebuie să aibe o valoare.";
-$lang['valid_email']		= "Campul %s trebuie să conţină o adresă de email validă.";
-$lang['valid_emails']		= "Campul %s trebuie să conţină numai adrese de email valide.";
-$lang['valid_url']			= "Campul %s trebuie să conţină un URL valid.";
-$lang['valid_ip']			= "Campul %s trebuie să conţină o adresă IP validă.";
-$lang['min_length']			= "Campul %s trebuie să aibe o lungime cel puţin %s caractere.";
-$lang['max_length']			= "Campul %s trebuie să nu depăşească lungimea de %s caractere.";
-$lang['exact_length']		= "Campul %s trebuie să aibe exact un număr de  %s caractere.";
-$lang['alpha']				= "Campul %s poate să conţină numai litere din alfabet";
-$lang['alpha_numeric']		= "Campul %s poate să conţină numai caractere alfanumerice.";
-$lang['alpha_dash']			= "Campul %s poate sa contina numai caractere alfanumerice, subliniate, şi linii.";
-$lang['numeric']			= "Campul %s trebuie să conţină numai cifre.";
-$lang['is_numeric']			= "Campul %s trebuie să conţină numai caractere numerice";
-$lang['integer']			= "Campul %s trebuie să conţină o unitate.";
-$lang['regex_match']		= "Campul %s nu este într-un format corect.";
-$lang['matches']			= "Campul %s nu se potriveste cu campul %s.";
-$lang['is_unique'] 			= "Campul %s trebuie să aibe o valoare unică.";
-$lang['is_natural']			= "Campul %s trebuie să conţină numai numere pozitive.";
-$lang['is_natural_no_zero']	= "Campul %s trebuie să aibe un numar mai mare decât 0.";
-$lang['decimal']			= "Campul %s trebuie să conţină un numar decimal.";
-$lang['less_than']			= "Campul %s trebuie să conţină un numar mai mic decât %s.";
-$lang['greater_than']		= "Campul %strebuie să conţină un numar mai mare decât %s.";
-
-
-/* End of file form_validation_lang.php */
-/* Location: ./system/language/english/form_validation_lang.php */
+$lang['form_validation_required']		= 'Câmpul {field} este obligatoriu.';
+$lang['form_validation_isset']			= 'Câmpul {field} trebuie să conțină o valoare.';
+$lang['form_validation_valid_email']		= 'Câmpul {field} trebuie să conțină o adresâ de email validă.';
+$lang['form_validation_valid_emails']		= 'Câmpul {field} trebuie să conțină toate adresele de email valide.';
+$lang['form_validation_valid_url']		= 'Câmpul {field} trebuie să conțină un URL valid.';
+$lang['form_validation_valid_ip']		= 'Câmpul {field} trebuie să conțină un IP valid.';
+$lang['form_validation_min_length']		= 'Câmpul {field} trebuie să fie de cel puțin {param} caractere lungime.';
+$lang['form_validation_max_length']		= 'Câmpul {field} nu poate să depășească {param} caractere lungime.';
+$lang['form_validation_exact_length']		= 'Câmpul {field} trebuie să fie de exact {param} caractere lungime.';
+$lang['form_validation_alpha']			= 'Câmpul {field} poate conține doar caractere alfabetice.';
+$lang['form_validation_alpha_numeric']		= 'Câmpul {field} poate să conțină doar caractere alfa-numerice.';
+$lang['form_validation_alpha_numeric_spaces']	= 'Câmpul {field} poate să conțină doar caractere alfa-numerice și spații.';
+$lang['form_validation_alpha_dash']		= 'Câmpul {field} poate să conțină doar caractere alfa-numerice, underscore-ur, și linii.';
+$lang['form_validation_numeric']		= 'Câmpul {field} poate să conțină doar numere.';
+$lang['form_validation_is_numeric']		= 'Câmpul {field} poate să conțină doar caractere numerice.';
+$lang['form_validation_integer']		= 'Câmpul {field} poate să conțină doar un numâr integru.';
+$lang['form_validation_regex_match']		= 'Câmpul {field} nu conține formatul corect.';
+$lang['form_validation_matches']		= 'Câmpul {field} nu corespunde cu câmpul {param}.';
+$lang['form_validation_differs']		= 'Câmpul {field} trebuie să difere de câmpul {param}.';
+$lang['form_validation_is_unique'] 		= 'Câmpul {field} trebuie să conțină o valoare unică.';
+$lang['form_validation_is_natural']		= 'Câmpul {field} trebuie să conțină doar numere.';
+$lang['form_validation_is_natural_no_zero']	= 'Câmpul {field} trebuie să conțină doar numere și trebuie să fie mai mare decât 0.';
+$lang['form_validation_decimal']		= 'Câmpul {field} trebuie să conțină un număr decimal.';
+$lang['form_validation_less_than']		= 'Câmpul {field} trebuie să conțină un număr mai mic decât {param}.';
+$lang['form_validation_less_than_equal_to']	= 'Câmpul {field} trebuie să conțină un număr mai mic sau egacl cu {param}.';
+$lang['form_validation_greater_than']		= 'Câmpul {field} trebuie să conțină un număr mai mare decât {param}.';
+$lang['form_validation_greater_than_equal_to']	= 'Câmpul {field} trebuie să conțină un număr mai mare decât sau egal cu {param}.';
+$lang['form_validation_error_message_not_set']	= 'Nu se poate accesa un mesaj de eroare corespunzător numele tău domeniu {field}.';
+$lang['form_validation_in_list']		= 'Câmpul {field} trebuie să fie unul dintre: {param}.';

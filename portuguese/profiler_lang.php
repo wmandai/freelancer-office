@@ -1,25 +1,32 @@
 <?php
+/**
+ * System messages translation for CodeIgniter(tm)
+ *
+ * @author	CodeIgniter community
+ * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['profiler_database']		= 'BASE DADOS';
-$lang['profiler_controller_info'] = 'CLASSE/MÉTODO';
-$lang['profiler_benchmarks']	= 'REFERÊNCIA';
-$lang['profiler_queries']		= 'CONSULTAS';
-$lang['profiler_get_data']		= 'OBTER DADOS';
-$lang['profiler_post_data']		= 'PUBLICAR DADOS';
-$lang['profiler_uri_string']	= 'URI STRING';
-$lang['profiler_memory_usage']	= 'MEMÓRIA USADA';
-$lang['profiler_config']		= 'CONFIG VARIABLES';
-$lang['profiler_session_data']	= 'SESSION DATA';
-$lang['profiler_headers']		= 'HTTP HEADERS';
-$lang['profiler_no_db']			= 'Database driver is not currently loaded';
-$lang['profiler_no_queries']	= 'No queries were run';
-$lang['profiler_no_post']		= 'No POST data exists';
-$lang['profiler_no_get']		= 'No GET data exists';
-$lang['profiler_no_uri']		= 'No URI data exists';
-$lang['profiler_no_memory']		= 'Memory Usage Unavailable';
-$lang['profiler_no_profiles']	= 'No Profile data - all Profiler sections have been disabled.';
-$lang['profiler_section_hide']	= 'Ocultar';
-$lang['profiler_section_show']	= 'Mostar';
-
-/* End of file profiler_lang.php */
-/* Location: ./system/language/english/profiler_lang.php */
+$lang['profiler_database'] = 'BASE DE DADOS';
+$lang['profiler_controller_info'] = 'CLASSE / MÉTODO';
+$lang['profiler_benchmarks'] = 'BENCHMARKS';
+$lang['profiler_queries'] = 'QUERIES';
+$lang['profiler_get_data'] = 'DADOS GET';
+$lang['profiler_post_data'] = 'DADOS POST';
+$lang['profiler_uri_string'] = 'URI STRING';
+$lang['profiler_memory_usage'] = 'USO DE MEMÓRIA';
+$lang['profiler_config'] = 'VARIÁVEIS DE CONFIGURAÇÃO';
+$lang['profiler_session_data'] = 'DADOS DA SESSÃO';
+$lang['profiler_headers'] = 'CABEÇALHO HTTP';
+$lang['profiler_no_db'] = 'Os drivers da base de dados não estão carregados.';
+$lang['profiler_no_queries'] = 'Não foram feitas queries';
+$lang['profiler_no_post'] = 'Não existem dados POST';
+$lang['profiler_no_get'] = 'Não existem dados GET';
+$lang['profiler_no_uri'] = 'Não existem dados URI';
+$lang['profiler_no_memory'] = 'Não é possível consultar uso da memória';
+$lang['profiler_no_profiles'] = 'Não há dados de Profile - Todas as secções do Profiler foram desativadas.';
+$lang['profiler_section_hide'] = 'Esconder';
+$lang['profiler_section_show'] = 'Mostrar';
+$lang['profiler_seconds'] = 'segundos';

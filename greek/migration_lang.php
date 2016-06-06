@@ -1,11 +1,20 @@
 <?php
-$lang['migration_none_found'] = 'Δεν βρέθηκαν μεταναστεύσεις.';
-$lang['migration_not_found'] = 'Δεν ήταν δυνατή η εύρεση αυτής της μετανάστευσης.';
-$lang['migration_multiple_version'] = 'Υπάρχουν πολλαπλές μεταναστεύσεις με τον ίδιο αριθμό έκδοσης: %d.';
-$lang['migration_class_doesnt_exist'] = 'Η κλάση μετανάστευσης δεν υπάρχει';
-$lang['migration_missing_up_method'] = 'Η κλάση μετανάστευσης δεν έχει μέθοδο UP';
-$lang['migration_missing_down_method'] = 'Η κλάση μετανάστευσης δεν έχει μέθοδο DOWN';
-$lang['migration_invalid_filename'] = 'Λάθος όνομα αρχείου μετανάστευσης';
+/**
+ * System messages translation for CodeIgniter(tm)
+ *
+ * @author	CodeIgniter community
+ * @author	Grigoris Charamidis
+ * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-/* End of file migration_lang.php */
-/* Location: ./application/language/greek/migration_lang.php */
+$lang['migration_none_found'] = 'Δεν βρέθηκαν migrations.';
+$lang['migration_not_found'] = 'Όχι migrations, θα μπορούσε να βρεθεί με τον αριθμό έκδοσης: %s.';
+$lang['migration_sequence_gap'] = 'Υπάρχει ένα κενό στην ακολουθία του migration στους κοντινούς αριθμούς έκδοσης: %s.';
+$lang['migration_multiple_version'] = 'Υπάρχουν πολλαπλά migrations με τον ίδιο αριθμό έκδοσης: %s.';
+$lang['migration_class_doesnt_exist'] = 'Η migration class "%s" δεν μπορεί να βρεθεί.';
+$lang['migration_missing_up_method'] = 'Απο την migration class "%s" λείπει η "up" μέθοδος.';
+$lang['migration_missing_down_method'] = 'Απο την migration class "%s" λείπει η "down" μέθοδος.';
+$lang['migration_invalid_filename'] = 'Migration "%s" έχει ένα μη εγκυρο όνομα.';

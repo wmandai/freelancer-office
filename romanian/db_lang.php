@@ -1,29 +1,36 @@
 <?php
+/**
+ * System messages translation for CodeIgniter(tm)
+ *
+ * @author	CodeIgniter community
+ * @author  Cristian Robert Chiribuc
+ * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['db_invalid_connection_str'] = 'Nu se poate stabili setările la bază de date cu informaţiile de conexiune pe care le-aţi trimis.';
-$lang['db_unable_to_connect'] = 'Nu se poate conecta la serverul de baze de date folosind setările oferite.';
-$lang['db_unable_to_select'] = 'Imposibil de a selecta baza de date specificată: %s';
-$lang['db_unable_to_create'] = 'Imposibil de a crea baza de date specificată: %s';
-$lang['db_invalid_query'] = 'Interogarea trimisă nu este corectă.';
-$lang['db_must_set_table'] = 'Trebuie să setați un tabel în bază de date pentru a fi utilizat împreună cu interogarea.';
-$lang['db_must_use_set'] = 'Trebuie să utilizați metoda "set" pentru a actualiza o intrare.';
-$lang['db_must_use_index'] = 'Trebuie să specificați un index pentru a se potrivi cu pachetul de actualizări';
-$lang['db_batch_missing_index'] = 'Unul sau mai multe rânduri prezentate pentru pachetul de actualizări lipseşte indexul specificat.';
-$lang['db_must_use_where'] = 'Actualizările nu sunt permise, cu excepția cazului în care conțin o cauză "where"';
-$lang['db_del_must_use_where'] = 'Ștergerile nu sunt permise, cu excepția cazului în care conțin o cauză "where" sau "like".';
-$lang['db_field_param_missing'] = 'Pentru a descărca din câmpuri este necesar numele tabelului ca parametru.';
-$lang['db_unsupported_function'] = 'Această caracteristică nu este disponibilă pentru baza de date pe care o utilizați.';
-$lang['db_transaction_failure'] = 'Eșec tranzacție: se anulează modificările.';
-$lang['db_unable_to_drop'] = 'Imposibil să renunț la baza de date specificată.';
-$lang['db_unsuported_feature'] = 'Caracteristică neacceptată de platforma bazei de date pe care o utilizați.';
-$lang['db_unsuported_compression'] = 'Formatul de compresie de fișier pe care l-aţi selectat nu este acceptat de server-ul dvs.';
-$lang['db_filepath_error'] = 'Imposibil de a scrie date către calea de fișier trimis.';
-$lang['db_invalid_cache_path'] = 'Calea catre cache trimis nu este valid sau nu are drepturi de scriere.';
-$lang['db_table_name_required'] = 'Un nume de tabelă este necesar pentru această operațiune.';
-$lang['db_column_name_required'] = 'Un nume de coloană este necesară pentru această operațiune.';
-$lang['db_column_definition_required'] = 'Un nume ca definiție de coloană pentru această operațiune.';
-$lang['db_unable_to_set_charset'] = 'Imposibil de setat pentru client un set de caractere la conexiune: %s';
-$lang['db_error_heading'] = 'S-a produs o eroare la baza de date';
-
-/* End of file db_lang.php */
-/* Location: ./system/language/english/db_lang.php */
+$lang['db_invalid_connection_str'] = 'Datele conexiunii eronate. Nu s-au putut determina setările bazei de date.';
+$lang['db_unable_to_connect'] = 'Conexiunea la baza de date nu se poate efectua utilizând setările furnizate.';
+$lang['db_unable_to_select'] = 'Baza de date specificată nu poate fi selectată: %s';
+$lang['db_unable_to_create'] = 'Baza de date specificată nu poate fi creată: %s';
+$lang['db_invalid_query'] = 'Interogarea trimisă nu este validă.';
+$lang['db_must_set_table'] = 'Tabelul bazei de date trebuie setat pentru a putea fi efectuată interogarea.';
+$lang['db_must_use_set'] = 'Trebuie să folosiți metoda "set" pentru a actualiza o intrare.';
+$lang['db_must_use_index'] = 'Trebuie să specificați un index pentru a corespunde actualizărilor în lot.';
+$lang['db_batch_missing_index'] = 'Indexul specificat lipsește din unul sau mai multe rânduri trimise pentru actualizarea în lot.';
+$lang['db_must_use_where'] = 'Actualizările nu sunt permise decât dacă conțin o clausă de tip "where".';
+$lang['db_del_must_use_where'] = 'Ștergerile nu sunt permise decât dacă conțin o clausă de tip "where" sau "like".';
+$lang['db_field_param_missing'] = 'Pentru a prelua câmpuri este necesar numele tabelului ca parametru.';
+$lang['db_unsupported_function'] = 'Această opțiune nu este disponibilă pentru baza de date pe care o folosiți.';
+$lang['db_transaction_failure'] = 'Tranzacție eșuată: Revenirea a fost realizată.';
+$lang['db_unable_to_drop'] = 'Baza de date specificată nu a putut fi "aruncată".';
+$lang['db_unsupported_feature'] = 'Platforma bazei de date utilizată nu acceptă această caracteristică.';
+$lang['db_unsupported_compression'] = 'Formatul de compresie al fișierului ales nu este suportat de către server.';
+$lang['db_filepath_error'] = 'Nu s-au putut scrie date pe calea fișierului specificat.';
+$lang['db_invalid_cache_path'] = 'Calea specificată către cache nu este validă sau nu are permisiuni de scriere.';
+$lang['db_table_name_required'] = 'Pentru această operațiune este necesar un nume de tabel.';
+$lang['db_column_name_required'] = 'Pentru această operațiune este necesar un nume de coloană.';
+$lang['db_column_definition_required'] = 'Pentru această operație este necesară o definiție de coloană.';
+$lang['db_unable_to_set_charset'] = 'Unable to set client connection character set: %s'; //I must find a proper translation for this
+$lang['db_error_heading'] = 'A apărut o eroare la baza de date.';

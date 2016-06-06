@@ -1,13 +1,20 @@
 <?php
+/**
+ * System messages translation for CodeIgniter(tm)
+ *
+ * @author	CodeIgniter community
+ * @author	Stefano Mazzega
+ * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['migration_none_found']			= "No migrations were found.";
-$lang['migration_not_found']			= "This migration could not be found.";
-$lang['migration_multiple_version']		= "This are multiple migrations with the same version number: %d.";
-$lang['migration_class_doesnt_exist']	= "The migration class \"%s\" could not be found.";
-$lang['migration_missing_up_method']	= "The migration class \"%s\" is missing an 'up' method.";
-$lang['migration_missing_down_method']	= "The migration class \"%s\" is missing an 'down' method.";
-$lang['migration_invalid_filename']		= "Migration \"%s\" has an invalid filename.";
-
-
-/* End of file migration_lang.php */
-/* Location: ./system/language/english/migration_lang.php */
+$lang['migration_none_found'] = 'Non ci sono migrazioni disponibili.';
+$lang['migration_not_found'] = 'Non è stato possibile trovare la migrazione numero: %s.';
+$lang['migration_sequence_gap'] = 'C\'è un divario nella sequenza di migrazione nei pressi del numero di versione: %s.';
+$lang['migration_multiple_version'] = 'Ci sono differenti migrazioni con lo stesso numero di versione: %s.';
+$lang['migration_class_doesnt_exist'] = 'Non è possibile trovare la classe migrazione "%s".';
+$lang['migration_missing_up_method'] = 'La classe migrazione "%s" è sprovvista del metodo "up".';
+$lang['migration_missing_down_method'] = 'La classe migrazione "%s" è sprovvista del metodo "down".';
+$lang['migration_invalid_filename'] = 'La migrazione "%s" ha un nome file non valido.';

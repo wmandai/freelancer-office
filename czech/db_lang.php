@@ -1,29 +1,35 @@
 <?php
+/**
+ * System messages translation for CodeIgniter(tm)
+ *
+ * @author	CodeIgniter community
+ * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['db_invalid_connection_str'] = 'Nelze se spojit s databází.';
-$lang['db_unable_to_connect'] = 'Nelze se připojit k serveru.';
-$lang['db_unable_to_select'] = 'Nelze provést výběr: %s';
-$lang['db_unable_to_create'] = 'Nelze provést vytvoření: %s';
-$lang['db_invalid_query'] = 'Chybný dotaz.';
-$lang['db_must_set_table'] = 'Je nutné nastavit tabulku databáze pro použití dotazu.';
-$lang['db_must_use_set'] = 'Aktualizovat položku, musíte použít metodu "set".';
-$lang['db_must_use_index'] = 'Musíte zadat index odpovídající dávkové aktualizaci.';
-$lang['db_batch_missing_index'] = 'Jeden nebo více řádků, které jsou napsané pro dávkové aktualizace neobsahuje zadaný index.';
-$lang['db_must_use_where'] = 'Aktualizace nejsou povoleny, pokud obsahují klauzuli "where".';
-$lang['db_del_must_use_where'] = 'Odstranění není povoleno, pokud neobsahují "where" nebo "like" klauzule.';
-$lang['db_field_param_missing'] = 'Chcete-li načíst pole vyžaduje název tabulky jako parametr.';
-$lang['db_unsupported_function'] = 'Tato funkce není k dispozici pro databázi, kterou používáte.';
-$lang['db_transaction_failure'] = 'Selhání transakce: vrácení provedeno.';
-$lang['db_unable_to_drop'] = 'Nepodařilo se odstranit zadanou databázi.';
-$lang['db_unsuported_feature'] = 'Nepodporovaná funkce databázové platformě, kterou používáte.';
-$lang['db_unsuported_compression'] = 'Kompresní formát souboru, který jste si vybrali není podporována serverem.';
-$lang['db_filepath_error'] = 'Nelze zapsat data do cesty souboru, kterou jste odeslali.';
-$lang['db_invalid_cache_path'] = 'Cesta k mezipaměti, kterou jste odeslali není platná nebo do ni nelze zapisovat.';
-$lang['db_table_name_required'] = 'Název tabulky je požadován pro tuto operaci.';
-$lang['db_column_name_required'] = 'Název sloupce je požadován pro tuto operaci.';
-$lang['db_column_definition_required'] = 'Definice sloupce je požadována pro tuto operaci.';
-$lang['db_unable_to_set_charset'] = 'Nepodařilo se nastavit připojení klienta znaková sada: %s';
-$lang['db_error_heading'] = 'Chyba databáze';
-
-/* End of file db_lang.php */
-/* Location: ./system/language/czech/db_lang.php */
+$lang['db_invalid_connection_str']     = 'Nebylo možné zjistit databázové nastavení podle vloženého řetězce';
+$lang['db_unable_to_connect']          = 'Nepovedlo se připojit k databázi s daným nastavením';
+$lang['db_unable_to_select']           = 'Nepodařilo se vybrat (select) databázi: %s';
+$lang['db_unable_to_create']           = 'Nepodařilo se vytvořit danou databázi: %s';
+$lang['db_invalid_query']              = 'Zadaný dotaz (query) není validní.';
+$lang['db_must_set_table']             = 'Musíte zvolit tabulku, nad kterou se má dotaz spustit.';
+$lang['db_must_use_set']               = 'Musíte použít metodu "set" pro aktualizaci (update) příspěvku.';
+$lang['db_must_use_index']             = 'Je nutné specifikovat párový index pro batch update).';
+$lang['db_batch_missing_index']        = 'Pro jeden nebo více daných řádků určených k batch update chybí specifikovaný index.';
+$lang['db_must_use_where']             = 'Aktualizace (update) není povolena bez "where" podmínky.';
+$lang['db_del_must_use_where']         = 'Mazání (delete) není povoleno bez "where" nebo "like" podmínky.';
+$lang['db_field_param_missing']        = 'Pro získání polí je nutné specifikovat název tabulky jako parametr metody.';
+$lang['db_unsupported_function']       = 'Tato funkce není tímto typem databáze podporována.';
+$lang['db_transaction_failure']        = 'Chyba transakce: Proveden rollback.';
+$lang['db_unable_to_drop']             = 'Drop databáze se nezdařil.';
+$lang['db_unsupported_feature']        = 'Tato funkce není tímto typem databázové platformy podporována.';
+$lang['db_unsupported_compression']    = 'Daný typ komprese není serverem podporován.';
+$lang['db_filepath_error']             = 'Nepodařilo se zapsat data dle dané cesty.';
+$lang['db_invalid_cache_path']         = 'Daná cesta k cache není správná, nebo se do ní nedá zapisovat.';
+$lang['db_table_name_required']        = 'Jméno tabulky je nutné pro tuto operaci.';
+$lang['db_column_name_required']       = 'Jméno sloupce je nutné pro tuto operaci.';
+$lang['db_column_definition_required'] = 'Definice sloupce je nutná pro tuto operaci.';
+$lang['db_unable_to_set_charset']      = 'Nepodařilo se nastavit znakovou sadu pro klienta: %s';
+$lang['db_error_heading']              = 'Chyba databáze';
