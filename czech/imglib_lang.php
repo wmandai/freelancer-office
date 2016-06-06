@@ -1,14 +1,12 @@
 <?php
 /**
  * System messages translation for CodeIgniter(tm)
- *
- * @author	CodeIgniter community
- * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @author    CodeIgniter community
+ * @copyright    Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license    http://opensource.org/licenses/MIT	MIT License
+ * @link    http://codeigniter.com
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 $lang['imglib_source_image_required']   = 'Musíte zvolit zdrojový obrázek.';
 $lang['imglib_gd_required']             = 'Pro tuto funkci je potřeba knihovna GD.';
 $lang['imglib_gd_required_for_props']   = 'Váš server musí podporovat GD knihovnu pro zjištění vlastností obrázku.';

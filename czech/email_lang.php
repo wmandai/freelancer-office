@@ -1,14 +1,12 @@
 <?php
 /**
  * System messages translation for CodeIgniter(tm)
- *
- * @author	CodeIgniter community
- * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @author    CodeIgniter community
+ * @copyright    Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license    http://opensource.org/licenses/MIT	MIT License
+ * @link    http://codeigniter.com
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 $lang['email_must_be_array']         = 'Parametrem validace emailu musí bát pole.';
 $lang['email_invalid_address']       = 'Nesprávna emailová adresa: %s';
 $lang['email_attachment_missing']    = 'Nepodařilo se nalézt přílohu: %s';

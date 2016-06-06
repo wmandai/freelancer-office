@@ -1,14 +1,12 @@
 <?php
 /**
  * System messages translation for CodeIgniter(tm)
- *
- * @author	CodeIgniter community
- * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @author    CodeIgniter community
+ * @copyright    Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license    http://opensource.org/licenses/MIT	MIT License
+ * @link    http://codeigniter.com
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 $lang['upload_userfile_not_set']        = 'Nie można odnaleźć przesłanej zmiennej o nazwie userfile.';
 $lang['upload_file_exceeds_limit']      = 'Wgrywany plik przekracza dozwolony rozmiar ustawiony w konfiguracji PHP.';
 $lang['upload_file_exceeds_form_limit'] = 'Wgrywany plik przekracza dozwolony rozmiar ustawiony dla tego formularza.';

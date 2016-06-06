@@ -1,13 +1,12 @@
 <?php
 /**
  * System messages translation for CodeIgniter(tm)
- * @author	CodeIgniter community
- * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @author    CodeIgniter community
+ * @copyright    Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license    http://opensource.org/licenses/MIT	MIT License
+ * @link    http://codeigniter.com
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 $lang['ut_test_name']     = "Nom du test";
 $lang['ut_test_datatype'] = "Type des données de test";
 $lang['ut_res_datatype']  = "Type attendu";

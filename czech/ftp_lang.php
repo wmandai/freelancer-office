@@ -1,14 +1,12 @@
 <?php
 /**
  * System messages translation for CodeIgniter(tm)
- *
- * @author	CodeIgniter community
- * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @author    CodeIgniter community
+ * @copyright    Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license    http://opensource.org/licenses/MIT	MIT License
+ * @link    http://codeigniter.com
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 $lang['ftp_no_connection']       = 'Nebylo možno nalézt ID spojení. Ujistěte se prosím, že jste navázali spojení před prací se soubory.';
 $lang['ftp_unable_to_connect']   = 'Nebylo možné se připojit s daným hostname.';
 $lang['ftp_unable_to_login']     = 'Nepodařilo se spojit s FTP serverem, zkontrolujte prosím přihlašovací jméno a heslo.';

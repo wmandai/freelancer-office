@@ -1,14 +1,12 @@
 <?php
 /**
  * System messages translation for CodeIgniter(tm)
- *
- * @author	CodeIgniter community
- * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @author    CodeIgniter community
+ * @copyright    Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license    http://opensource.org/licenses/MIT	MIT License
+ * @link    http://codeigniter.com
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 $lang['db_invalid_connection_str']     = 'Nebylo možné zjistit databázové nastavení podle vloženého řetězce';
 $lang['db_unable_to_connect']          = 'Nepovedlo se připojit k databázi s daným nastavením';
 $lang['db_unable_to_select']           = 'Nepodařilo se vybrat (select) databázi: %s';

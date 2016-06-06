@@ -1,14 +1,12 @@
 <?php
 /**
  * System messages translation for CodeIgniter(tm)
- *
- * @author	CodeIgniter community
- * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @author    CodeIgniter community
+ * @copyright    Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license    http://opensource.org/licenses/MIT	MIT License
+ * @link    http://codeigniter.com
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 $lang['upload_userfile_not_set']        = 'Nepodařilo se nalézt post proměnnou userfile.';
 $lang['upload_file_exceeds_limit']      = 'The uploaded file exceeds the maximum allowed size in your PHP configuration file.';
 $lang['upload_file_exceeds_limit']      = 'Překročena velikost souboru určená v php.ini.';

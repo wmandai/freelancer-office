@@ -1,13 +1,12 @@
 <?php
 /**
  * System messages translation for CodeIgniter(tm)
- * @author	CodeIgniter community
- * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	http://codeigniter.com
+ * @author    CodeIgniter community
+ * @copyright    Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license    http://opensource.org/licenses/MIT	MIT License
+ * @link    http://codeigniter.com
  */
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 $lang['imglib_source_image_required']   = "Vous devez spécifier une image source dans vos préférences.";
 $lang['imglib_gd_required']             = "La librairie d'images GD est requise pour utiliser cette fonctionnalité";
 $lang['imglib_gd_required_for_props']   = "Votre serveur doit prendre en charge la librairie d'images GD afin de déterminer les propriétés de l'image.";
